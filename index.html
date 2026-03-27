@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VIDÉOLUDIQUE.CA – Un blogue sur l'industrie du jeu vidéo québécoise</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#F7F3EB;--cream-dark:#EDE8DC;--ink:#1A1709;--ink-light:#4A4637;--ink-muted:#8A8270;--red:#C9202B;--red-dark:#A01820;--border:#D8D0C0;--white:#FFFFFF;--font-display:'Cormorant Garamond',Georgia,serif;--font-body:'Jost',sans-serif}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--cream);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.6;min-height:100vh}
+a{color:inherit;text-decoration:none}
+img{display:block;width:100%;object-fit:cover}
+.ticker-banner{background:var(--ink);color:var(--cream);font-size:11px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;padding:8px 0;overflow:hidden;white-space:nowrap}
+.ticker-inner{display:inline-block;animation:ticker 38s linear infinite}
+.ticker-inner span{margin:0 40px}
+.ticker-inner span::before{content:'◆';margin-right:40px;color:var(--red)}
+@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+header{background:rgba(247,243,235,.97);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:200;backdrop-filter:blur(8px)}
+.header-inner{max-width:1280px;margin:0 auto;padding:0 32px;display:flex;align-items:center;justify-content:space-between;height:68px;gap:24px}
+.logo{display:flex;align-items:center;gap:12px;cursor:pointer;flex-shrink:0}
+.logo-icon{width:40px;height:40px;border-radius:4px;overflow:hidden;flex-shrink:0}
+.logo-icon img{height:100%;width:100%;object-fit:cover}
+.logo-text{font-family:var(--font-display);font-size:20px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;line-height:1}
+.logo-text span{color:var(--red)}
+nav{display:flex;align-items:center;gap:28px}
+nav a,nav button{font-family:var(--font-body);font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-light);background:none;border:none;cursor:pointer;padding:0;transition:color .2s}
+nav a:hover,nav button:hover{color:var(--ink)}
+nav button.active{color:var(--red)}
+.patreon-btn{background:var(--red)!important;color:var(--white)!important;padding:9px 20px!important;border-radius:3px!important;font-size:11px!important;letter-spacing:.12em!important;transition:background .2s!important;white-space:nowrap}
+.patreon-btn:hover{background:var(--red-dark)!important}
+.page{display:none}.page.active{display:block}
+.hero{max-width:1280px;margin:0 auto;padding:48px 32px 0}
+.hero-eyebrow{font-size:10px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--red);margin-bottom:20px;display:flex;align-items:center;gap:12px}
+.hero-eyebrow::after{content:'';flex:1;height:1px;background:var(--border)}
+.hero-grid{display:grid;grid-template-columns:1fr 360px;gap:2px;background:var(--border);border:1px solid var(--border)}
+.hero-main{background:var(--cream);cursor:pointer;overflow:hidden}
+.hero-img-wrap{height:460px;overflow:hidden}
+.hero-img-wrap img{height:100%;object-fit:cover;transition:transform .6s ease}
+.hero-main:hover .hero-img-wrap img{transform:scale(1.03)}
+.hero-body{padding:28px 32px 32px}
+.article-label{display:inline-block;font-size:10px;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--red);margin-bottom:10px}
+.hero-title{font-family:var(--font-display);font-size:36px;font-weight:700;line-height:1.15;color:var(--ink);margin-bottom:14px;letter-spacing:-.01em;transition:color .2s}
+.hero-main:hover .hero-title{color:var(--red)}
+.article-meta{font-size:11px;color:var(--ink-muted);letter-spacing:.05em;display:flex;align-items:center;gap:10px}
+.meta-dot{color:var(--border)}
+.hero-sidebar{background:var(--border);display:flex;flex-direction:column;gap:2px}
+.hero-side-item{background:var(--cream);cursor:pointer;overflow:hidden;display:grid;grid-template-columns:100px 1fr;flex:1;transition:background .2s}
+.hero-side-item:hover{background:var(--cream-dark)}
+.hero-side-img{height:100%;min-height:80px;overflow:hidden}
+.hero-side-img img{height:100%;object-fit:cover;transition:transform .4s}
+.hero-side-item:hover .hero-side-img img{transform:scale(1.05)}
+.hero-side-body{padding:14px 16px;display:flex;flex-direction:column;justify-content:center;gap:6px}
+.hero-side-body h3{font-family:var(--font-display);font-size:15px;font-weight:600;line-height:1.3;color:var(--ink)}
+.section-divider{max-width:1280px;margin:40px auto 0;padding:0 32px}
+.divider-label{font-size:10px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-muted);display:flex;align-items:center;gap:14px;margin-bottom:24px}
+.divider-label::before{content:'';width:24px;height:2px;background:var(--red)}
+.divider-label::after{content:'';flex:1;height:1px;background:var(--border)}
+.main-layout{max-width:1280px;margin:0 auto;padding:0 32px 60px;display:grid;grid-template-columns:1fr 300px;gap:48px;align-items:start}
+.article-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border);border:1px solid var(--border)}
+.article-card{background:var(--cream);cursor:pointer;overflow:hidden;transition:background .2s}
+.article-card:hover{background:var(--cream-dark)}
+.card-img{height:180px;overflow:hidden}
+.card-img img{height:100%;object-fit:cover;transition:transform .5s}
+.article-card:hover .card-img img{transform:scale(1.05)}
+.card-body{padding:18px 20px 22px}
+.card-title{font-family:var(--font-display);font-size:17px;font-weight:600;line-height:1.35;color:var(--ink);margin-bottom:10px;transition:color .2s}
+.article-card:hover .card-title{color:var(--red)}
+.read-more{font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--red);margin-top:12px;display:inline-flex;align-items:center;gap:5px}
+.read-more::after{content:'→'}
+.pagination{display:flex;align-items:center;justify-content:center;gap:6px;margin-top:36px}
+.pagination button{font-family:var(--font-body);font-size:12px;font-weight:500;letter-spacing:.08em;width:36px;height:36px;border:1px solid var(--border);background:var(--cream);color:var(--ink-light);cursor:pointer;transition:all .2s}
+.pagination button:hover{border-color:var(--ink);color:var(--ink)}
+.pagination button.current{background:var(--ink);color:var(--cream);border-color:var(--ink)}
+.pag-arrow{width:auto!important;padding:0 12px!important;font-size:14px!important;letter-spacing:0!important}
+.sidebar{display:flex;flex-direction:column;gap:36px;position:sticky;top:90px}
+.sidebar-block{border:1px solid var(--border);background:var(--cream)}
+.sidebar-heading{background:var(--ink);color:var(--cream);font-size:10px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;padding:10px 18px}
+.sidebar-body{padding:20px 18px}
+.about-avatar{width:56px;height:56px;border-radius:50%;background:var(--ink);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:22px;font-weight:700;color:var(--cream);margin-bottom:14px}
+.about-widget p{font-size:13px;line-height:1.65;color:var(--ink-light);margin-bottom:14px}
+.about-link{font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--red);cursor:pointer;display:inline-flex;align-items:center;gap:5px}
+.about-link::after{content:'→'}
+.patreon-widget{background:var(--ink);border-color:var(--ink)}
+.patreon-widget .sidebar-heading{background:var(--red)}
+.patreon-widget .sidebar-body{background:var(--ink)}
+.patreon-widget p{font-size:13px;color:rgba(247,243,235,.75);line-height:1.65;margin-bottom:18px}
+.patreon-cta{display:block;background:var(--red);color:var(--white);text-align:center;padding:12px 20px;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;transition:background .2s}
+.patreon-cta:hover{background:var(--red-dark)}
+.social-list{display:flex;flex-direction:column}
+.social-item{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--border);font-size:12px;font-weight:500;letter-spacing:.06em;color:var(--ink-light);transition:color .2s;cursor:pointer}
+.social-item:last-child{border-bottom:none}
+.social-item:hover{color:var(--ink)}
+.social-icon{width:28px;height:28px;background:var(--cream-dark);border-radius:2px;display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0;transition:all .2s}
+.social-item:hover .social-icon{background:var(--ink);color:var(--cream)}
+/* ARTICLE READER */
+.article-reader{max-width:1280px;margin:0 auto;padding:0 32px 80px;display:grid;grid-template-columns:1fr 300px;gap:48px;align-items:start}
+.article-content-wrap{padding-top:40px}
+.article-hero-img{width:100%;max-height:480px;object-fit:cover;margin-bottom:40px;border:1px solid var(--border)}
+.article-breadcrumb{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-muted);margin-bottom:24px;display:flex;align-items:center;gap:8px}
+.article-breadcrumb span{cursor:pointer;transition:color .2s}
+.article-breadcrumb span:hover{color:var(--red)}
+.article-breadcrumb i{color:var(--border)}
+.article-headline{font-family:var(--font-display);font-size:42px;font-weight:700;line-height:1.12;letter-spacing:-.015em;color:var(--ink);margin-bottom:18px}
+.article-byline{display:flex;align-items:center;gap:16px;padding:14px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);margin-bottom:32px}
+.byline-avatar{width:36px;height:36px;border-radius:50%;background:var(--ink);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:14px;font-weight:700;color:var(--cream);flex-shrink:0}
+.byline-name{font-size:13px;font-weight:600;color:var(--ink);display:block}
+.byline-date{font-size:11px;color:var(--ink-muted);letter-spacing:.04em;display:block}
+.article-body{font-size:16px;line-height:1.85;color:var(--ink-light)}
+.article-body p{margin-bottom:20px}
+.article-body strong{color:var(--ink);font-weight:600}
+.article-body em{font-style:italic;color:var(--ink-muted);font-size:14px}
+.article-body h2,.article-body h3,.article-body h4{font-family:var(--font-display);color:var(--ink);margin:36px 0 14px;line-height:1.2}
+.article-body h2{font-size:30px;font-weight:700}
+.article-body h3{font-size:24px;font-weight:600}
+.article-body h4{font-size:20px;font-weight:600}
+.article-body a{color:var(--red);border-bottom:1px solid transparent;transition:border-color .2s}
+.article-body a:hover{border-bottom-color:var(--red)}
+.article-body ul,.article-body ol{margin:0 0 20px 24px}
+.article-body li{margin-bottom:8px}
+.article-body blockquote{border-left:3px solid var(--red);padding:20px 24px;margin:28px 0;background:var(--cream-dark)}
+.article-body blockquote p{margin-bottom:8px;font-style:italic;color:var(--ink)}
+.article-body blockquote strong{font-style:normal;font-size:13px;letter-spacing:.04em;color:var(--ink-muted)}
+.article-body img{margin:28px 0;border:1px solid var(--border)}
+.verdict{background:var(--ink);color:var(--cream);padding:20px 24px;margin:28px 0;font-family:var(--font-display);font-size:22px;font-weight:700;letter-spacing:.02em}
+.article-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:36px;padding-top:28px;border-top:1px solid var(--border)}
+.article-tag{font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:5px 12px;border:1px solid var(--border);color:var(--ink-muted);transition:all .2s;cursor:default}
+.article-nav{display:grid;grid-template-columns:1fr 1fr;gap:2px;margin-top:48px;background:var(--border);border:1px solid var(--border)}
+.article-nav-item{background:var(--cream);padding:20px 24px;cursor:pointer;transition:background .2s}
+.article-nav-item:hover{background:var(--cream-dark)}
+.nav-direction{font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--red);margin-bottom:8px}
+.article-nav-item h4{font-family:var(--font-display);font-size:16px;font-weight:600;line-height:1.3;color:var(--ink)}
+/* ABOUT */
+.about-page{max-width:800px;margin:0 auto;padding:60px 32px 80px}
+.about-page-header{border-bottom:2px solid var(--ink);padding-bottom:20px;margin-bottom:40px}
+.about-page-header h1{font-family:var(--font-display);font-size:52px;font-weight:700;letter-spacing:-.02em;line-height:1.1;margin-bottom:6px}
+.about-page-header .subtitle{font-size:13px;color:var(--ink-muted);letter-spacing:.08em;text-transform:uppercase}
+.about-content{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-bottom:48px}
+.about-content p{font-size:15px;line-height:1.8;color:var(--ink-light);margin-bottom:16px}
+.about-content strong{color:var(--ink)}
+.about-content a{color:var(--red)}
+.about-contact{background:var(--ink);padding:32px;color:var(--cream);margin-bottom:48px}
+.about-contact h2{font-family:var(--font-display);font-size:26px;font-weight:600;margin-bottom:10px}
+.about-contact p{font-size:14px;opacity:.75;margin-bottom:16px}
+.contact-email{font-size:18px;font-family:var(--font-display);color:var(--cream);border-bottom:1px solid rgba(247,243,235,.3);padding-bottom:4px;display:inline-block}
+.network-section h2{font-family:var(--font-display);font-size:28px;font-weight:600;margin-bottom:20px;padding-bottom:12px;border-bottom:1px solid var(--border)}
+.network-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--border);border:1px solid var(--border);margin-bottom:32px}
+.network-item{background:var(--cream);padding:16px 20px;transition:background .2s}
+.network-item:hover{background:var(--cream-dark)}
+.network-item a{font-size:14px;font-weight:500;color:var(--ink);display:block;margin-bottom:4px}
+.network-item a:hover{color:var(--red)}
+.network-item span{font-size:12px;color:var(--ink-muted);line-height:1.5}
+.network-section h3{font-family:var(--font-display);font-size:20px;font-weight:600;margin:28px 0 14px;color:var(--ink-muted)}
+/* FOOTER */
+footer{background:var(--ink);color:var(--cream);padding:48px 32px 32px}
+.footer-inner{max-width:1280px;margin:0 auto}
+.footer-top{display:grid;grid-template-columns:1fr 1fr 1fr;gap:48px;padding-bottom:40px;border-bottom:1px solid rgba(247,243,235,.12);margin-bottom:28px}
+.footer-brand .logo-text{font-size:24px;margin-bottom:14px;display:block}
+.footer-brand p{font-size:13px;line-height:1.7;opacity:.6;max-width:240px}
+.footer-col h4{font-size:10px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;opacity:.5;margin-bottom:16px}
+.footer-col ul{list-style:none;display:flex;flex-direction:column;gap:10px}
+.footer-col ul li a{font-size:13px;opacity:.75;transition:opacity .2s}
+.footer-col ul li a:hover{opacity:1}
+.footer-social{display:flex;gap:10px;flex-wrap:wrap}
+.footer-social-link{width:36px;height:36px;border:1px solid rgba(247,243,235,.2);display:flex;align-items:center;justify-content:center;font-size:14px;opacity:.7;transition:all .2s}
+.footer-social-link:hover{opacity:1;border-color:var(--red);background:var(--red)}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;font-size:11px;opacity:.4;letter-spacing:.06em}
+@keyframes fadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+.hero,.main-layout,.section-divider,.article-content-wrap{animation:fadeUp .4s ease forwards}
+@media(max-width:1024px){
+  .hero-grid{grid-template-columns:1fr}.hero-sidebar{display:none}
+  .main-layout,.article-reader{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .article-grid{grid-template-columns:1fr 1fr}
+  .about-content{grid-template-columns:1fr;gap:0}
+  .footer-top{grid-template-columns:1fr 1fr;gap:32px}
+  .network-grid{grid-template-columns:1fr}
+}
+@media(max-width:640px){
+  .header-inner{padding:0 18px}
+  .hero,.main-layout,.section-divider,.article-reader,.about-page{padding-left:18px!important;padding-right:18px!important}
+  .article-grid{grid-template-columns:1fr}
+  .hero-title{font-size:26px}
+  .article-headline{font-size:28px}
+  nav .patreon-btn{display:none}
+  .footer-top{grid-template-columns:1fr}
+  .article-nav{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<div class="ticker-banner"><div class="ticker-inner">
+  <span>Jeu vidéo québécois</span><span>Industrie du jeu vidéo</span><span>Montréal · Le 5e pôle mondial</span><span>Actualités indépendantes</span><span>Studios québécois</span><span>Par Mario J. Ramos</span>
+  <span>Jeu vidéo québécois</span><span>Industrie du jeu vidéo</span><span>Montréal · Le 5e pôle mondial</span><span>Actualités indépendantes</span><span>Studios québécois</span><span>Par Mario J. Ramos</span>
+</div></div>
+
+<header>
+  <div class="header-inner">
+    <div class="logo" onclick="showPage('home')">
+      <div class="logo-icon"><img src="https://videoludique.ca/wp-content/uploads/2023/08/cropped-emjayhar_a_corporate_minimalistic_white_and_black_logo_with_the_9cbe7335-5d05-4bfb-863f-26cc3442d8d2.png" alt="Logo"></div>
+      <span class="logo-text">Vidéo<span>ludique</span>.ca</span>
+    </div>
+    <nav>
+      <button id="nav-home" class="active" onclick="showPage('home')">Accueil</button>
+      <button id="nav-about" onclick="showPage('about')">À propos</button>
+      <a href="https://patreon.com/user?u=3365747" target="_blank" class="patreon-btn">Soutenir sur Patreon</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HOME -->
+<div id="page-home" class="page active">
+  <section class="hero">
+    <div class="hero-eyebrow">À la une — Actualités récentes</div>
+    <div class="hero-grid">
+      <div class="hero-main" onclick="openArticle(0)">
+        <div class="hero-img-wrap"><img src="https://videoludique.ca/wp-content/uploads/2026/02/image003.png" alt="" loading="lazy"></div>
+        <div class="hero-body">
+          <span class="article-label">Événement Steam</span>
+          <h2 class="hero-title">Vente Steam : la Célébration des jeux du Québec 2026 est arrivée.</h2>
+          <div class="article-meta"><span>Mario J. Ramos</span><span class="meta-dot">·</span><span>20 février 2026</span></div>
+        </div>
+      </div>
+      <div class="hero-sidebar">
+        <div class="hero-side-item" onclick="openArticle(1)">
+          <div class="hero-side-img"><img src="https://videoludique.ca/wp-content/uploads/2026/01/image-principale-dossier.webp" alt="" loading="lazy"></div>
+          <div class="hero-side-body"><span class="article-label" style="font-size:9px">Industrie</span><h3>La Guilde et les Affaires font équipe pour un dossier sur l'inclusion</h3><div class="article-meta" style="font-size:10px">21 jan. 2026</div></div>
+        </div>
+        <div class="hero-side-item" onclick="openArticle(2)">
+          <div class="hero-side-img"><img src="https://videoludique.ca/wp-content/uploads/2025/12/7dbm_steamscreenshot_01-1.jpg" alt="" loading="lazy"></div>
+          <div class="hero-side-body"><span class="article-label" style="font-size:9px">Studio</span><h3>7 Days Blood Moons : iLLOGIKA lance une démo gratuite et une mise à jour</h3><div class="article-meta" style="font-size:10px">22 déc. 2025</div></div>
+        </div>
+        <div class="hero-side-item" onclick="openArticle(3)">
+          <div class="hero-side-img"><img src="https://videoludique.ca/wp-content/uploads/2025/11/migs25-1920x1080-fr.jpg" alt="" loading="lazy"></div>
+          <div class="hero-side-body"><span class="article-label" style="font-size:9px">Événement</span><h3>L'industrie mondiale du jeu vidéo de retour à Montréal pour le MIGS25</h3><div class="article-meta" style="font-size:10px">10 nov. 2025</div></div>
+        </div>
+        <div class="hero-side-item" onclick="openArticle(4)">
+          <div class="hero-side-img"><img src="https://videoludique.ca/wp-content/uploads/2025/09/page_background.jpg" alt="" loading="lazy"></div>
+          <div class="hero-side-body"><span class="article-label" style="font-size:9px">Jeu indépendant</span><h3>Incarnez un goéland déjanté dans ce jeu d'un développeur solo</h3><div class="article-meta" style="font-size:10px">27 sept. 2025</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="section-divider"><div class="divider-label">Tous les articles</div></div>
+  <div class="main-layout" id="articles-layout">
+    <div><div class="article-grid" id="article-grid"></div><div class="pagination" id="pagination"></div></div>
+    <div id="home-sidebar"></div>
+  </div>
+</div>
+
+<!-- ARTICLE -->
+<div id="page-article" class="page">
+  <div class="article-reader">
+    <div class="article-content-wrap" id="article-content"></div>
+    <div id="article-sidebar"></div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<div id="page-about" class="page">
+  <div class="about-page">
+    <div class="about-page-header">
+      <h1>À propos &amp; Contact</h1>
+      <p class="subtitle">Mario J. Ramos — Journaliste &amp; Scénariste</p>
+    </div>
+    <div class="about-content">
+      <div>
+        <p>Diplômé de l'UQAM en communication : cinéma en 2012, <strong>Mario Jorge Ramos</strong> a d'abord fait sa marque dans le monde du numérique comme scénariste avec la série post-apocalyptique <a href="https://www.youtube.com/watch?v=WAmMlPM-WV8" target="_blank">Temps Mort</a>, un des premiers contenus originaux sur TOU.TV.</p>
+        <p>Il a ensuite créé <a href="https://www.youtube.com/watch?v=JtdNY9bw9_0" target="_blank">Projet-M</a>, série de science-fiction récipiendaire d'un prix Gémeaux et d'une nomination aux International Emmy Awards.</p>
+        <p>Depuis 2014, Mario couvre l'actualité vidéoludique, d'abord avec <a href="https://www.youtube.com/retronouveauftw" target="_blank">Rétro Nouveau</a>, puis pendant cinq ans chez Bell Média où il lance la plateforme <strong>RDS Jeux vidéo</strong>.</p>
+      </div>
+      <div>
+        <p><strong>Vidéoludique.ca</strong> est un blogue indépendant qui vise à couvrir l'industrie du jeu vidéo au Québec, qui en est le 5e pôle mondial.</p>
+        <p>Le site est entièrement financé par les lecteurs via Patreon. Votre soutien permet de maintenir une couverture indépendante et de qualité.</p>
+        <p>Portfolio de scénariste/réalisateur : <a href="https://mariojramos.com/" target="_blank">mariojramos.com</a>.</p>
+      </div>
+    </div>
+    <div class="about-contact">
+      <h2>Contacter Mario</h2>
+      <p>Presse, collaborations, communiqués de presse et demandes générales :</p>
+      <a href="mailto:info@mariojramos.com" class="contact-email">info@mariojramos.com</a>
+    </div>
+    <div class="network-section">
+      <h2>Dans mon réseau</h2>
+      <h3>Médias québécois — Jeux vidéo</h3>
+      <div class="network-grid">
+        <div class="network-item"><a href="https://www.lebetatesteur.ca/" target="_blank">Le Bêta-Testeur</a><span>Média indépendant fondé par Patrick Tremblay</span></div>
+        <div class="network-item"><a href="https://www.salongaming.ca/" target="_blank">Le Salon de Gaming de Monsieur Smith</a><span>Steeve Tremblay et ses collaborateurs</span></div>
+        <div class="network-item"><a href="https://www.geeksandcom.com/" target="_blank">Geeks and com</a><span>Média indépendant par Anthony Gravel</span></div>
+        <div class="network-item"><a href="https://m2gaming.ca/" target="_blank">M2 Gaming</a><span>Marc Desgagnés et Martin Grondin</span></div>
+        <div class="network-item"><a href="https://www.pesesurstart.com/" target="_blank">Pèse sur Start</a><span>Média spécialisé jeux vidéo et techno — Quebecor</span></div>
+        <div class="network-item"><a href="https://ici.radio-canada.ca/techno" target="_blank">Radio-Canada Techno</a><span>La section jeux vidéo de Radio-Canada</span></div>
+        <div class="network-item"><a href="https://www.simondor.com/" target="_blank">Blogue de Simon Dor</a><span>Professeur en études du jeu vidéo à l'UQAT</span></div>
+        <div class="network-item"><a href="https://www.laguilde.quebec/fr/" target="_blank">La Guilde du Jeu vidéo du Québec</a><span>Coopérative à but non lucratif</span></div>
+      </div>
+      <h3>Balados</h3>
+      <div class="network-grid">
+        <div class="network-item"><a href="https://baladoquebec.ca/papa-cassette-podcast" target="_blank">Chez Papa Cassette</a><span>Dominic Bourret et Jean-François Cromp</span></div>
+        <div class="network-item"><a href="https://baladoquebec.ca/entre-deux-parties" target="_blank">Entre deux parties</a><span>Fred Gémus — game design et collection</span></div>
+        <div class="network-item"><a href="https://baladoquebec.ca/equilibre-numerique" target="_blank">Équilibre Numérique</a><span>Numérique et santé mentale — produit par Mario J. Ramos</span></div>
+        <div class="network-item"><a href="https://discord.gg/MUxn4WY4Qx" target="_blank">Discord HUB</a><span>Communauté d'échanges entre passionnés de jeux vidéo</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="logo-text">Vidéo<span>ludique</span>.ca</span>
+        <p>Blogue indépendant sur l'industrie du jeu vidéo québécoise, par Mario J. Ramos depuis 2014.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#" onclick="showPage('home');return false">Accueil</a></li>
+          <li><a href="#" onclick="showPage('about');return false">À propos / Contact</a></li>
+          <li><a href="https://patreon.com/user?u=3365747" target="_blank">Patreon</a></li>
+          <li><a href="https://mjramos86.github.io/tetcriss/" target="_blank">Tétcriss</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Réseaux sociaux</h4>
+        <div class="footer-social">
+          <a class="footer-social-link" href="https://www.facebook.com/mjramos/" target="_blank">f</a>
+          <a class="footer-social-link" href="https://www.youtube.com/channel/UCFnn-dqTDyxCleyWcXxkS9w" target="_blank">▶</a>
+          <a class="footer-social-link" href="https://www.instagram.com/mariojorge.ramos/" target="_blank">◈</a>
+          <a class="footer-social-link" href="https://www.tiktok.com/@marioj.ramos" target="_blank">♪</a>
+          <a class="footer-social-link" href="https://threads.net/@mariojorge.ramos" target="_blank">@</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Vidéoludique.ca — Mario J. Ramos</span>
+      <span>Un blogue indépendant · Québec, Canada</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+const SIDEBAR_HTML = `<aside class="sidebar">
+  <div class="sidebar-block about-widget">
+    <div class="sidebar-heading">À propos</div>
+    <div class="sidebar-body">
+      <div class="about-avatar">MR</div>
+      <p>Blogue indépendant couvrant l'industrie du jeu vidéo au Québec — le 5e pôle mondial — par <strong>Mario J. Ramos</strong>.</p>
+      <span class="about-link" onclick="showPage('about')">Lire la biographie</span>
+    </div>
+  </div>
+  <div class="sidebar-block patreon-widget">
+    <div class="sidebar-heading">Soutenez le blogue</div>
+    <div class="sidebar-body">
+      <p>Vidéoludique.ca est un média indépendant. Votre soutien sur Patreon permet de maintenir une couverture de qualité.</p>
+      <a class="patreon-cta" href="https://patreon.com/user?u=3365747" target="_blank">♥ Devenir mécène sur Patreon</a>
+    </div>
+  </div>
+  <div class="sidebar-block">
+    <div class="sidebar-heading">Suivre Mario J. Ramos</div>
+    <div class="sidebar-body" style="padding:8px 18px 12px">
+      <div class="social-list">
+        <a href="https://www.facebook.com/mjramos/" target="_blank" class="social-item"><div class="social-icon">f</div><span>Facebook</span></a>
+        <a href="https://www.youtube.com/channel/UCFnn-dqTDyxCleyWcXxkS9w" target="_blank" class="social-item"><div class="social-icon">▶</div><span>YouTube</span></a>
+        <a href="https://www.instagram.com/mariojorge.ramos/" target="_blank" class="social-item"><div class="social-icon">◈</div><span>Instagram</span></a>
+        <a href="https://www.tiktok.com/@marioj.ramos" target="_blank" class="social-item"><div class="social-icon">♪</div><span>TikTok</span></a>
+        <a href="https://threads.net/@mariojorge.ramos" target="_blank" class="social-item"><div class="social-icon">@</div><span>Threads</span></a>
+      </div>
+    </div>
+  </div>
+</aside>`;
+
+const ARTICLES = [
+{id:0,title:"Vente Steam : la Célébration des jeux du Québec 2026 est arrivée.",label:"Événement Steam",date:"20 février 2026",author:"Mario J. Ramos",img:"https://videoludique.ca/wp-content/uploads/2026/02/image003.png",tags:["2026","steam","jeux du québec","demonights","montréal"],body:`<p><em>Images gracieuseté de l'Indie Asylum</em></p><p><strong>Pour une autre année, l'Indie Asylum et La Guilde du jeu vidéo du Québec s'associent pour la Célébration des jeux du Québec, un événement Steam qui met en valeur le talent et la créativité vidéoludique québécoise jusqu'au 23 février 2026.</strong></p><p><a href="https://store.steampowered.com/sale/quebec2026" target="_blank"><strong>DÉCOUVRE LA VENTE ICI.</strong></a></p><p>Nombreux jeux vidéo créés au Québec sont en rabais, d'autres ont une démo disponible et certains sont dévoilés pour une première fois et peuvent être wishlistés!</p><h3>Un petit échantillon des titres participants :</h3><ul><li>The Outlast Trials (Red Barrels)</li><li>Spirit City: Lofi Sessions (Mooncube Games)</li><li>Aloft (Astrolabe Interactive)</li><li>Pyrene (Two Tiny Dice)</li><li>33 Immortals (Thunder Lotus)</li><li>Hell is Us (Rogue Factor)</li><li>Été (Impossible)</li><li>Turbo Kid (Outerminds)</li><li>Worship (Chasing Rats Games)</li><li>Shadow of the Tomb Raider (Eidos Montréal)</li><li>Disney Dreamlight Valley (Gameloft Montréal)</li></ul><h2>Les DémoNights sont également de retour!</h2><p>La Guilde du jeu vidéo du Québec et Loto-Québec présentent trois soirées <a href="https://www.twitch.tv/lotoquebec" target="_blank">en direct sur Twitch</a>, du 19 au 21 février dès 19h00.</p><h4>19 février 2026</h4><ul><li>Nanonimo avec Sisters of Solitude</li><li>Hatchery Games avec Voidling Bound</li><li>Wolf Haus Games avec Join Us</li><li>Floppy Goat avec Isles of Krom</li><li>Foolbox Studio avec SCOPECREEP</li></ul><h4>20 février 2026</h4><ul><li>PlayTogether Studio avec Arctic Drive</li><li>Thunder Lotus avec 33 Immortals</li><li>ALTKEY avec Clerks &amp; Quirks</li><li>Tobafeu Studio Inc. avec Royal Vermin</li><li>Bat Sheep Crazy Games avec Pirate Chips</li></ul><h4>21 février 2026</h4><ul><li>Porcelaine avec Chef of Sherwood</li><li>Jeux Boréalys avec Lunchbreak Tactics</li><li>Clever Plays Studio avec Happy Bastards</li><li>Pengonauts avec DiceVaders</li><li>G Doublé avec The Melty Way</li></ul>`},
+{id:1,title:"La Guilde et les Affaires font équipe pour un dossier sur l'inclusion",label:"Industrie",date:"21 janvier 2026",author:"Mario J. Ramos",img:"https://videoludique.ca/wp-content/uploads/2026/01/image-principale-dossier.webp",tags:["inclusion","diversité","la guilde","DEI","neurodiversité","femmes"],body:`<p><em>Images gracieuseté de La Guilde du jeu vidéo du Québec</em></p><p><strong><a href="https://www.laguilde.quebec/" target="_blank">La Guilde du jeu vidéo du Québec</a> et le média spécialisé en économie <a href="https://www.lesaffaires.com/" target="_blank">Les Affaires</a> ont fait équipe sur <a href="https://www.lesaffaires.com/contenus-partenaires/jeux-video-linclusion-comme-levier-dinnovation/" target="_blank">une série d'articles</a> pour promouvoir les bienfaits des politiques d'inclusion en milieu corporatif, en prenant exemple sur l'industrie du jeu vidéo québécoise.</strong></p><p><em>Jeux vidéo : l'inclusion comme levier d'innovation</em> est un dossier constitué de cinq articles qui donnent des exemples concrets tirés de notre industrie vidéoludique locale : de la neurodiversité, en passant par la culture autochtone et la présence des femmes.</p><ul><li><a href="https://www.lesaffaires.com/contenus-partenaires/jeux-video-linclusion-comme-levier-dinnovation/awastoki-preserver-les-cultures-autochtones-par-le-jeu-video/" target="_blank">Awastoki : préserver les cultures autochtones par le jeu vidéo</a></li><li><a href="https://www.lesaffaires.com/contenus-partenaires/jeux-video-linclusion-comme-levier-dinnovation/laccessibilite-au-coeur-du-jeu-lexperience-beenox/" target="_blank">L'accessibilité au cœur du jeu : l'expérience Beenox</a></li><li><a href="https://www.lesaffaires.com/contenus-partenaires/jeux-video-linclusion-comme-levier-dinnovation/la-neurodiversite-moteur-dinnovation-chez-illogika/" target="_blank">La neurodiversité, moteur d'innovation chez Illogika</a></li><li><a href="https://www.lesaffaires.com/contenus-partenaires/jeux-video-linclusion-comme-levier-dinnovation/jouer-autrement-limpact-des-femmes-gameuses/" target="_blank">Jouer autrement : l'impact des femmes gameuses</a></li><li><a href="https://www.lesaffaires.com/contenus-partenaires/jeux-video-linclusion-comme-levier-dinnovation/lucid-tales-la-representation-inclusive-au-coeur-de-lentreprise/" target="_blank">Lucid tales : la représentation inclusive comme valeur fondamentale</a></li></ul>`},
+{id:2,title:"7 Days Blood Moons : le studio iLLOGIKA lance une démo gratuite et une mise à jour",label:"Aperçu",date:"22 décembre 2025",author:"Mario J. Ramos",img:"https://videoludique.ca/wp-content/uploads/2025/12/7dbm_steamscreenshot_01-1.jpg",tags:["7 days blood moons","illogika","horreur","multijoueur","montréal"],body:`<p><em>Images gracieuseté de iLLOGIKA</em></p><p><strong>Le studio québécois <a href="https://www.illogika.com/" target="_blank">iLLOGIKA</a> a annoncé le lancement d'une version d'essai gratuite de son titre <a href="https://store.steampowered.com/app/2312280/7_Days_Blood_Moons/" target="_blank"><em>7 Days Blood Moons</em></a> sur Steam. Cette initiative s'accompagne d'une série de correctifs et d'ajouts de contenu visant à stabiliser l'expérience de jeu en accès anticipé.</strong></p><p>Lancé le 4 novembre, <em>7 Days Blood Moons</em> est un jeu de survie asymétrique en format 4 contre 1, se déroulant dans l'univers de la franchise <em>7 Days to Die</em>.</p><blockquote><p>« Depuis le premier jour, nous écoutons attentivement notre communauté. La démo gratuite est notre façon de rendre l'expérience plus accessible, de montrer le chemin parcouru et d'inviter davantage de joueurs à découvrir la direction que prend le jeu. »</p><strong>— David Fugère-Lamarre, PDG et co-fondateur d'iLLOGIKA</strong></blockquote><img src="https://videoludique.ca/wp-content/uploads/2025/12/7dbm_steamscreenshot_04-1.jpg" alt="" loading="lazy"><p>Les interventions récentes ont porté sur l'infrastructure des serveurs et la connectivité. Des correctifs ont été déployés pour résoudre les bogues signalés et pour optimiser la conception des niveaux.</p><img src="https://videoludique.ca/wp-content/uploads/2025/12/7dbm_steamscreenshot_02-1.jpg" alt="" loading="lazy"><p>Le titre a connu plusieurs ajouts de contenu depuis son passage en accès anticipé :</p><ul><li>De nouveaux ennemis et des cartes additionnelles</li><li>Des éléments cosmétiques pour les Survivants</li><li>Un système de badges de mérite</li></ul><img src="https://videoludique.ca/wp-content/uploads/2025/12/7dbm_steamscreenshot_05-1.jpg" alt="" loading="lazy"><p>Le développement actuel s'oriente vers l'ajustement de la réactivité des combats et l'équilibrage entre les deux camps (les Survivants et le Maître Zombie). Une feuille de route publique est disponible sur Steam.</p>`},
+{id:3,title:"L'industrie mondiale du jeu vidéo de retour à Montréal pour le MIGS25",label:"Événement",date:"10 novembre 2025",author:"Mario J. Ramos",img:"https://videoludique.ca/wp-content/uploads/2025/11/migs25-1920x1080-fr.jpg",tags:["MIGS25","montréal","la guilde","industrie du jeu vidéo","canada"],body:`<p><em>Photos gracieuseté de XP Gaming</em></p><p><strong>Du 11 au 12 novembre, Montréal redevient l'épicentre du jeu vidéo mondial avec la tenue du <a href="https://migs.biz/fr/" target="_blank">Sommet international du jeu de Montréal 2025 (MIGS25)</a>. Cette 22e édition met l'accent sur l'innovation, la compétitivité et le financement.</strong></p><img src="https://videoludique.ca/wp-content/uploads/2025/11/migs2024_jour-01_242.jpg" alt="" loading="lazy"><p>Organisé par <a href="https://www.laguilde.quebec/" target="_blank">La Guilde du jeu vidéo du Québec</a> et produit par <a href="https://xpgaming.biz/" target="_blank">XP Gaming</a>, le MIGS25 s'installera au Grand Quai du Vieux-Port de Montréal.</p><blockquote><p>« Dans le monde, on note des changements majeurs, en particulier au chapitre du financement. Par conséquent, nous voulons fournir aux participants des pistes à explorer. »</p><strong>– Jean-Jacques Hermans, directeur général de La Guilde</strong></blockquote><p>Le MIGS25 accueillera 90 conférenciers venant de plus de 25 pays et 2500 professionnels. Les créateurs derrière <em>Clair Obscur: Expedition 33</em>, <em>Balatro</em>, <em>Helldivers 2</em>, <em>South of Midnight</em> et <em>Split Fiction</em> seront présents.</p><h3>Réseautage et développement des affaires</h3><ul><li><strong>Salon ExDev</strong> : Plus de 1400 fournisseurs de services et studios.</li><li><strong>Salon Affaires</strong> : 200 acheteurs, éditeurs et partenaires de développement.</li></ul><p>Éditeurs confirmés : <strong>Amazon Games, 2K, Epic Game Store, Devolver Digital, Sony/Playstation</strong> et <strong>Xbox Game Studios.</strong></p><img src="https://videoludique.ca/wp-content/uploads/2025/11/migs2024_jour02_481.jpg" alt="" loading="lazy"><blockquote><p>« Montréal s'impose comme un pôle mondial de la créativité numérique. L'industrie génère 1,4 milliard $ au PIB du Québec et offre 15 000 emplois de qualité. »</p><strong>– Chantal Rouleau, ministre québécoise responsable de la Métropole</strong></blockquote><img src="https://videoludique.ca/wp-content/uploads/2025/11/migs2024_jour-01_3143.jpg" alt="" loading="lazy">`},
+{id:4,title:"Incarnez un goéland déjanté dans ce jeu d'un développeur solo",label:"Jeu indépendant",date:"27 septembre 2025",author:"Mario J. Ramos",img:"https://videoludique.ca/wp-content/uploads/2025/09/page_background.jpg",tags:["goeland","maarti games","aventure","humour","montréal"],body:`<p><em>Image : Maarti Games</em></p><p><strong>Alors qu'il s'est retrouvé au cœur d'une vague de licenciement chez Eidos Montréal, Bryan Martinet a décidé de voler de ses propres ailes en créant <a href="https://maarti.net/" target="_blank">Maarti Games</a>, et en se lançant dans la création de <a href="https://store.steampowered.com/app/2531840/Goeland_Seagull_Adventure/" target="_blank">Goeland.</a></strong></p><p><em>Goeland</em> est une aventure humoristique où l'on incarne un goéland espiègle jonglant entre farces, entraide et écologie.</p><h3>Dans Goeland, vous pourrez :</h3><ul><li><strong>Voler librement</strong> autour d'une île vibrante où presque tout est interactif</li><li><strong>Taquiner</strong>, faire des blagues ou <strong>aider</strong> les habitants selon votre humeur</li><li>Profiter d'un gameplay ouvert de type <strong>bac à sable</strong></li><li><strong>Résoudre des défis</strong> ludiques et <strong>découvrir les secrets</strong> de l'île</li><li>Partir à <strong>la chasse au trésor</strong></li><li><strong>Enquêter sur une étrange pollution</strong> qui menace l'île</li><li><strong>Apprécier une musique dynamique</strong> qui s'adapte à votre comportement</li></ul><p><strong>Wishlister le jeu sur <a href="https://store.steampowered.com/app/2531840/Goeland_Seagull_Adventure/" target="_blank">Steam!</a></strong></p>`},
+{id:5,title:"Saven : essayez la démo de ce jeu d'Horrawr",label:"Démo",date:"27 septembre 2025",author:"Mario J. Ramos",img:"https://videoludique.ca/wp-content/uploads/2025/09/screenshot2.png",tags:["saven","horrawr","horreur","halloween","montréal"],body:`<p><em>Image : Horrawr</em></p><p><strong><em>SAVEN</em> est un jeu d'horreur psychologique à la première personne développé par le studio québécois Horrawr, dont la sortie est prévue pour le 22 octobre 2025 sur PC (<a href="https://store.steampowered.com/app/3917330/SAVEN/" target="_blank">Steam</a> et <a href="https://horrawr.itch.io/saven" target="_blank">Itch.io</a>).</strong></p><p>Dans <em>SAVEN</em>, vous incarnez Carl, un ouvrier de maintenance qui doit passer sept nuits dans un chalet isolé. Ce qui devait être une simple mission se transforme rapidement en cauchemar alors qu'une entité surnaturelle, invisible mais omniprésente, commence à rôder dans l'ombre. Le cœur du jeu réside dans cette menace invisible, que l'on ne doit jamais regarder directement.</p><p>Chaque nuit apporte son lot de tâches à accomplir et d'objets à réparer, mais ces actions routinières sont teintées d'une tension constante.</p><p>Une démo gratuite offrant environ 30 minutes de jeu est disponible sur <a href="https://store.steampowered.com/app/3917330/SAVEN/" target="_blank">Steam</a> et <a href="https://horrawr.itch.io/saven" target="_blank">Itch.io</a>.</p>`},
+{id:6,title:"Camille et Laura : la poésie du quotidien",label:"Critique",date:"5 août 2025",author:"Mario J. Ramos",img:"https://videoludique.ca/wp-content/uploads/2025/08/tv.webp",tags:["camille et laura","bonjourborzoi","narratif","pointer et cliquer","québec"],body:`<p><em>Copie du jeu et images gracieuseté de BonjourBorzoi</em></p><p><strong>Dans le paysage souvent saturé de superproductions explosives, certains jeux choisissent une voie plus intime, plus humaine. C'est le cas de <a href="https://store.steampowered.com/app/3129110/Camille_and_Laura/" target="_blank"><em>Camille et Laura</em></a>, le premier titre du studio québécois <a href="https://bonjourborzoi.net/" target="_blank">BonjourBorzoi</a>, fondé par le développeur solo Olivier Bouchard. Ce jeu pointer-et-cliquer réussit à transformer la routine en une expérience narrative profondément touchante.</strong></p><p>Le jeu nous présente Laura, une mère monoparentale au bord de l'épuisement, et sa fille, Camille, qui s'apprête à faire son entrée en première année du primaire. L'entièreté de l'aventure se déroule sur une seule semaine, celle de la rentrée scolaire.</p><p>Les puzzles à résoudre sont ceux de la vie de tous les jours : préparer un petit-déjeuner équilibré, amener Camille à l'école à l'heure, affronter une boîte de courriels qui déborde au travail, faire les courses avec un budget serré.</p><p><em>Camille et Laura</em> réussit brillamment à nous faire ressentir la lourdeur de la répétition, la monotonie écrasante d'une liste de tâches qui ne diminue jamais.</p><img src="https://videoludique.ca/wp-content/uploads/2025/08/rain.webp" alt="" loading="lazy"><p>Ce n'est pas seulement raconté par les dialogues. C'est la mécanique même du jeu qui devient le vecteur de l'émotion. Le simple acte de cliquer sur les mêmes objets, jour après jour, devient une métaphore puissante de la charge mentale.</p><img src="https://videoludique.ca/wp-content/uploads/2025/08/screenshot3.webp" alt="" loading="lazy"><p>La direction artistique est d'une simplicité magnifique. En adoptant un style qui rappelle les dessins d'un enfant, le jeu crée une atmosphère à la fois douce et mélancolique.</p><div class="verdict">VERDICT 8/10 – TRÈS BON</div><p>Disponible sur <a href="https://store.steampowered.com/app/3129110/Camille_and_Laura/" target="_blank">Steam</a> et <a href="https://byolivierb.itch.io/camille-and-laura" target="_blank">Itch.io</a> au prix de 12,99 $ depuis le 12 août 2025.</p>`},
+{id:7,title:"Where is Billy? de Dodo Tako maintenant disponible sur Nintendo Switch",label:"Lancement",date:"31 juillet 2025",author:"Mario J. Ramos",img:"https://videoludique.ca/wp-content/uploads/2025/07/wib_horizontal.png",tags:["where is billy","dodo tako","triple boris","nintendo switch","multijoueur"],body:`<p><em>Image gracieuseté de Dodo Tako/Triple Boris</em></p><p><strong>Le studio québécois <a href="https://www.tripleboris.com/" target="_blank">Triple Boris</a> annonce la création d'un studio affilié, Dodo Tako, dédié à la création de propriété intellectuelle. Le premier jeu de Dodo Tako, <a href="https://whereisbillygame.com/fr/" target="_blank"><em>Where is Billy?</em></a>, est disponible sur Nintendo Switch et Nintendo Switch 2.</strong></p><p><em>Where is Billy?</em> est un jeu de party multijoueur où deux à huit joueurs s'affrontent dans des modes de jeu inspirés du cache-cache. Dans un manoir rempli de monstres, le joueur doit se cacher dans une foule sans être repéré.</p><img src="https://videoludique.ca/wp-content/uploads/2025/07/wib_enjeu2-8-fr.jpg" alt="" loading="lazy"><h3>Modes de jeu disponibles :</h3><ul><li><strong>Cambriolage</strong> : les voleurs doivent prendre toutes les pièces sans se faire attraper.</li><li><strong>Frousstival</strong> : les effrayeurs doivent effrayer tous les PNJ.</li><li><strong>Statues</strong> : chaque infiltré doit toucher les statues autant de fois que possible.</li></ul><img src="https://videoludique.ca/wp-content/uploads/2025/07/wib-lobby-8-fr.jpg" alt="" loading="lazy"><blockquote><p>« Where is Billy? est le premier jeu multijoueur de notre histoire. C'est le jeu de party parfait pour les moments entre amis ou en famille. »</p><strong>– Simon Dansereau, président de Triple Boris</strong></blockquote><p>Disponible sur <a href="https://www.nintendo.com/en-ca/store/products/where-is-billy-switch/" target="_blank">Nintendo Switch, Nintendo Switch 2</a> et <a href="https://store.steampowered.com/app/2228710/Where_is_Billy/" target="_blank">Steam</a> au coût de 8,99 $ CAD.</p>`},
+{id:8,title:"Le « Great Canadian Game-Off » : MobileSyrup et l'ALD célèbrent le jeu vidéo canadien",label:"Actualité",date:"9 juillet 2025",author:"Andy Dupere",img:"https://videoludique.ca/wp-content/uploads/2025/07/the-great-canadian-game-off-2048x1152-1.jpg",tags:["canada","mobilesyrup","ALD","great canadian game-off"],body:`<p><em>Image : MobileSyrup</em></p><p><strong><a href="https://mobilesyrup.com/2025/07/03/the-great-canadian-game-off-contest-announcement/" target="_blank">MobileSyrup</a> et l'<a href="https://theesa.ca/about/about-esac/" target="_blank">Association Canadienne du logiciel de divertissement (ALD)</a> lancent le « Great Canadian Game-Off » pour fêter plus de 30 ans de jeux vidéo canadiens. C'est l'occasion de célébrer les classiques comme <em>Mass Effect</em>, <em>Assassin's Creed</em> et bien d'autres, tout en votant pour vos jeux préférés!</strong></p><h3>Comment ça marche?</h3><p>Votez pour vos jeux canadiens favoris dans <strong>9 catégories</strong>. Les gagnants avanceront en finale pour choisir votre <strong>jeu ultime</strong>. Vous courez la chance de gagner des <strong>prix</strong>!</p><p>Rendez-vous sur le site de <a href="https://mobilesyrup.com/2025/07/03/the-great-canadian-game-off-contest-announcement/" target="_blank">MobileSyrup</a> pour plus d'infos et <a href="https://theesa.ca/made-in-canada-20-years-of-play/" target="_blank">participez au concours ici.</a></p><h3>Un mot pour les artisans de l'industrie</h3><p>Alors que l'on célèbre cette industrie qui nous fait rêver, il est essentiel de souligner une réalité plus difficile : les nombreux professionnels talentueux qui ont récemment perdu leur emploi dans le secteur.</p><p>À vous, artistes, programmeurs, conceptrices, testeurs, scénaristes : nous voyons votre travail, et nous savons que sans vous, le paysage vidéoludique canadien n'aurait jamais atteint de tels sommets.</p>`},
+{id:9,title:"The Book of Aaru : entre désert, danger et divinités oubliées",label:"Critique",date:"5 juillet 2025",author:"Andy Dupere",img:"https://videoludique.ca/wp-content/uploads/2025/07/keyart-book-of-aaru.jpg",tags:["the book of aaru","amenti studio","action","rpg"],body:`<p><em>Copie du jeu et images gracieuseté de Amenti Studio</em></p><p><strong>Développé par <a href="https://amentistudio.com/" target="_blank">Amenti Studio</a>, <em>The Book of Aaru</em> s'impose comme une belle surprise du paysage vidéoludique indépendant. Alliant des mécaniques classiques d'action-RPG avec des éléments de roguelite, ce jeu propose une aventure dense, aride et envoûtante, qui rappelle à la fois <em>Path of Exile</em> et un rêve fiévreux dans l'Égypte antique.</strong></p><h3>Un gameplay tranchant, fluide et destructible</h3><p>Dès le tutoriel, <em>The Book of Aaru</em> nous invite à forger notre style de jeu à travers un choix d'armes intrigant. L'une des premières satisfactions vient de la capacité à <strong>détruire une partie du décor</strong>. Le jeu propose une <strong>vue isométrique</strong> et offre <strong>un système de blocage bienvenu</strong>.</p><img src="https://videoludique.ca/wp-content/uploads/2025/07/tutorial-game-1.png" alt="" loading="lazy"><h3>Un monde ensablé, chargé d'ambiance</h3><p>L'ambiance sonore, sombre et granuleuse, est une réussite en soi. Des notes <strong>grunge désertiques</strong>, mêlant guitares électriques et percussions sourdes, accentuent le sentiment d'isolement et de tension qui règne dans les temples anciens.</p><img src="https://videoludique.ca/wp-content/uploads/2025/07/bastion-level-doors.png" alt="" loading="lazy"><h3>Progression et personnalisation : Beetles et Glyphes</h3><p>En explorant, on met la main sur des <strong>Beetle Shards</strong>, convertibles en <strong>Beetle Shells</strong> pour améliorer trois attributs clés : <strong>Furious</strong> (dégâts), <strong>Protectful</strong> (points de vie) et <strong>Eonous</strong> (maîtrise du Temps). Les <strong>Glyphes</strong> offrent des bonus passifs supplémentaires.</p><img src="https://videoludique.ca/wp-content/uploads/2025/07/glyph-treasure-game.png" alt="" loading="lazy"><h3>Un challenge progressif mais impitoyable</h3><p>Le jeu applique un système de <strong>permadeath partiel</strong> : à chaque mort, on perd les matériaux amassés sauf si on avait pensé à en offrir un pourcentage en offrande au préalable.</p><div class="verdict">VERDICT 8/10</div><p><a href="https://store.steampowered.com/app/2092970/The_Book_of_Aaru/" target="_blank">Ajoutez The Book of Aaru à votre liste de souhaits Steam</a></p>`},
+{id:10,title:"Wu-Tang: Rise of the Deceiver – Le retour légendaire du Clan dans un RPG coopératif électrisant",label:"Aperçu",date:"20 juin 2025",author:"Mario J. Ramos",img:"https://videoludique.ca/wp-content/uploads/2025/06/image.png",tags:["wu-tang clan","rise of the deceiver","brass lion entertainment","montréal"],body:`<p><em>Images gracieuseté de Brass Lion Entertainment</em></p><p><strong>Le légendaire Wu-Tang Clan fait un retour fracassant dans l'univers vidéoludique avec Wu-Tang: Rise of the Deceiver, un jeu d'action-RPG coopératif développé par Brass Lion Entertainment, révélé lors du Summer Game Fest 2025.</strong></p><p>Brass Lion Entertainment opère de New York et Montréal. Fondé en 2019, le studio réunit aujourd'hui 53 collaborateurs à travers les États-Unis et le Canada.</p><p>Dans ce jeu multijoueur, les joueurs incarnent une nouvelle génération de guerriers, héritiers des pouvoirs mystiques du Wu-Tang Clan. Leur mission : défendre Shaolin contre le <strong>Deceiver</strong>. Jusqu'à trois joueurs peuvent s'unir dans un univers mêlant <strong>afro-surréalisme</strong> et <strong>esthétique anime</strong>.</p><blockquote><p>« Créer Angel of Dust a été une aventure incroyable. Le film n'était que le début. Avec ce jeu, nous plongeons les fans encore plus profondément dans cet univers surnaturel. C'est une fusion entre musique, narration et expérience interactive. »</p><strong>– Ghostface Killah</strong></blockquote><h3>Fonctionnalités clés :</h3><ul><li>Coopération à 3 joueurs avec un hub social à Shaolin</li><li>Difficulté progressive à travers les Chambers of the Medium</li><li>Personnalisation du style de combat et du look</li><li>Bande-son dynamique supervisée par le producteur <strong>Just Blaze</strong></li></ul><blockquote><p>« Nous sommes honorés de bâtir sur l'héritage du Wu-Tang Clan et de collaborer avec Ghostface Killah pour offrir une expérience qui leur rend hommage. »</p><strong>– Bryna Dabby-Smith et Rashad Redic, co-fondateurs de Brass Lion Entertainment</strong></blockquote>`},
+{id:11,title:"Dead by Daylight x Five Nights at Freddy's : une collaboration monstrueusement attendue",label:"Collaboration",date:"20 juin 2025",author:"Mario J. Ramos",img:"https://videoludique.ca/wp-content/uploads/2025/06/key-art-dead-by-daylight-fnaf.jpg",tags:["dead by daylight","fnaf","behaviour","horreur","montréal"],body:`<p><em>Images gracieuseté de <a href="https://www.bhvr.com/fr/" target="_blank">Behaviour Intéractif</a></em></p><p><strong>Le célèbre jeu multijoueur asymétrique <a href="https://deadbydaylight.com/" target="_blank"><em>Dead by Daylight</em></a> a officiellement lancé son chapitre le plus demandé à ce jour, en collaboration avec l'univers terrifiant de <em>Five Nights at Freddy's</em>.</strong></p><p>Les joueurs peuvent désormais incarner Springtrap, l'un des antagonistes les plus emblématiques de la franchise <em>Five Nights at Freddy's</em>. Ce personnage, mi-homme mi-machine, est une menace tangible dans le royaume de l'Entité. L'arrivée de Springtrap introduit également des mécaniques de jeu inédites, inspirées directement de l'ambiance oppressante de <em>FNaF</em>.</p><blockquote><p>« Il va de soi que Five Nights at Freddy's et Dead by Daylight présentent des gameplays radicalement opposés. Notre défi a consisté à trouver un moyen de fusionner ces deux aspects : identifier ce qui crée l'incroyable tension dans FNaF et l'adapter en un format dynamique. »</p><strong>– Jay Guzzo, concepteur du tueur Springtrap</strong></blockquote><p>Ce nouveau chapitre est disponible dès maintenant dans Dead by Daylight sur toutes les plateformes.</p>`},
+{id:12,title:"Été remporte le Prix Numix du meilleur jeu vidéo indépendant",label:"Récompense",date:"18 juin 2025",author:"Mario J. Ramos",img:"https://videoludique.ca/wp-content/uploads/2024/08/ete_screenshot_14_cornerstore.png",tags:["été","prix numix","montréal","québec"],body:`<p><strong>Le gala des <a href="https://numix.ca/" target="_blank">Prix Numix</a> a récompensé ce qui se fait de mieux au Québec en création numérique. C'est <a href="https://store.steampowered.com/app/1065070/t/" target="_blank">Été</a> du studio <a href="https://x.com/impossible_dev?lang=fr" target="_blank">Impossible</a> qui a remporté les grands honneurs de la catégorie jeu vidéo indépendant.</strong></p><p>Les nominés dans la catégorie Jeu vidéo indépendant étaient : <strong>Biomorph</strong> de Lucid Dreams Studio, <strong>Two Falls (Nishua Takuatshina)</strong> de Unreliable Narrators et <strong>Été</strong> de Impossible.</p><p>Le 29 mai au Club Soda, le prix du meilleur jeu indépendant a été remis à Lazlo Bonin du studio Impossible.</p><img src="https://videoludique.ca/wp-content/uploads/2025/06/lazlonumix.jpg" alt="" loading="lazy"><p><a href="https://videoludique.ca/2024/08/21/critique-ete-ruelles-et-colimacons/" target="_blank">Lisez la critique complète du jeu Été.</a></p>`},
+{id:13,title:"Le Canada bien représenté au Summer Game Fest 2025",label:"Aperçu",date:"14 juin 2025",author:"Andy Dupere",img:"https://videoludique.ca/wp-content/uploads/2025/06/header.jpg",tags:["summer game fest","canada","montréal","québec","2025"],body:`<p>Le <em>Summer Games Fest</em> 2025 a mis en lumière le talent des studios canadiens. Voici les jeux qui ont marqué l'événement :</p><h3>1. Hell is Us – Rogue Factor (Montréal)</h3><p>Jeu d'enquête et survie avec puzzles environnementaux et interface minimaliste. Les « Hollow walkers » sont des entités terrifiantes. <strong>PC, PS5, Xbox Series X|S</strong></p><h3>2. Scott Pilgrim EX – Tribute Games (Montréal)</h3><p>Le retour de Bryan Lee O'Malley dans l'univers vidéoludique. Jeu de combat coopératif rétro. <strong>PS4/5, Xbox, Switch, Switch 2, PC</strong></p><h3>3. Grounded 2 – Eidos-Montréal & Obsidian</h3><p>Aventure de survie en monde ouvert où les joueurs sont réduits à la taille d'une fourmi. <strong>Xbox, Steam</strong></p><h3>4. At Fate's End – Thunder Lotus Games (Montréal)</h3><p>Jeu d'action-aventure dans la peau de Shan, une héritière armée d'une épée divine. Direction artistique envoûtante. <strong>Steam, Epic, PS5, Xbox</strong></p><h3>5. Worship – Chasing Rats Games (Montréal)</h3><p>Roguelike multijoueur où vous menez un culte. Inspiré de Pikmin avec une touche sanglante. <strong>PC</strong></p><h3>6. Paralives – Alex Massé (Montréal)</h3><p>Simulateur de vie très attendu, avec plus de liberté et de personnalisation que <em>The Sims</em>. <strong>Steam</strong></p><h3>7. Pathfinder: Abomination Vaults – BKOM Studios (Québec)</h3><p>Jeu coopératif hack and slash dans les profondeurs du donjon de Gauntlight. <strong>Steam, Epic</strong></p><p>Le Summer Games Fest 2025 a clairement confirmé le dynamisme et la créativité des studios canadiens.</p>`},
+{id:14,title:"Pluralys : un RPG narratif humoristique – démo disponible",label:"Démo",date:"13 juin 2025",author:"Mario J. Ramos",img:"https://videoludique.ca/wp-content/uploads/2025/06/background-pluralys.png",tags:["pluralys","ivalys","narratif","rpg","québec"],body:`<p><strong>Le nouveau studio québécois <a href="https://www.studiosivalys.ca/" target="_blank">Ivalys</a> annonce Pluralys, un jeu de rôle d'exploration et narratif qui mélange humour et mystère.</strong></p><p>Dans <strong>Pluralys</strong>, on incarne Élie, un jeune garçon menant une vie paisible… jusqu'à l'arrivée de visiteurs inattendus. L'un d'eux lui transmet un message étrange : <strong>tu es le seul capable de changer le cours des événements.</strong></p><p><a href="https://store.steampowered.com/app/3275440/Pluralys/" target="_blank">Une démo est disponible sur Steam dans le cadre du Steam NextFest.</a></p><p>Rejoignez la communauté Discord du jeu <a href="https://discord.com/invite/D2Qq2ZgJzg" target="_blank">ici.</a></p><img src="https://videoludique.ca/wp-content/uploads/2025/06/conversation-with-an-extra-terrest1.png" alt="" loading="lazy"><img src="https://videoludique.ca/wp-content/uploads/2025/06/desert.png" alt="" loading="lazy"><img src="https://videoludique.ca/wp-content/uploads/2025/06/waterfall.png" alt="" loading="lazy">`},
+{id:15,title:"Premières impressions : l'audace uchronique de Bonaparte : A Mechanized Revolution",label:"Premières impressions",date:"22 mai 2025",author:"Mario J. Ramos",img:"https://videoludique.ca/wp-content/uploads/2024/08/7af1452e7ba1ea7c8eb957a32a2ab78f3fb7685f.jpg",tags:["bonaparte","studio imugi","stratégie","uchronie","histoire"],body:`<p><em>Images et copie du jeu gracieuseté de Studio Imugi</em></p><p><strong>Le <a href="https://www.linkedin.com/company/studio-imugi/" target="_blank">Studio Imugi</a> nous plonge dans une France de 1789 revisitée avec <a href="https://store.steampowered.com/app/2560340/Bonaparte__A_Mechanized_Revolution/" target="_blank"><em>Bonaparte : A Mechanized Revolution</em></a>, un jeu de grande stratégie qui ose mélanger la poudre à canon avec des colosses mécaniques. Le joueur peut incarner un Napoléon alternatif, César ou Céline Bonaparte.</strong></p><p>La force majeure réside dans sa liberté politique. Le joueur peut choisir de rallier la Révolution, de préserver la monarchie, ou d'opter pour une voie plus modérée.</p><img src="https://videoludique.ca/wp-content/uploads/2025/05/bonaparte3.jpg" alt="" loading="lazy"><p>Gagner le support des factions rivales par la propagande ciblée est aussi important que le déploiement tactique. Les sessions de la Convention Nationale ajoutent une profondeur stratégique réelle.</p><img src="https://videoludique.ca/wp-content/uploads/2025/05/bonaparte1.jpg" alt="" loading="lazy"><p>L'immersion est renforcée par des scénarios dynamiques. Que ce soit la tentative de fuite de Louis XVI ou les soubresauts d'une contre-révolution, ces événements historiques détournés injectent une dose bienvenue de chaos.</p><img src="https://videoludique.ca/wp-content/uploads/2025/05/bonaparte4.jpg" alt="" loading="lazy"><p>Certains aspects de l'interface manquent d'intuitivité. Cela étant dit, le jeu est en Accès Anticipé sur Steam et la rétroaction des joueurs est cruciale.</p><img src="https://videoludique.ca/wp-content/uploads/2025/05/bonaparte2.jpg" alt="" loading="lazy"><div class="verdict">VERDICT : 8 – TRÈS BON</div>`},
+{id:16,title:"Critique Enshrouded : points de vue croisés",label:"Critique",date:"18 mai 2025",author:"Mario J. Ramos",img:"https://videoludique.ca/wp-content/uploads/2025/05/2025_enshrouded_01_keyart_1x1_use_for_thumbnails_smaller_presentations.png",tags:["enshrouded","keen games","construction","survie","rpg","fantaisie"],body:`<p><em>Images gracieuseté de Keen Games</em></p><p><strong>En commençant à jouer Enshrouded, j'ai rapidement réalisé que c'était un jeu plus intéressant avec des amis. J'ai donc demandé à deux membres de la <a href="https://discord.gg/MUxn4WY4Qx" target="_blank">communauté Discord HUB</a>, Eric « Trent Faucon » Laforce et Dominic Arsenault, de partager leurs points de vue.</strong></p><img src="https://videoludique.ca/wp-content/uploads/2025/05/enshrouded_05_exploration02_presskit.png" alt="" loading="lazy"><h3>Points forts selon Trent Faucon</h3><ul><li><strong>Exploration grisante</strong> : Monde bien rempli, panoramas magnifiques, navigation plaisante.</li><li><strong>Crafting fluide</strong> : Intégration organique sans devenir fastidieux.</li><li><strong>UX soignée</strong> : Information facile à trouver, prise en main aisée.</li></ul><h3>Points faibles selon Trent Faucon</h3><ul><li><strong>Manque d'originalité</strong> : L'univers manque de personnalité, l'histoire est fade.</li><li><strong>Régénération de la carte</strong> : Détruit la crédibilité de l'univers dans un jeu de construction.</li><li><strong>Surcharge de fonctionnalités</strong> : Trop de mécaniques dont l'utilité reste à prouver.</li></ul><img src="https://videoludique.ca/wp-content/uploads/2025/05/enshrouded_07_farming01_presskit.png" alt="" loading="lazy"><h3>Points forts selon Dominic Arsenault</h3><ul><li><strong>Construction excellente</strong> : Moteur voxel remarquable, structures esthétiques et flexibles.</li><li><strong>Équilibre accessible</strong> : Bien dosé pour un large public, combats pas excessivement difficiles.</li><li><strong>Exploration/construction réussies</strong> : Mélange rappelant l'esprit de WoW et Zelda: Breath of the Wild.</li></ul><h3>Points faibles selon Dominic Arsenault</h3><ul><li><strong>Multijoueur contraignant</strong> : Nécessite la présence en ligne du créateur pour rejoindre.</li><li><strong>Direction artistique générique</strong> : Le shroud ressemble à d'autres concepts déjà vus.</li><li><strong>Inventaire laborieux</strong> : Gestion de nombreux matériaux pêle-mêle.</li></ul><img src="https://videoludique.ca/wp-content/uploads/2025/05/enshrouded_02_survival_presskit.png" alt="" loading="lazy"><div class="verdict">VERDICT : 7.5 – BON</div>`},
+{id:17,title:"Un entrepreneur québécois rachète Gamestop Canada et fait renaître EB Games",label:"Actualité",date:"7 mai 2025",author:"Mario J. Ramos",img:"https://videoludique.ca/wp-content/uploads/2025/05/ebgames.png",tags:["ebgames","gamestop","canada","stephan tetrault","montréal"],body:`<p><strong>L'entrepreneur québécois <a href="https://www.linkedin.com/in/stephan-tetrault-58721233/" target="_blank">Stephan Tétrault</a> a officialisé l'acquisition de <a href="https://www.gamestop.ca/" target="_blank">GameStop Canada</a>, marquant un tournant majeur pour le détaillant. Cette acquisition annonce le retour de la marque EB Games Canada.</strong></p><p>Pour de nombreux joueurs canadiens, EB Games évoque des souvenirs liés à leurs premières expériences vidéoludiques. Rebaptisée GameStop Canada en 2021, l'entreprise retrouve son identité d'origine sous l'impulsion de M. Tétrault.</p><blockquote><p>« Ce n'est pas simplement une décision d'affaires – c'est l'envie de faire revivre quelque chose que les Canadiens ont profondément aimé. Notre ambition est de bâtir quelque chose de vraiment spécial, porté par la communauté, nourri par la nostalgie et animé par l'innovation. »</p><strong>– Stephan Tétrault, propriétaire et PDG de la nouvelle entité EB Games Canada</strong></blockquote><p>Les joueurs peuvent s'attendre à des événements en magasin repensés, une gamme de produits élargie et une intégration plus poussée avec la culture pop.</p><blockquote><p>« Nous voulons qu'EB Games Canada soit plus qu'un simple magasin – un véritable carrefour pour les passionnés de jeux vidéo et de culture geek partout au pays. »</p><strong>– Jim Tyo, président de GameStop Canada</strong></blockquote>`},
+{id:18,title:"Bonaparte : A Mechanized Revolution – en Accès Anticipé le 21 mai",label:"Annonce",date:"5 mai 2025",author:"Mario J. Ramos",img:"https://videoludique.ca/wp-content/uploads/2024/08/7af1452e7ba1ea7c8eb957a32a2ab78f3fb7685f.jpg",tags:["bonaparte","studio imugi","stratégie","révolution française"],body:`<p><em>Images gracieuseté de Studio Imugi</em></p><p><strong>Le jeu de stratégie au tour par tour <a href="https://store.steampowered.com/app/2560340/Bonaparte__A_Mechanized_Revolution/" target="_blank">Bonaparte – A Mechanized Revolution</a> de <a href="https://www.facebook.com/StudioImugi" target="_blank">Studio Imugi</a> sera disponible en accès anticipé sur Steam dès le 21 mai. L'histoire se déroule en 1789 à Paris, où vous incarnez Céline ou César Bonaparte.</strong></p><p>Le jeu propose une réinterprétation audacieuse de l'histoire avec des méchas géants, appelés Colosses, au cœur de batailles tactiques épiques.</p><h3>Caractéristiques principales :</h3><ul><li><strong>Guerre idéologique et stratégique</strong> : défendez la monarchie ou combattez pour un peuple libre.</li><li><strong>Bataillons et colosses</strong> : la poudre à canon côtoie des méchas titanesques en tour par tour.</li><li><strong>Intrigues politiques</strong> : votez des lois aux côtés de Robespierre, Lafayette et Danton.</li><li><strong>Recrutement d'alliés</strong> : construisez de nouveaux Colosses et dominez les champs de bataille.</li></ul><p>Suivez le studio sur <a href="http://www.bonapartegame.com" target="_blank">bonapartegame.com</a></p>`},
+{id:19,title:"Tears of Metal : Une bêta ouverte explosive pour le roguelike médiéval coopératif",label:"Bêta",date:"12 avril 2025",author:"Mario J. Ramos",img:"https://videoludique.ca/wp-content/uploads/2025/04/unnamed.jpg",tags:["tears of metal","paper cult games","hack and slash","roguelike","montréal"],body:`<p><em>Images gracieuseté de Paper Cult Games</em></p><p><strong>Le studio montréalais <a href="https://store.steampowered.com/publisher/PaperCult" target="_blank">Paper Cult</a> a annoncé, dans le cadre de l'initiative Triple-I, une bêta ouverte pour son jeu <a href="https://store.steampowered.com/app/1913120/Tears_of_Metal/" target="_blank"><em>Tears of Metal</em></a> sur Steam. Cette démo offre aux joueurs un avant-goût de l'Acte I, où ils incarneront le personnage de départ dans une lutte contre le boss Gilles.</strong></p><p><em>Tears of Metal</em> est un hack-and-slash médiéval avec des éléments roguelike, jouable seul ou en coopération jusqu'à 4 joueurs.</p><img src="https://videoludique.ca/wp-content/uploads/2025/04/la-durete-du-metal-.jpg" alt="" loading="lazy"><p>Dans <em>Tears of Metal</em>, les joueurs taillent leur chemin à travers des hordes d'ennemis pour reconquérir leur île avec l'aide d'un bataillon écossais. Le jeu propose :</p><ul><li>Plus d'une centaine d'artefacts pour créer des builds uniques et dévastateurs</li><li>Plusieurs héros jouables et des soldats à recruter et améliorer</li><li>Plus de 45 environnements artisanaux avec une rejouabilité infinie</li><li>Un campement à développer entre les missions</li></ul><p>La sortie officielle de <a href="https://store.steampowered.com/app/1913120/Tears_of_Metal/" target="_blank">Tears of Metal</a> est prévue pour plus tard cette année.</p>`},
+{id:20,title:"Ressources inhumaines : un thriller littéraire intéractif",label:"Jeu indépendant",date:"12 avril 2025",author:"Mario J. Ramos",img:"https://videoludique.ca/wp-content/uploads/2025/04/jeu_ressourcesinhumaines_fr.png",tags:["ressources inhumaines","affordance studio","éditions alto","narratif","montréal"],body:`<p><em>Images gracieuseté de l'Indie Asylum</em></p><p><strong><a href="https://store.steampowered.com/app/3379360/Inhuman_Resources_A_Literary_Machination/" target="_blank"><em>Ressources inhumaines</em></a> est une création conjointe du développeur montréalais <a href="https://affordancestudio.com/" target="_blank">Affordance Studio</a>, de la maison d'édition <a href="https://editionsalto.com/" target="_blank">Éditions Alto</a> et <a href="https://www.finneganmotors.com/fr" target="_blank">Moteurs Finnegan</a>. Ce titre combine les codes du jeu vidéo et du livre pour une expérience immersive où les décisions du joueur façonnent le récit.</strong></p><p>Thriller interactif mêlant satire anticapitaliste et horreur psychologique, <em>Ressources inhumaines</em> plonge le joueur dans la peau d'un nouvel employé de SMYRNACORP, dont les activités se révèlent de plus en plus sinistres.</p><blockquote><p>« Comme dans des séries telles que Lost ou Severance, on y obtient des réponses à nos questions, mais davantage de questions surgissent invariablement par la suite. »</p><strong>– Antoine Tanguay, fondateur des Éditions Alto</strong></blockquote><blockquote><p>« Les gens ont soif pour un tel jeu, où leurs décisions auront un véritable impact et où l'intrigue persiste jusqu'à la fin. »</p><strong>– Pascal Nataf, cofondateur d'Affordance Studio</strong></blockquote><img src="https://videoludique.ca/wp-content/uploads/2025/04/phys_inventory.png" alt="" loading="lazy"><p>Le jeu se contrôle avec seulement deux doigts, sur PC ou mobile. <em>Ressources inhumaines</em> est disponible sur <a href="https://store.steampowered.com/app/3379360/Inhuman_Resources_A_Literary_Machination/" target="_blank">Steam</a> à 14,99 $ et sur <a href="https://apps.apple.com/us/app/inhuman-resources/id6741593429" target="_blank">iOS</a>/Android à 7,99 $.</p><img src="https://videoludique.ca/wp-content/uploads/2025/04/stat_choice.png" alt="" loading="lazy">`},
+{id:21,title:"Après les Tortues Ninjas, le studio québécois Tribute s'attaque à Marvel",label:"Aperçu",date:"27 mars 2025",author:"Mario J. Ramos",img:"https://videoludique.ca/wp-content/uploads/2025/03/unnamed-1.png",tags:["tribute games","marvel","marvel cosmic invasion","dotemu","beat'em up","montréal"],body:`<p><em>Images gracieuseté de Tribute Games</em></p><p><strong>C'est durant le Nintendo Direct qu'a été dévoilé <a href="https://store.steampowered.com/app/2753970/MARVEL_Cosmic_Invasion/" target="_blank">Marvel Cosmic Invasion</a>, un jeu beat'em up à saveur rétro édité par <a href="https://www.dotemu.com/" target="_blank">Dotemu</a> et développé par <a href="https://tributegames.com/" target="_blank">Tribute Games</a>.</strong></p><p>Après le succès de TMNT: Shredder's Revenge, Tribute Games nous propose le même genre dans l'univers de Marvel, à la sauce rétro qui est leur marque de commerce.</p><p>Personnages jouables confirmés : <strong>Captain America, Wolverine, Spider-Man, Storm, Phyla-Vell, Venom</strong> et <strong>Nova.</strong></p><p>Dans <strong>MARVEL Cosmic Invasion</strong>, le super vilain Annihilus lance une attaque sur toute la galaxie. Les plus grands super-héros doivent unir leurs forces pour une aventure stellaire.</p><img src="https://videoludique.ca/wp-content/uploads/2025/03/unnamed-5.png" alt="" loading="lazy"><p>La mécanique <em>Cosmic Swap</em> permet d'alterner entre deux personnages en plein combat. Coopération jusqu'à 4 joueurs en local ou en ligne, avec crossplay.</p><blockquote><p>« Nous sommes profondément honorés de travailler sur MARVEL Cosmic Invasion. Ce projet nous permet de rendre hommage aux personnages emblématiques de MARVEL, mais aussi aux grands classiques des jeux d'arcade qui ont façonné notre amour pour le jeu vidéo. »</p><strong>– Jean-François Major, PDG et co-fondateur de Tribute Games</strong></blockquote><img src="https://videoludique.ca/wp-content/uploads/2025/03/unnamed-3.png" alt="" loading="lazy"><p>Marvel Cosmic Invasion est prévu pour une sortie sur PC et consoles en 2025.</p>`}
+];
+
+const PER_PAGE=6;
+let currentPage=1;
+
+function renderArticles(page){
+  const grid=document.getElementById('article-grid');
+  const slice=ARTICLES.slice((page-1)*PER_PAGE,page*PER_PAGE);
+  grid.innerHTML=slice.map(a=>`<div class="article-card" onclick="openArticle(${a.id})">
+    <div class="card-img"><img src="${a.img}" alt="" loading="lazy"></div>
+    <div class="card-body">
+      <span class="article-label" style="font-size:9px">${a.label}</span>
+      <div class="card-title">${a.title}</div>
+      <div class="article-meta"><span>${a.date}</span><span class="meta-dot">·</span><span>${a.author}</span></div>
+      <span class="read-more">Lire l'article</span>
+    </div></div>`).join('');
+  renderPagination(page);
+}
+
+function renderPagination(page){
+  const total=Math.ceil(ARTICLES.length/PER_PAGE);
+  const pag=document.getElementById('pagination');
+  let h='';
+  if(page>1)h+=`<button class="pag-arrow" onclick="changePage(${page-1})">← Préc.</button>`;
+  for(let i=1;i<=total;i++){
+    if(i===page)h+=`<button class="current">${i}</button>`;
+    else if(i===1||i===total||Math.abs(i-page)<=1)h+=`<button onclick="changePage(${i})">${i}</button>`;
+    else if(Math.abs(i-page)===2)h+=`<button disabled style="border:none;background:none;color:var(--ink-muted)">…</button>`;
+  }
+  if(page<total)h+=`<button class="pag-arrow" onclick="changePage(${page+1})">Suiv. →</button>`;
+  pag.innerHTML=h;
+}
+
+function changePage(p){
+  currentPage=p;
+  renderArticles(p);
+  document.getElementById('articles-layout').scrollIntoView({behavior:'smooth',block:'start'});
+}
+
+function openArticle(id){
+  const a=ARTICLES[id];
+  const prev=ARTICLES[id-1];
+  const next=ARTICLES[id+1];
+  const nav=`<div class="article-nav">
+    ${prev?`<div class="article-nav-item" onclick="openArticle(${prev.id})"><div class="nav-direction">← Article précédent</div><h4>${prev.title}</h4></div>`:'<div></div>'}
+    ${next?`<div class="article-nav-item" style="text-align:right" onclick="openArticle(${next.id})"><div class="nav-direction">Article suivant →</div><h4>${next.title}</h4></div>`:'<div></div>'}
+  </div>`;
+  document.getElementById('article-content').innerHTML=`
+    <div class="article-breadcrumb">
+      <span onclick="showPage('home')">Accueil</span><i>/</i>
+      <span style="color:var(--red)">${a.label}</span>
+    </div>
+    <img class="article-hero-img" src="${a.img}" alt="${a.title}" loading="lazy">
+    <h1 class="article-headline">${a.title}</h1>
+    <div class="article-byline">
+      <div class="byline-avatar">${a.author==='Andy Dupere'?'AD':'MR'}</div>
+      <div><span class="byline-name">${a.author}</span><span class="byline-date">${a.date}</span></div>
+    </div>
+    <div class="article-body">${a.body}</div>
+    <div class="article-tags">${a.tags.map(t=>`<span class="article-tag">${t}</span>`).join('')}</div>
+    ${nav}`;
+  document.getElementById('article-sidebar').innerHTML=SIDEBAR_HTML;
+  showPage('article');
+}
+
+function showPage(name){
+  ['home','article','about'].forEach(p=>{document.getElementById('page-'+p).classList.remove('active');});
+  document.getElementById('page-'+name).classList.add('active');
+  ['home','about'].forEach(p=>{const b=document.getElementById('nav-'+p);if(b)b.classList.remove('active');});
+  const b=document.getElementById('nav-'+name);if(b)b.classList.add('active');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+document.getElementById('home-sidebar').innerHTML=SIDEBAR_HTML;
+renderArticles(1);
+</script>
+</body>
+</html>
