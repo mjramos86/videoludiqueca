@@ -1,0 +1,60 @@
+name: Build & deploy to GitHub Pages
+
+# Fetches the latest content from videoludique.ca (WordPress REST API),
+# generates the static site, downloads the media, and deploys to GitHub Pages
+# on the videoludique.ca custom domain.
+
+on:
+  push:
+    branches: [ main, claude/videoludique-wordpress-migration-rrwn74 ]
+  workflow_dispatch:      # run manually from the Actions tab
+  schedule:
+    - cron: '0 8 * * 1'   # weekly re-sync (Mondays 08:00 UTC) — optional
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch all content from WordPress
+        run: python3 fetch_content.py
+
+      - name: Generate static site
+        run: python3 build.py
+
+      - name: Download media (images)
+        run: bash scripts/download_media.sh
+        continue-on-error: true   # never block deploy on a few missing images
+
+      - name: Assemble _site
+        run: |
+          mkdir -p _site
+          rsync -a \
+            --exclude='.git' --exclude='.github' --exclude='_source' \
+            --exclude='__pycache__' --exclude='*.py' --exclude='scripts' \
+            --exclude='README.md' --exclude='_site' \
+            ./ _site/
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

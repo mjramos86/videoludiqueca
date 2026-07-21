@@ -1,0 +1,9 @@
+[
+{"id":1519500,"name":"Aperçu","slug":"apercu","description":"","parent":0,"count":73},
+{"id":26167,"name":"Actualité","slug":"actualite","description":"","parent":0,"count":66},
+{"id":64088,"name":"Chronique","slug":"chronique","description":"","parent":0,"count":26},
+{"id":1080,"name":"Critique","slug":"critique","description":"","parent":0,"count":14},
+{"id":778539668,"name":"Non-Quebec","slug":"non-quebec","description":"Articles et critiques de jeux qui ne concernent pas des studios québécois","parent":0,"count":5},
+{"id":131972,"name":"Concours","slug":"concours","description":"","parent":0,"count":1},
+{"id":1,"name":"Uncategorized","slug":"uncategorized","description":"","parent":0,"count":0}
+]
