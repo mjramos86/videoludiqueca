@@ -26,11 +26,19 @@ import json
 import os
 import re
 import shutil
+import unicodedata
 from datetime import datetime
+
+import cms  # dependency-free front-matter + Markdown loader for Pages CMS content
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(ROOT, "_source")
+CONTENT = os.path.join(ROOT, "content")  # articles/authors authored via Pages CMS
 OUT = ROOT  # emit at repo root (GitHub Pages serves from here)
+
+# Byline used for the ~181 posts imported from WordPress (a single-author blog).
+# New CMS articles carry their own `author` (a slug into content/authors/).
+DEFAULT_AUTHOR_SLUG = "mario-j-ramos"
 
 SITE_TITLE = "VIDÉOLUDIQUE.CA"
 SITE_TAGLINE = "Un blogue sur l’industrie du jeu vidéo québécoise par Mario J. Ramos"
@@ -267,15 +275,13 @@ document.querySelector('.nav-toggle').addEventListener('click', function(){{
 # ---------------------------------------------------------------------------
 def card(p):
     href = post_path(p)
-    fimg = media_url(p.get("featured_media", 0))
-    m = MEDIA.get(p.get("featured_media", 0)) or {}
-    alt = attr(decode(m.get("alt") or p["title"]))
+    fimg = p["_featured"]
     thumb = (f'<a class="card-media" href="{href}">'
-             f'<img src="{fimg}" alt="{alt}" loading="lazy" width="{m.get("w",0) or 800}" height="{m.get("h",0) or 450}"></a>'
+             f'<img src="{fimg}" alt="{p["_falt"]}" loading="lazy" width="{p["_fw"] or 800}" height="{p["_fh"] or 450}"></a>'
              ) if fimg else ""
     cat = ""
-    if p.get("categories"):
-        c = CAT.get(p["categories"][0])
+    if p["_cats"]:
+        c = CAT.get(p["_cats"][0])
         if c:
             cat = f'<a class="card-cat" href="/category/{c["slug"]}/">{decode(c["name"])}</a>'
     excerpt = rewrite_html(p.get("excerpt", ""))
@@ -316,9 +322,127 @@ def pagination_nav(base, pg, total):
     return "".join(parts)
 
 # ---------------------------------------------------------------------------
-# build: sort posts, load bodies
+# authors + CMS content (Pages CMS -> content/) merged with the WordPress import
+#
+# WordPress posts key their categories/tags by numeric id; CMS articles pick a
+# category slug and free-text tags. To let one set of builders serve both, every
+# post gets normalized `_cats` / `_tags` (numeric ids into CAT/TAG) plus a
+# resolved `_author`, `_featured` image and `_body` HTML.
 # ---------------------------------------------------------------------------
-posts = sorted(posts_meta, key=lambda p: p["date"], reverse=True)
+def slugify(s):
+    s = decode(s).lower().replace("æ", "ae").replace("œ", "oe")
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
+    s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+    return s or "n-a"
+
+def norm_date(v):
+    v = (str(v) if v is not None else "").strip().replace("Z", "")
+    if " " in v and "T" not in v:
+        v = v.replace(" ", "T", 1)
+    try:
+        datetime.fromisoformat(v)
+        return v
+    except ValueError:
+        return datetime.now().isoformat(timespec="seconds")
+
+# author profiles ------------------------------------------------------------
+AUTHORS = {}
+for _fslug, _meta, _bio in cms.discover(os.path.join(CONTENT, "authors")):
+    _slug = (_meta.get("slug") or _fslug).strip()
+    AUTHORS[_slug] = {
+        "slug": _slug,
+        "name": _meta.get("name") or _slug,
+        "role": _meta.get("role") or "",
+        "email": _meta.get("email") or "",
+        "website": _meta.get("website") or "",
+        "photo": (_meta.get("photo") or "").strip(),
+        "social": [s for s in (_meta.get("social") or [])
+                   if isinstance(s, dict) and s.get("url")],
+        "bio": cms.md_to_html(_bio),
+    }
+# The primary byline must always resolve, even before its profile is authored.
+AUTHORS.setdefault(DEFAULT_AUTHOR_SLUG, {
+    "slug": DEFAULT_AUTHOR_SLUG, "name": AUTHOR, "role": "", "social": [],
+    "email": "info@mariojramos.com", "website": "https://mariojramos.com",
+    "photo": "/assets/mario-j-ramos.jpg", "bio": "",
+})
+
+# taxonomy lookups + on-the-fly creation for CMS-only categories/tags ---------
+CAT_BY_SLUG = {c["slug"]: c["id"] for c in cats}
+TAG_BY_SLUG = {t["slug"]: t["id"] for t in tags}
+_synth_id = [-1]  # negative ids never collide with WordPress' positive ones
+
+def ensure_cat(label):
+    slug = slugify(label)
+    if slug in CAT_BY_SLUG:
+        return CAT_BY_SLUG[slug]
+    cid = _synth_id[0]; _synth_id[0] -= 1
+    c = {"id": cid, "name": label, "slug": slug, "description": "", "count": 0}
+    cats.append(c); CAT[cid] = c; CAT_BY_SLUG[slug] = cid
+    return cid
+
+def ensure_tag(label):
+    slug = slugify(label)
+    if slug in TAG_BY_SLUG:
+        return TAG_BY_SLUG[slug]
+    tid = _synth_id[0]; _synth_id[0] -= 1
+    t = {"id": tid, "name": label, "slug": slug, "count": 0}
+    tags.append(t); TAG[tid] = t; TAG_BY_SLUG[slug] = tid
+    return tid
+
+def _excerpt_from(html_body):
+    words = strip_tags(html_body).split()
+    text = " ".join(words[:55])
+    if not text:
+        return ""
+    return f"<p>{htmllib.escape(text)}{'…' if len(words) > 55 else ''}</p>"
+
+def _norm_imported(p):
+    m = MEDIA.get(p.get("featured_media", 0)) or {}
+    p["_cms"] = False
+    p["_draft"] = False
+    p["_author"] = DEFAULT_AUTHOR_SLUG
+    p["_cats"] = [c for c in p.get("categories", []) if c in CAT]
+    p["_tags"] = [t for t in p.get("tags", []) if t in TAG]
+    p["_featured"] = media_url(p.get("featured_media", 0))
+    p["_falt"] = attr(decode(m.get("alt") or p["title"]))
+    p["_fw"], p["_fh"] = m.get("w", 0) or 0, m.get("h", 0) or 0
+    p["_body"] = None  # loaded lazily from _source/posts/<id>.html
+    return p
+
+def _load_cms_articles():
+    out = []
+    for fslug, meta, body in cms.discover(os.path.join(CONTENT, "articles")):
+        if not meta.get("title"):
+            continue
+        slug = (meta.get("slug") or fslug).strip()
+        title = htmllib.escape(str(meta.get("title")), quote=False)
+        html_body = rewrite_html(cms.md_to_html(body))
+        cat_ids = [ensure_cat(meta["category"])] if meta.get("category") else []
+        tag_ids = [ensure_tag(t) for t in (meta.get("tags") or []) if str(t).strip()]
+        excerpt = (meta.get("excerpt") or "").strip()
+        excerpt_html = (f"<p>{htmllib.escape(excerpt)}</p>" if excerpt
+                        else _excerpt_from(html_body))
+        author = (meta.get("author") or DEFAULT_AUTHOR_SLUG).strip()
+        img = (meta.get("image") or "").strip()
+        out.append({
+            "id": f"cms-{slug}", "slug": slug, "date": norm_date(meta.get("date")),
+            "title": title, "excerpt": excerpt_html,
+            "categories": cat_ids, "tags": tag_ids, "featured_media": 0,
+            "_cms": True, "_draft": bool(meta.get("draft")),
+            "_author": author if author in AUTHORS else DEFAULT_AUTHOR_SLUG,
+            "_cats": cat_ids, "_tags": tag_ids,
+            "_featured": img or None, "_falt": attr(decode(title)),
+            "_fw": 1200, "_fh": 675, "_body": html_body,
+        })
+    return out
+
+# ---------------------------------------------------------------------------
+# build: normalize, merge, drop drafts, sort newest-first, load bodies
+# ---------------------------------------------------------------------------
+_all = [_norm_imported(dict(p)) for p in posts_meta] + _load_cms_articles()
+posts = sorted((p for p in _all if not p["_draft"]),
+               key=lambda p: p["date"], reverse=True)
 
 def body_fragment(pid):
     fp = os.path.join(SRC, "posts", f"{pid}.html")
@@ -327,31 +451,33 @@ def body_fragment(pid):
             return f.read()
     return None
 
-missing = [p["id"] for p in posts if body_fragment(p["id"]) is None]
+missing = [p["id"] for p in posts if not p["_cms"] and body_fragment(p["id"]) is None]
 
 # ---------------------------------------------------------------------------
 # single posts
 # ---------------------------------------------------------------------------
 def render_post(p, idx):
     href = post_path(p)
-    raw = body_fragment(p["id"])
-    if raw is None:
-        return  # body not fetched yet
-    content = rewrite_html(raw)
-    fimg = media_url(p.get("featured_media", 0))
-    m = MEDIA.get(p.get("featured_media", 0)) or {}
+    if p["_cms"]:
+        content = p["_body"]
+    else:
+        raw = body_fragment(p["id"])
+        if raw is None:
+            return  # body not fetched yet
+        content = rewrite_html(raw)
+    fimg = p["_featured"]
     hero = ""
     if fimg:
         hero = (f'<figure class="post-hero"><img src="{fimg}" '
-                f'alt="{attr(decode(m.get("alt") or p["title"]))}" '
-                f'width="{m.get("w",0) or 1200}" height="{m.get("h",0) or 675}"></figure>')
+                f'alt="{p["_falt"]}" '
+                f'width="{p["_fw"] or 1200}" height="{p["_fh"] or 675}"></figure>')
     # category + tags
     catlinks = " ".join(
         f'<a class="chip cat" href="/category/{CAT[c]["slug"]}/">{decode(CAT[c]["name"])}</a>'
-        for c in p.get("categories", []) if c in CAT)
+        for c in p["_cats"] if c in CAT)
     taglinks = " ".join(
         f'<a class="chip" href="/tag/{TAG[t]["slug"]}/">{decode(TAG[t]["name"])}</a>'
-        for t in p.get("tags", []) if t in TAG)
+        for t in p["_tags"] if t in TAG)
     tags_block = f'<div class="post-tags"><span class="tags-label">Étiquettes :</span> {taglinks}</div>' if taglinks else ""
     # prev (older) / next (newer)
     nav = []
@@ -364,13 +490,16 @@ def render_post(p, idx):
     postnav = f'<nav class="post-nav">{"".join(nav)}</nav>' if nav else ""
     desc = decode(p.get("excerpt", "")) or SITE_DESC
     y, mo, d = ymd(p["date"])
+    author = AUTHORS.get(p["_author"]) or AUTHORS[DEFAULT_AUTHOR_SLUG]
+    byline = (f'Par <a class="author-link" href="/auteur/{author["slug"]}/" '
+              f'rel="author">{decode(author["name"])}</a>')
     body = f"""<article class="post">
   <div class="wrap">
     <div class="post-head">
       <div class="post-crumbs">{catlinks}</div>
       <h1 class="post-title">{p['title']}</h1>
       <div class="post-meta">
-        <span class="by">Par {AUTHOR}</span>
+        <span class="by">{byline}</span>
         <time datetime="{p['date']}"><a href="/{y}/{mo}/{d}/">{fr_date(p['date'])}</a></time>
       </div>
     </div>
@@ -383,7 +512,8 @@ def render_post(p, idx):
     schema = json.dumps({
         "@context": "https://schema.org", "@type": "NewsArticle",
         "headline": decode(p["title"]), "datePublished": p["date"],
-        "author": {"@type": "Person", "name": AUTHOR},
+        "author": {"@type": "Person", "name": decode(author["name"]),
+                   "url": f'{SITE_URL}/auteur/{author["slug"]}/'},
         "publisher": {"@type": "Organization", "name": SITE_TITLE},
         "mainEntityOfPage": SITE_URL + href,
         **({"image": SITE_URL + fimg} if fimg else {}),
@@ -421,7 +551,7 @@ def build_home():
 
 def build_category(c):
     cid = c["id"]
-    items = [p for p in posts if cid in p.get("categories", [])]
+    items = [p for p in posts if cid in p["_cats"]]
     if not items:
         return
     base = f'/category/{c["slug"]}/'
@@ -437,7 +567,7 @@ def build_category(c):
 
 def build_tag(t):
     tid = t["id"]
-    items = [p for p in posts if tid in p.get("tags", [])]
+    items = [p for p in posts if tid in p["_tags"]]
     if not items:
         return
     base = f'/tag/{t["slug"]}/'
@@ -449,6 +579,55 @@ def build_tag(t):
         write(path, page_shell(f'{decode(t["name"])} — Étiquette',
                                f'<div class="wrap">{body}</div>', canonical=path,
                                description=f'Articles avec l’étiquette « {decode(t["name"])} » sur Vidéoludique.ca.'))
+
+# ---------------------------------------------------------------------------
+# author archives  (/auteur/<slug>/)  — WordPress-style author pages
+# ---------------------------------------------------------------------------
+def author_profile_html(a):
+    photo = (f'<figure class="author-photo"><img src="{a["photo"]}" '
+             f'alt="Portrait de {attr(decode(a["name"]))}" width="480" height="480"></figure>'
+             ) if a["photo"] else ""
+    role = f'<p class="author-role">{decode(a["role"])}</p>' if a["role"] else ""
+    bio = f'<div class="author-bio">{a["bio"]}</div>' if a["bio"] else ""
+    social = ""
+    if a["social"]:
+        links = "".join(
+            f'<a href="{s["url"]}" rel="noopener" target="_blank">{decode(s.get("network","Lien"))}</a>'
+            for s in a["social"])
+        social = f'<div class="author-social">{links}</div>'
+    btns = []
+    if a["email"]:
+        btns.append(f'<a class="btn" href="mailto:{a["email"]}">Me contacter</a>')
+    if a["website"]:
+        btns.append(f'<a class="btn btn-ghost" href="{a["website"]}" rel="noopener" target="_blank">Site web</a>')
+    actions = f'<div class="author-actions">{"".join(btns)}</div>' if btns else ""
+    return (f'<header class="author-hero">{photo}'
+            f'<div class="author-heading"><span class="kicker">Auteur</span>'
+            f'<h1 class="author-name">{decode(a["name"])}</h1>'
+            f'{role}{bio}{social}{actions}</div></header>')
+
+def build_author(a):
+    items = [p for p in posts if p["_author"] == a["slug"]]
+    base = f'/auteur/{a["slug"]}/'
+    profile = author_profile_html(a)
+    desc = f'Articles signés {decode(a["name"])} sur Vidéoludique.ca.'
+    og = a["photo"] or None
+    if not items:
+        body = f'{profile}<p class="count">Aucun article pour le moment.</p>'
+        write(base, page_shell(f'{decode(a["name"])} — Auteur',
+                               f'<div class="wrap">{body}</div>', canonical=base,
+                               description=desc, og_image=og, og_type="profile"))
+        return
+    def intro(pg):
+        head = profile if pg == 1 else (
+            f'<div class="archive-head"><span class="kicker">Auteur</span>'
+            f'<h1>{decode(a["name"])} — page {pg}</h1></div>')
+        return (f'{head}<p class="count">{len(items)} '
+                f'article{"s" if len(items) > 1 else ""}</p>')
+    for path, body, pg, total in paginate(items, base, intro):
+        write(path, page_shell(f'{decode(a["name"])} — Auteur',
+                               f'<div class="wrap">{body}</div>', canonical=path,
+                               description=desc, og_image=og, og_type="profile"))
 
 def build_date_archives():
     years = {}
@@ -608,7 +787,7 @@ def build_feed():
         pub = d.strftime("%a, %d %b %Y %H:%M:%S +0000")
         desc = decode(p.get("excerpt", ""))
         cats = "".join(f"<category>{htmllib.escape(decode(CAT[c]['name']))}</category>"
-                       for c in p.get("categories", []) if c in CAT)
+                       for c in p["_cats"] if c in CAT)
         items.append(f"""  <item>
     <title>{htmllib.escape(decode(p['title']))}</title>
     <link>{link}</link>
@@ -635,8 +814,10 @@ def build_feed():
 def build_sitemap():
     urls = ["/", "/a-propos/"]
     urls += [post_path(p) for p in posts]
-    urls += [f'/category/{c["slug"]}/' for c in cats if any(c["id"] in p.get("categories",[]) for p in posts)]
-    urls += [f'/tag/{t["slug"]}/' for t in tags]
+    urls += [f'/category/{c["slug"]}/' for c in cats if any(c["id"] in p["_cats"] for p in posts)]
+    urls += [f'/tag/{t["slug"]}/' for t in tags if any(t["id"] in p["_tags"] for p in posts)]
+    urls += [f'/auteur/{a["slug"]}/' for a in AUTHORS.values()
+             if any(p["_author"] == a["slug"] for p in posts)]
     seen = set()
     body = []
     for u in urls:
@@ -672,12 +853,15 @@ def main():
         build_category(c)
     for t in tags:
         build_tag(t)
+    for a in AUTHORS.values():
+        build_author(a)
     build_date_archives()
     build_feed()
     build_sitemap()
     build_404()
     n = write_media_manifest()
-    print(f"posts={len(posts)} bodies_missing={len(missing)} media_paths={n}")
+    print(f"posts={len(posts)} authors={len(AUTHORS)} "
+          f"bodies_missing={len(missing)} media_paths={n}")
     if missing:
         print("MISSING BODIES:", missing[:20], "..." if len(missing) > 20 else "")
 
