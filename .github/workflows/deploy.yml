@@ -35,6 +35,8 @@ jobs:
 
       - name: Fetch all content from WordPress
         run: python3 fetch_content.py
+        continue-on-error: true   # site content is committed in _source/; a dead/moved
+                                  # WordPress API must never block the deploy
 
       - name: Generate static site
         run: python3 build.py
