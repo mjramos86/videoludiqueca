@@ -118,6 +118,49 @@ a:hover{text-decoration:underline}
 .post-nav .pn strong{display:block;color:var(--ink);margin-top:6px;font-size:.98rem;line-height:1.25}
 .post-nav .pn.next{text-align:right}
 
+/* about / profile page */
+.about{padding:14px 0 40px}
+.about .wrap{max-width:980px}
+.about-hero{display:grid;grid-template-columns:290px 1fr;gap:44px;align-items:center;
+  background:linear-gradient(180deg,#fffdf8,var(--surface));border:1px solid var(--line);
+  border-radius:calc(var(--radius) + 4px);box-shadow:var(--shadow);padding:34px;margin:26px 0 8px}
+.about-photo{margin:0;position:relative}
+.about-photo img{width:100%;border-radius:var(--radius);box-shadow:0 12px 34px rgba(80,21,17,.18);
+  border:1px solid var(--line)}
+.about-heading .kicker{display:block}
+.about-name{font-size:clamp(2rem,5vw,2.9rem);line-height:1.04;letter-spacing:-.015em;margin:.12em 0 .12em}
+.about-role{color:var(--accent);font-weight:700;font-size:1.02rem;margin:0 0 .75em}
+.about-lede{color:#4a3e37;font-size:1.1rem;line-height:1.55;margin:0 0 1.15em;max-width:52ch}
+.about-lede sup{font-size:.7em}
+.about-heading .wp-block-social-links{margin:0 0 1.25em}
+.about-actions{display:flex;gap:12px;flex-wrap:wrap}
+.about-actions .btn{margin-top:0}
+.btn-ghost{background:transparent;color:var(--primary);border:1.5px solid var(--primary)}
+.btn-ghost:hover{background:var(--primary);color:#fff}
+
+.about-section-title{font-size:clamp(1.4rem,3.2vw,1.85rem);color:var(--primary);line-height:1.15;
+  margin:0 0 .1em;padding-bottom:10px;position:relative}
+.about-section-title::after{content:"";display:block;width:52px;height:3px;border-radius:3px;
+  background:var(--accent);margin-top:12px}
+.about-body{margin-top:44px;font-size:1.08rem}
+.about-body p:first-of-type{margin-top:1.1em}
+
+.about-network{margin-top:48px}
+.about-network-intro{color:var(--muted);margin:.6em 0 1.6em;font-size:1rem}
+.net-group{margin:0 0 30px}
+.net-group:last-child{margin-bottom:0}
+.net-group-title{font-size:.76rem;text-transform:uppercase;letter-spacing:.09em;color:var(--accent);
+  font-weight:700;margin:0 0 14px}
+.net-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.net-card{display:flex;flex-direction:column;gap:6px;background:var(--surface);border:1px solid var(--line);
+  border-radius:var(--radius);padding:16px 18px;box-shadow:var(--shadow);
+  transition:transform .15s ease,box-shadow .15s ease,border-color .15s ease}
+.net-card:hover{transform:translateY(-2px);border-color:var(--primary);
+  box-shadow:0 10px 28px rgba(80,21,17,.12);text-decoration:none}
+.net-name{font-weight:700;color:var(--ink);font-size:1rem;line-height:1.25}
+.net-card:hover .net-name{color:var(--primary)}
+.net-desc{color:var(--muted);font-size:.9rem;line-height:1.5}
+
 /* social links (about page uses wp-block-social too) */
 .wp-block-social-links{display:flex;gap:12px;list-style:none;padding:0;flex-wrap:wrap}
 .wp-block-social-links a{display:inline-flex;width:40px;height:40px;align-items:center;justify-content:center;background:var(--primary);border-radius:999px}
@@ -157,4 +200,13 @@ a:hover{text-decoration:underline}
   .post-nav{grid-template-columns:1fr}
   .post-nav .pn.next{text-align:left}
   .brand-tag{display:none}
+  .about-hero{grid-template-columns:1fr;gap:24px;text-align:center;padding:26px 22px}
+  .about-photo{max-width:230px;margin:0 auto}
+  .about-lede{margin-left:auto;margin-right:auto}
+  .about-heading .wp-block-social-links,.about-actions{justify-content:center}
+  .about-section-title::after{margin-left:auto;margin-right:auto}
+  .net-grid{grid-template-columns:1fr}
+}
+@media(max-width:980px) and (min-width:721px){
+  .about-hero{grid-template-columns:250px 1fr;gap:32px;padding:28px}
 }

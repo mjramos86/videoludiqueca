@@ -471,21 +471,134 @@ def build_date_archives():
         for path, body, pg, total in paginate(items, base, intro):
             write(path, page_shell(f'Archives — {label}', f'<div class="wrap">{body}</div>', canonical=path))
 
+# about-page profile data (curated) -----------------------------------------
+ABOUT_PHOTO = "/assets/mario-j-ramos.jpg"
+ABOUT_LEDE = ("Scénariste et réalisateur primé devenu journaliste vidéoludique, "
+              "je couvre depuis dix ans l’industrie du jeu vidéo au Québec — "
+              "le 5<sup>e</sup> pôle mondial du secteur.")
+
+# social links with inline SVG glyphs (name, url, viewBox, path)
+ABOUT_SOCIAL = [
+    ("Facebook", "https://www.facebook.com/mjramos/", "0 0 24 24",
+     '<path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"></path>'),
+    ("YouTube", "https://www.youtube.com/channel/UCFnn-dqTDyxCleyWcXxkS9w", "0 0 24 24",
+     '<path d="M21.8,8.001c0,0-0.195-1.378-0.795-1.985c-0.76-0.797-1.613-0.801-2.004-0.847c-2.799-0.202-6.997-0.202-6.997-0.202 h-0.009c0,0-4.198,0-6.997,0.202C4.608,5.216,3.756,5.22,2.995,6.016C2.395,6.623,2.2,8.001,2.2,8.001S2,9.62,2,11.238v1.517 c0,1.618,0.2,3.237,0.2,3.237s0.195,1.378,0.795,1.985c0.761,0.797,1.76,0.771,2.205,0.855c1.6,0.153,6.8,0.201,6.8,0.201 s4.203-0.006,7.001-0.209c0.391-0.047,1.243-0.051,2.004-0.847c0.6-0.607,0.795-1.985,0.795-1.985s0.2-1.618,0.2-3.237v-1.517 C22,9.62,21.8,8.001,21.8,8.001z M9.935,14.594l-0.001-5.62l5.404,2.82L9.935,14.594z"></path>'),
+    ("Instagram", "https://www.instagram.com/mariojorge.ramos/", "0 0 24 24",
+     '<path d="M12,4.622c2.403,0,2.688,0.009,3.637,0.052c0.877,0.04,1.354,0.187,1.671,0.31c0.42,0.163,0.72,0.358,1.035,0.673 c0.315,0.315,0.51,0.615,0.673,1.035c0.123,0.317,0.27,0.794,0.31,1.671c0.043,0.949,0.052,1.234,0.052,3.637 s-0.009,2.688-0.052,3.637c-0.04,0.877-0.187,1.354-0.31,1.671c-0.163,0.42-0.358,0.72-0.673,1.035 c-0.315,0.315-0.615,0.51-1.035,0.673c-0.317,0.123-0.794,0.27-1.671,0.31c-0.949,0.043-1.233,0.052-3.637,0.052 s-2.688-0.009-3.637-0.052c-0.877-0.04-1.354-0.187-1.671-0.31c-0.42-0.163-0.72-0.358-1.035-0.673 c-0.315-0.315-0.51-0.615-0.673-1.035c-0.123-0.317-0.27-0.794-0.31-1.671C4.631,14.688,4.622,14.403,4.622,12 s0.009-2.688,0.052-3.637c0.04-0.877,0.187-1.354,0.31-1.671c0.163-0.42,0.358-0.72,0.673-1.035 c0.315-0.315,0.615-0.51,1.035-0.673c0.317-0.123,0.794-0.27,1.671-0.31C9.312,4.631,9.597,4.622,12,4.622 M12,3 C9.556,3,9.249,3.01,8.289,3.054C7.331,3.098,6.677,3.25,6.105,3.472C5.513,3.702,5.011,4.01,4.511,4.511 c-0.5,0.5-0.808,1.002-1.038,1.594C3.25,6.677,3.098,7.331,3.054,8.289C3.01,9.249,3,9.556,3,12c0,2.444,0.01,2.751,0.054,3.711 c0.044,0.958,0.196,1.612,0.418,2.185c0.23,0.592,0.538,1.094,1.038,1.594c0.5,0.5,1.002,0.808,1.594,1.038 c0.572,0.222,1.227,0.375,2.185,0.418C9.249,20.99,9.556,21,12,21s2.751-0.01,3.711-0.054c0.958-0.044,1.612-0.196,2.185-0.418 c0.592-0.23,1.094-0.538,1.594-1.038c0.5-0.5,0.808-1.002,1.038-1.594c0.222-0.572,0.375-1.227,0.418-2.185 C20.99,14.751,21,14.444,21,12s-0.01-2.751-0.054-3.711c-0.044-0.958-0.196-1.612-0.418-2.185c-0.23-0.592-0.538-1.094-1.038-1.594 c-0.5-0.5-1.002-0.808-1.594-1.038c-0.572-0.222-1.227-0.375-2.185-0.418C14.751,3.01,14.444,3,12,3L12,3z M12,7.378 c-2.552,0-4.622,2.069-4.622,4.622S9.448,16.622,12,16.622s4.622-2.069,4.622-4.622S14.552,7.378,12,7.378z M12,15 c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S13.657,15,12,15z M16.804,6.116c-0.596,0-1.08,0.484-1.08,1.08 s0.484,1.08,1.08,1.08c0.596,0,1.08-0.484,1.08-1.08S17.401,6.116,16.804,6.116z"></path>'),
+    ("TikTok", "https://www.tiktok.com/@marioj.ramos", "0 0 32 32",
+     '<path d="M16.708 0.027c1.745-0.027 3.48-0.011 5.213-0.027 0.105 2.041 0.839 4.12 2.333 5.563 1.491 1.479 3.6 2.156 5.652 2.385v5.369c-1.923-0.063-3.855-0.463-5.6-1.291-0.76-0.344-1.468-0.787-2.161-1.24-0.009 3.896 0.016 7.787-0.025 11.667-0.104 1.864-0.719 3.719-1.803 5.255-1.744 2.557-4.771 4.224-7.88 4.276-1.907 0.109-3.812-0.411-5.437-1.369-2.693-1.588-4.588-4.495-4.864-7.615-0.032-0.667-0.043-1.333-0.016-1.984 0.24-2.537 1.495-4.964 3.443-6.615 2.208-1.923 5.301-2.839 8.197-2.297 0.027 1.975-0.052 3.948-0.052 5.923-1.323-0.428-2.869-0.308-4.025 0.495-0.844 0.547-1.485 1.385-1.819 2.333-0.276 0.676-0.197 1.427-0.181 2.145 0.317 2.188 2.421 4.027 4.667 3.828 1.489-0.016 2.916-0.88 3.692-2.145 0.251-0.443 0.532-0.896 0.547-1.417 0.131-2.385 0.079-4.76 0.095-7.145 0.011-5.375-0.016-10.735 0.025-16.093z" />'),
+    ("Threads", "https://www.threads.net/@mariojorge.ramos", "0 0 24 24",
+     '<path d="M16.3 11.3c-.1 0-.2-.1-.2-.1-.1-2.6-1.5-4-3.9-4-1.4 0-2.6.6-3.3 1.7l1.3.9c.5-.8 1.4-1 2-1 .8 0 1.4.2 1.7.7.3.3.5.8.5 1.3-.7-.1-1.4-.2-2.2-.1-2.2.1-3.7 1.4-3.6 3.2 0 .9.5 1.7 1.3 2.2.7.4 1.5.6 2.4.6 1.2-.1 2.1-.5 2.7-1.3.5-.6.8-1.4.9-2.4.6.3 1 .8 1.2 1.3.4.9.4 2.4-.8 3.6-1.1 1.1-2.3 1.5-4.3 1.5-2.1 0-3.8-.7-4.8-2S5.7 14.3 5.7 12c0-2.3.5-4.1 1.5-5.4 1.1-1.3 2.7-2 4.8-2 2.2 0 3.8.7 4.9 2 .5.7.9 1.5 1.2 2.5l1.5-.4c-.3-1.2-.8-2.2-1.5-3.1-1.3-1.7-3.3-2.6-6-2.6-2.6 0-4.7.9-6 2.6C4.9 7.2 4.3 9.3 4.3 12s.6 4.8 1.9 6.4c1.4 1.7 3.4 2.6 6 2.6 2.3 0 4-.6 5.3-2 1.8-1.8 1.7-4 1.1-5.4-.4-.9-1.2-1.7-2.3-2.3z"/>'),
+]
+
+# curated directory of Québec video-game media / orgs / podcasts
+ABOUT_NETWORK = [
+    ("Communauté", [
+        ("Discord HUB", "https://discord.gg/MUxn4WY4Qx",
+         "Lieu d’échanges et de discussions entre passionnés de jeux vidéo."),
+    ]),
+    ("Médias québécois — nouvelles & critiques", [
+        ("Le Bêta-Testeur", "https://www.lebetatesteur.ca/",
+         "Média indépendant fondé par Patrick Tremblay."),
+        ("Le Salon de Gaming de Monsieur Smith", "https://www.salongaming.ca/",
+         "Steeve Tremblay et ses collaborateurs vous parlent de gaming."),
+        ("Geeks and com", "https://www.geeksandcom.com/",
+         "Média indépendant tenu par Anthony Gravel."),
+        ("M2 Gaming", "https://m2gaming.ca/",
+         "Média indépendant fondé par Marc Desgagnés et Martin Grondin."),
+        ("Pèse sur Start", "https://www.pesesurstart.com/",
+         "Média spécialisé sur les jeux vidéo et la techno de Quebecor."),
+        ("Radio-Canada Techno", "https://ici.radio-canada.ca/techno",
+         "La section jeux vidéo et technologie de Radio-Canada."),
+        ("Blogue de Simon Dor", "https://www.simondor.com/",
+         "Simon Dor est professeur en études du jeu vidéo à l’UQAT."),
+    ]),
+    ("Organismes", [
+        ("La Fondation des Gardiens virtuels", "https://gardiensvirtuels.org/",
+         "OBNL qui œuvre à promouvoir la saine utilisation des plateformes numériques."),
+        ("La Guilde du Jeu vidéo du Québec", "https://www.laguilde.quebec/fr/",
+         "Coopérative à but non lucratif regroupant les développeur.euse.s, créateur.rice.s, "
+         "établissements d’enseignement et entrepreneur.euse.s du jeu vidéo au Québec."),
+    ]),
+    ("Balados", [
+        ("Chez Papa Cassette", "https://baladoquebec.ca/papa-cassette-podcast",
+         "Dominic Bourret et Jean-François Cromp discutent de jeux vidéo rétro."),
+        ("Entre deux parties", "https://baladoquebec.ca/entre-deux-parties",
+         "Game designer et collectionneur, Fred Gémus parle d’actualité vidéoludique "
+         "et de sa passion pour la collection."),
+        ("Équilibre Numérique", "https://baladoquebec.ca/equilibre-numerique",
+         "Balado dont je suis producteur au contenu. Samuel « Son Off Odin » Gignac et "
+         "Éloïse « LaCoiffeuseGeek » Pratte parlent de la relation entre le numérique "
+         "et la santé mentale."),
+    ]),
+]
+
+def about_social_html():
+    items = []
+    for name, url, vb, path in ABOUT_SOCIAL:
+        items.append(
+            f'<li class="wp-social-link wp-block-social-link">'
+            f'<a href="{url}" class="wp-block-social-link-anchor" aria-label="{name}" '
+            f'rel="noopener" target="_blank">'
+            f'<svg width="24" height="24" viewBox="{vb}" xmlns="http://www.w3.org/2000/svg" '
+            f'aria-hidden="true" focusable="false">{path}</svg>'
+            f'<span class="screen-reader-text">{name}</span></a></li>')
+    return ('<ul class="wp-block-social-links is-layout-flex wp-block-social-links-is-layout-flex">'
+            + "".join(items) + '</ul>')
+
+def about_network_html():
+    groups = []
+    for title, cards in ABOUT_NETWORK:
+        items = "".join(
+            f'<a class="net-card" href="{url}" rel="noopener" target="_blank">'
+            f'<span class="net-name">{name}</span>'
+            f'<span class="net-desc">{desc}</span></a>'
+            for name, url, desc in cards)
+        groups.append(
+            f'<div class="net-group"><h3 class="net-group-title">{title}</h3>'
+            f'<div class="net-grid">{items}</div></div>')
+    return "".join(groups)
+
 def build_page_about():
     fp = os.path.join(SRC, "pages", "a-propos.html")
-    if not os.path.exists(fp):
-        return
-    with open(fp, encoding="utf-8") as f:
-        raw = f.read()
-    content = rewrite_html(raw)
-    body = f"""<article class="post page">
+    bio = ""
+    if os.path.exists(fp):
+        with open(fp, encoding="utf-8") as f:
+            bio = rewrite_html(f.read())
+    body = f"""<article class="about">
   <div class="wrap">
-    <div class="post-head"><h1 class="post-title">À propos / contact</h1></div>
-    <div class="post-content">{content}</div>
+    <header class="about-hero">
+      <figure class="about-photo">
+        <img src="{ABOUT_PHOTO}" alt="Portrait de {AUTHOR}" width="1365" height="2048">
+      </figure>
+      <div class="about-heading">
+        <span class="kicker">À propos</span>
+        <h1 class="about-name">{AUTHOR}</h1>
+        <p class="about-role">Fondateur de Vidéoludique.ca · Scénariste et réalisateur</p>
+        <p class="about-lede">{ABOUT_LEDE}</p>
+        {about_social_html()}
+        <div class="about-actions">
+          <a class="btn" href="mailto:info@mariojramos.com">Me contacter</a>
+          <a class="btn btn-ghost" href="https://mariojramos.com/" rel="noopener" target="_blank">Portfolio</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="about-body post-content">
+      <h2 class="about-section-title">Parcours</h2>
+      {bio}
+    </section>
+
+    <section class="about-network">
+      <h2 class="about-section-title">Dans mon réseau</h2>
+      <p class="about-network-intro">Quelques médias, organismes et balados québécois à découvrir.</p>
+      {about_network_html()}
+    </section>
   </div>
 </article>"""
     write("/a-propos/", page_shell("À propos / contact", body, canonical="/a-propos/",
-                                   description="À propos de Vidéoludique.ca et de Mario J. Ramos."))
+                                   description="À propos de Vidéoludique.ca et de Mario J. Ramos.",
+                                   og_image=ABOUT_PHOTO))
 
 def build_feed():
     items = []
