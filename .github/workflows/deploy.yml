@@ -52,6 +52,7 @@ jobs:
             --exclude='.git' --exclude='.github' --exclude='_source' \
             --exclude='__pycache__' --exclude='*.py' --exclude='scripts' \
             --exclude='README.md' --exclude='_site' \
+            --exclude='content' --exclude='.pages.yml' \
             ./ _site/
 
       - uses: actions/configure-pages@v5

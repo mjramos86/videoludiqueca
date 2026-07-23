@@ -138,6 +138,28 @@ a:hover{text-decoration:underline}
 .btn-ghost{background:transparent;color:var(--primary);border:1.5px solid var(--primary)}
 .btn-ghost:hover{background:var(--primary);color:#fff}
 
+/* author archive (/auteur/<slug>/) */
+.author-hero{display:grid;grid-template-columns:200px 1fr;gap:34px;align-items:center;
+  background:linear-gradient(180deg,#fffdf8,var(--surface));border:1px solid var(--line);
+  border-radius:calc(var(--radius) + 4px);box-shadow:var(--shadow);padding:30px;margin:22px 0 26px}
+.author-photo{margin:0}
+.author-photo img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:50%;
+  box-shadow:0 10px 28px rgba(80,21,17,.18);border:1px solid var(--line)}
+.author-heading .kicker{display:block}
+.author-name{font-size:clamp(1.7rem,4.5vw,2.5rem);line-height:1.05;letter-spacing:-.015em;margin:.12em 0 .1em}
+.author-role{color:var(--accent);font-weight:700;margin:0 0 .7em}
+.author-bio{color:#4a3e37;line-height:1.6;margin:0 0 1em;max-width:60ch}
+.author-social{display:flex;flex-wrap:wrap;gap:8px 16px;margin:0 0 1.1em;font-weight:600}
+.author-actions{display:flex;gap:12px;flex-wrap:wrap}
+.author-actions .btn{margin-top:0}
+.author-link{color:inherit;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:2px}
+.author-link:hover{color:var(--accent)}
+@media (max-width:640px){
+  .author-hero{grid-template-columns:1fr;gap:20px;text-align:center;padding:24px 20px}
+  .author-photo{max-width:170px;margin:0 auto}
+  .author-social,.author-actions{justify-content:center}
+}
+
 .about-section-title{font-size:clamp(1.4rem,3.2vw,1.85rem);color:var(--primary);line-height:1.15;
   margin:0 0 .1em;padding-bottom:10px;position:relative}
 .about-section-title::after{content:"";display:block;width:52px;height:3px;border-radius:3px;

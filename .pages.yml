@@ -1,0 +1,184 @@
+# Configuration de Pages CMS — https://pagescms.org
+#
+# Interface d'édition façon WordPress pour videoludique.ca : on rédige des
+# articles et on gère les auteurs directement depuis app.pagescms.org, sans
+# toucher au code. Chaque enregistrement est un fichier Markdown commité dans
+# le dépôt ; à chaque commit, l'action GitHub régénère et publie le site.
+#
+#   • Articles  ->  content/articles/<slug>.md
+#   • Auteurs   ->  content/authors/<slug>.md
+#   • Images    ->  assets/uploads/  (servies sous /assets/uploads/…)
+
+# Où sont téléversées les images (médiathèque) ------------------------------
+media:
+  input: assets/uploads          # emplacement des fichiers dans le dépôt
+  output: /assets/uploads        # préfixe d'URL utilisé dans le contenu publié
+  extensions: [jpg, jpeg, png, gif, webp, avif, svg]
+
+content:
+  # ---------------------------------------------------------------------------
+  # ARTICLES
+  # ---------------------------------------------------------------------------
+  - name: articles
+    label: Articles
+    type: collection
+    path: content/articles
+    filename: '{fields.slug}.md'
+    icon: newspaper
+    view:
+      fields: [title, author, category, date, draft]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Titre
+        type: string
+        required: true
+
+      - name: slug
+        label: Permalien (slug)
+        type: string
+        required: true
+        pattern:
+          regex: '^[a-z0-9]+(?:-[a-z0-9]+)*$'
+          message: >-
+            Uniquement des minuscules, des chiffres et des traits d'union
+            (ex. : mon-nouvel-article).
+        description: >-
+          Détermine l'adresse de l'article : /AAAA/MM/JJ/slug/. À ne plus
+          modifier une fois l'article publié (cela changerait son URL).
+
+      - name: date
+        label: Date de publication
+        type: date
+        required: true
+        options:
+          format: "yyyy-MM-dd'T'HH:mm:ss"
+          time: true
+        description: Sert aussi à construire l'URL (/AAAA/MM/JJ/…).
+
+      - name: author
+        label: Auteur
+        type: reference
+        required: true
+        options:
+          collection: authors
+          search: name
+          value: slug
+          label: name
+        description: Choisissez un auteur (gérés dans la collection « Auteurs »).
+
+      - name: category
+        label: Catégorie
+        type: select
+        options:
+          values:
+            - { value: apercu, label: 'Aperçu' }
+            - { value: actualite, label: 'Actualité' }
+            - { value: chronique, label: 'Chronique' }
+            - { value: critique, label: 'Critique' }
+            - { value: non-quebec, label: 'Non-Québec' }
+            - { value: concours, label: 'Concours' }
+
+      - name: tags
+        label: Étiquettes
+        type: string
+        list: true
+        description: >-
+          Mots-clés libres (un par entrée). Chaque étiquette obtient sa page
+          d'archive /tag/…/.
+
+      - name: image
+        label: Image à la une
+        type: image
+        description: >-
+          Grande image affichée en tête d'article et sur les vignettes. Format
+          paysage recommandé (env. 1200 × 675).
+
+      - name: excerpt
+        label: Extrait
+        type: text
+        description: >-
+          Court résumé affiché sur la page d'accueil et dans les archives.
+          Laissé vide, il est généré automatiquement à partir du texte.
+
+      - name: draft
+        label: Brouillon
+        type: boolean
+        default: false
+        description: >-
+          Coché, l'article n'est PAS publié sur le site (utile pour préparer un
+          texte à l'avance).
+
+      - name: body
+        label: Contenu
+        type: rich-text
+        description: >-
+          Le corps de l'article. Vous pouvez coller un lien YouTube/Vimeo (via
+          le bouton d'intégration) et insérer des images.
+
+  # ---------------------------------------------------------------------------
+  # AUTEURS
+  # ---------------------------------------------------------------------------
+  - name: authors
+    label: Auteurs
+    type: collection
+    path: content/authors
+    filename: '{fields.slug}.md'
+    icon: users
+    view:
+      fields: [name, role]
+      primary: name
+    fields:
+      - name: name
+        label: Nom
+        type: string
+        required: true
+
+      - name: slug
+        label: Identifiant (slug)
+        type: string
+        required: true
+        pattern:
+          regex: '^[a-z0-9]+(?:-[a-z0-9]+)*$'
+          message: Minuscules, chiffres et traits d'union uniquement.
+        description: >-
+          Adresse de la page auteur : /auteur/slug/. C'est aussi la valeur
+          reliée depuis un article.
+
+      - name: role
+        label: Rôle / titre
+        type: string
+        description: 'Ex. : Fondateur · Journaliste · Chroniqueur'
+
+      - name: photo
+        label: Photo
+        type: image
+
+      - name: email
+        label: Courriel
+        type: string
+
+      - name: website
+        label: Site web
+        type: string
+
+      - name: social
+        label: Réseaux sociaux
+        type: object
+        list: true
+        fields:
+          - name: network
+            label: Réseau
+            type: string
+            description: 'Ex. : Facebook, YouTube, Instagram, TikTok, Threads'
+          - name: url
+            label: Lien
+            type: string
+
+      - name: body
+        label: Biographie
+        type: rich-text

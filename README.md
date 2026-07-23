@@ -20,10 +20,46 @@ dépendance à installer (Python 3 standard) :
 | Fichier | Rôle |
 |---|---|
 | `fetch_content.py` | Télécharge tout le contenu (articles, pages, catégories, étiquettes, médias) depuis l’API REST de WordPress dans `_source/`. |
-| `build.py` | Génère le site statique (HTML) à la racine du dépôt, à partir de `_source/`. |
+| `build.py` | Génère le site statique (HTML) à la racine du dépôt, à partir de `_source/` **et** de `content/`. |
+| `cms.py` | Lit le contenu créé dans le CMS (front matter YAML + Markdown), sans dépendance externe. |
 | `scripts/download_media.sh` | Télécharge les images dans `wp-content/uploads/…`. |
-| `_source/` | Données sources (JSON + fragments HTML des articles). |
+| `.pages.yml` | Configuration du CMS (collections Articles et Auteurs, médiathèque). |
+| `content/` | Articles et auteurs créés via le CMS (`content/articles/`, `content/authors/`). |
+| `_source/` | Contenu historique importé de WordPress (JSON + fragments HTML). |
 | `assets/style.css` | Feuille de style du site. |
+
+## Rédaction & auteurs — le CMS (façon WordPress)
+
+Le site dispose d’un CMS web, **[Pages CMS](https://pagescms.org)**, pour créer
+des articles et gérer les auteurs sans toucher au code — une expérience proche
+de l’admin WordPress.
+
+1. Ouvrir **[app.pagescms.org](https://app.pagescms.org)**, se connecter avec
+   GitHub et sélectionner le dépôt `videoludiqueca`.
+2. Deux collections apparaissent :
+   - **Articles** — titre, permalien (slug), date, auteur, catégorie,
+     étiquettes, image à la une, extrait, contenu (éditeur visuel) et une case
+     **Brouillon**. Un article publié apparaît à l’URL `/AAAA/MM/JJ/slug/`.
+   - **Auteurs** — nom, identifiant (slug), rôle, photo, courriel, site web,
+     réseaux sociaux et biographie. Chaque auteur a sa page `/auteur/slug/`, et
+     la signature des articles pointe vers elle.
+3. À chaque enregistrement, Pages CMS commite un fichier Markdown dans
+   `content/` ; l’action GitHub régénère alors le site et le publie.
+
+> **Où s’enregistre le contenu ?** Les articles vont dans
+> `content/articles/<slug>.md`, les auteurs dans `content/authors/<slug>.md`,
+> et les images téléversées dans `assets/uploads/` (servies sous
+> `/assets/uploads/…`). Ces dossiers sont **indépendants** de `_source/` : la
+> resynchronisation WordPress (`fetch_content.py`) ne les écrase jamais.
+
+Les ~181 articles importés de WordPress restent attribués à l’auteur par défaut
+(Mario J. Ramos) et cohabitent avec les nouveaux articles du CMS dans toutes les
+archives (accueil, catégories, étiquettes, dates, RSS, plan du site).
+
+> ℹ️ Pages CMS lit `.pages.yml` sur la **branche par défaut** (`main`). Après
+> avoir fusionné cette configuration dans `main`, le CMS proposera les
+> collections Articles et Auteurs. On peut aussi, dans les réglages du projet
+> Pages CMS, pointer temporairement le CMS sur une autre branche.
 
 ### Régénérer / compléter le site
 
