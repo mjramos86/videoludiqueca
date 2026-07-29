@@ -227,16 +227,23 @@ def md_to_html(md):
             out.append(f"<blockquote>{md_to_html(chr(10).join(buf))}</blockquote>")
             continue
 
-        # unordered / ordered list
+        # unordered / ordered list (with lazy indented continuation lines)
         if _UL_RE.match(line) or _OL_RE.match(line):
             ordered = bool(_OL_RE.match(line))
             rx = _OL_RE if ordered else _UL_RE
             items = []
-            while i < n and rx.match(lines[i]):
-                items.append(f"<li>{_inline(rx.match(lines[i]).group(1).strip())}</li>")
+            while i < n:
+                m = rx.match(lines[i])
+                if m:
+                    items.append(m.group(1).strip())
+                elif items and lines[i].strip() and lines[i][:1] == " " \
+                        and not (_UL_RE.match(lines[i]) or _OL_RE.match(lines[i])):
+                    items[-1] += " " + lines[i].strip()  # wrapped continuation
+                else:
+                    break
                 i += 1
             tag = "ol" if ordered else "ul"
-            out.append(f"<{tag}>{''.join(items)}</{tag}>")
+            out.append(f"<{tag}>{''.join(f'<li>{_inline(x)}</li>' for x in items)}</{tag}>")
             continue
 
         # standalone image -> figure
