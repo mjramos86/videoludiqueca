@@ -1,9 +1,9 @@
 ---
 title: Folklore Games annonce Manifest Unknown, un simulateur de train narratif
 slug: manifest-unknown-folklore-games
-date: 2026-07-20T09:00:00
+date: 2026-08-02T09:00:00
 author: mario-j-ramos
-category: actualite
+category: apercu
 tags:
   - Folklore Games
   - Montréal
@@ -12,14 +12,17 @@ tags:
   - jeu narratif
   - Steam
   - Québec
+image: /assets/uploads/KeyArt_NoLogo.jpg
 excerpt: "Le studio indépendant montréalais Folklore Games dévoile la page Steam
   de Manifest Unknown, un train-sim où il faut choisir : respecter l'horaire… ou
   percer les mystères tapis le long de la voie."
-draft: true
+draft: false
 ---
 Le studio indépendant montréalais **Folklore Games** a dévoilé le 20 juillet la page Steam de son prochain jeu, ***Manifest Unknown***, un simulateur de train à forte composante narrative.
 
 Le principe est aussi simple qu'inquiétant : vous êtes aux commandes d'un train rempli de mystères, et votre famille compte sur vous. Faut-il respecter l'horaire et suivre les ordres à la lettre, ou quitter son poste pour percer les secrets qui se cachent le long de la voie ? À vous de choisir — et tout le sel du jeu tient dans cette tension.
+
+![](/assets/uploads/MU12_Outsideshot.jpg)
 
 ## Conduire, livrer… et fermer les yeux ?
 
@@ -40,6 +43,8 @@ Folklore Games promet une expérience qu'on peut aborder à sa manière, en misa
 - Une aventure en solo.
 - De la personnalisation pour s'approprier sa locomotive et son douillet espace
 de vie.
+
+![](/assets/uploads/MU20_ControlLocomotive.jpg)
 
 ## Où le suivre
 
