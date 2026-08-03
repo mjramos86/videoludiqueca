@@ -18,7 +18,7 @@ excerpt: "Le studio indépendant montréalais Folklore Games dévoile Manifest
   percer les mystères tapis le long de la voie."
 draft: false
 ---
-**Le studio indépendant montréalais [Folklore Games](https://folklore.games/) a dévoilé le 20 juillet la page Steam de son prochain jeu, *[Manifest Unknown](https://store.steampowered.com/app/4780960/Manifest_Unknown/)*, un simulateur de train à forte composante narrative.**
+Le studio indépendant montréalais [Folklore Games](https://folklore.games/) a dévoilé le 20 juillet la page Steam de son prochain jeu, *[Manifest Unknown](https://store.steampowered.com/app/4780960/Manifest_Unknown/)*, un simulateur de train à forte composante narrative.
 
 Le principe est aussi simple qu'inquiétant : vous êtes aux commandes d'un train rempli de mystères, et votre famille compte sur vous. Faut-il respecter l'horaire et suivre les ordres à la lettre, ou quitter son poste pour percer les secrets qui se cachent le long de la voie ?
 
