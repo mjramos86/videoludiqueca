@@ -61,6 +61,16 @@ def _parse_block(lines):
             i += 1
             continue
         key, val = key.strip(), val.strip()
+        # block scalar: `key: |`, `key: >`, with optional chomping (-, +)
+        if val and val[0] in "|>":
+            child, j = [], i + 1
+            while j < n and (not lines[j].strip() or _indent(lines[j]) > ind):
+                child.append(lines[j])
+                j += 1
+            out[key] = _block_scalar(child, folded=val[0] == ">", keep="+" in val,
+                                     strip="-" in val)
+            i = j
+            continue
         if val:
             out[key] = _scalar(val)
             i += 1
@@ -77,6 +87,35 @@ def _parse_block(lines):
             out[key] = _parse_block(child)
         i = j
     return out
+
+
+def _block_scalar(lines, folded, keep, strip):
+    """Assemble a YAML block scalar (| literal / > folded) into one string."""
+    nonempty = [l for l in lines if l.strip()]
+    if not nonempty:
+        return ""
+    base = min(_indent(l) for l in nonempty)
+    rows = [l[base:] if len(l) >= base else l.lstrip() for l in lines]
+    while rows and not rows[-1].strip():
+        rows.pop()
+    if folded:  # blank line -> newline, otherwise join runs of lines with a space
+        parts, buf = [], []
+        for r in rows:
+            if r.strip():
+                buf.append(r.strip())
+            else:
+                parts.append(" ".join(buf)); buf = []
+                parts.append("")
+        if buf:
+            parts.append(" ".join(buf))
+        text = "\n".join(parts)
+    else:
+        text = "\n".join(rows)
+    if strip:            # '-' : no trailing newline
+        return text.rstrip("\n")
+    if keep:             # '+' : keep as-is
+        return text
+    return text.rstrip("\n") + "\n"  # clip: single trailing newline
 
 
 def _parse_list(lines):
