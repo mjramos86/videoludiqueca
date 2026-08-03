@@ -98,6 +98,15 @@ content:
           Grande image affichée en tête d'article et sur les vignettes. Format
           paysage recommandé (env. 1200 × 675).
 
+      - name: gallery
+        label: Galerie d'images
+        type: image
+        list: true
+        description: >-
+          Sélectionnez plusieurs images (bouton « Ajouter » puis sélection
+          multiple dans la médiathèque) pour afficher une galerie à la fin de
+          l'article. Facultatif.
+
       - name: excerpt
         label: Extrait
         type: text

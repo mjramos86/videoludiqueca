@@ -407,6 +407,7 @@ def _norm_imported(p):
     p["_featured"] = media_url(p.get("featured_media", 0))
     p["_falt"] = attr(decode(m.get("alt") or p["title"]))
     p["_fw"], p["_fh"] = m.get("w", 0) or 0, m.get("h", 0) or 0
+    p["_gallery"] = []
     p["_body"] = None  # loaded lazily from _source/posts/<id>.html
     return p
 
@@ -425,6 +426,10 @@ def _load_cms_articles():
                         else _excerpt_from(html_body))
         author = (meta.get("author") or DEFAULT_AUTHOR_SLUG).strip()
         img = (meta.get("image") or "").strip()
+        gallery = meta.get("gallery") or []
+        if isinstance(gallery, str):
+            gallery = [gallery]
+        gallery = [str(g).strip() for g in gallery if str(g).strip()]
         out.append({
             "id": f"cms-{slug}", "slug": slug, "date": norm_date(meta.get("date")),
             "title": title, "excerpt": excerpt_html,
@@ -433,7 +438,7 @@ def _load_cms_articles():
             "_author": author if author in AUTHORS else DEFAULT_AUTHOR_SLUG,
             "_cats": cat_ids, "_tags": tag_ids,
             "_featured": img or None, "_falt": attr(decode(title)),
-            "_fw": 1200, "_fh": 675, "_body": html_body,
+            "_fw": 1200, "_fh": 675, "_gallery": gallery, "_body": html_body,
         })
     return out
 
@@ -493,6 +498,14 @@ def render_post(p, idx):
     author = AUTHORS.get(p["_author"]) or AUTHORS[DEFAULT_AUTHOR_SLUG]
     byline = (f'Par <a class="author-link" href="/auteur/{author["slug"]}/" '
               f'rel="author">{decode(author["name"])}</a>')
+    gallery = p.get("_gallery") or []
+    gallery_block = ""
+    if gallery:
+        figs = "".join(
+            f'<figure class="gal-item"><a href="{attr(g)}" target="_blank" rel="noopener">'
+            f'<img src="{attr(g)}" alt="" loading="lazy"></a></figure>'
+            for g in gallery)
+        gallery_block = f'<div class="post-gallery">{figs}</div>'
     body = f"""<article class="post">
   <div class="wrap">
     <div class="post-head">
@@ -505,6 +518,7 @@ def render_post(p, idx):
     </div>
     {hero}
     <div class="post-content">{content}</div>
+    {gallery_block}
     {tags_block}
     {postnav}
   </div>

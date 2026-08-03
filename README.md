@@ -38,7 +38,8 @@ de l’admin WordPress.
    GitHub et sélectionner le dépôt `videoludiqueca`.
 2. Deux collections apparaissent :
    - **Articles** — titre, permalien (slug), date, auteur, catégorie,
-     étiquettes, image à la une, extrait, contenu (éditeur visuel) et une case
+     étiquettes, image à la une, **galerie d’images** (sélection multiple,
+     affichée en fin d’article), extrait, contenu (éditeur visuel) et une case
      **Brouillon**. Un article publié apparaît à l’URL `/AAAA/MM/JJ/slug/`.
    - **Auteurs** — nom, identifiant (slug), rôle, photo, courriel, site web,
      réseaux sociaux et biographie. Chaque auteur a sa page `/auteur/slug/`, et

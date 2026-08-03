@@ -154,6 +154,14 @@ a:hover{text-decoration:underline}
 .author-actions .btn{margin-top:0}
 .author-link{color:inherit;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:2px}
 .author-link:hover{color:var(--accent)}
+
+/* article image gallery */
+.post-gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;margin:26px 0}
+.post-gallery .gal-item{margin:0}
+.post-gallery a{display:block;line-height:0}
+.post-gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--radius);
+  border:1px solid var(--line);transition:transform .18s ease,box-shadow .18s ease}
+.post-gallery a:hover img{transform:translateY(-2px);box-shadow:0 10px 24px rgba(80,21,17,.18)}
 @media (max-width:640px){
   .author-hero{grid-template-columns:1fr;gap:20px;text-align:center;padding:24px 20px}
   .author-photo{max-width:170px;margin:0 auto}
