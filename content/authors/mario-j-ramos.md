@@ -17,7 +17,4 @@ social:
   - network: Threads
     url: https://www.threads.net/@mariojorge.ramos
 ---
-Scénariste et réalisateur primé devenu journaliste vidéoludique, je couvre
-depuis dix ans l'industrie du jeu vidéo au Québec — le 5ᵉ pôle mondial du
-secteur. J'ai fondé **Vidéoludique.ca** pour mettre en lumière les studios,
-les créateurs et les créatrices d'ici.
+Je couvre depuis dix ans l'industrie du jeu vidéo au Québec — le 5ᵉ pôle mondial du secteur. J'ai fondé **Vidéoludique.ca** pour mettre en lumière les studios, les créateurs et les créatrices d'ici.
