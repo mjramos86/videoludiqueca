@@ -2,7 +2,7 @@
 title: "Lost & Found : une extension autonome à This Bed We Made maintenant
   disponible"
 slug: lost-and-found-this-bed-we-made-lowbirth-games
-date: 2026-08-06T09:00:00
+date: 2026-08-05T09:00:00
 author: mario-j-ramos
 category: actualite
 tags:
@@ -29,6 +29,7 @@ Bonne nouvelle pour les curieux et curieuses : il n'est **pas nécessaire de pos
 *Lost & Found* suit **Sophie Roy** en **1964**, alors qu'elle débute comme hôtesse à bord d'un paquebot transatlantique. Lorsque les effets personnels des passagers et passagères se mettent mystérieusement à disparaître, Sophie renoue avec ses vieilles habitudes de fouineuse et se lance dans une enquête pleine de secrets et de découvertes inattendues.
 
 > « *Lost & Found* reprend les éléments que les joueuses et joueurs ont le plus aimés dans notre premier jeu : fouiller dans des espaces privés, découvrir des secrets, nettoyer des dégâts et reconstituer la vérité à travers des tâches du quotidien »   
+>
 > - **Chloe Lussier**, directrice générale et productrice chez Lowbirth Games.
 
 Les vétérans de la série ne sont pas oubliés pour autant : « Celles et ceux qui ont précédemment joué à *This Bed We Made* pourront sélectionner leurs choix passés, certaines de leurs décisions ayant une influence subtile sur l'expérience », ajoute-t-elle.
