@@ -1,7 +1,7 @@
 ---
 name: Mario J. Ramos
 slug: mario-j-ramos
-role: Fondateur de Vidéoludique.ca · Scénariste et réalisateur
+role: Rédacteur en chef
 photo: /assets/mario-j-ramos.jpg
 email: info@mariojramos.com
 website: https://mariojramos.com
