@@ -1,6 +1,5 @@
 ---
-title: "Lost & Found : une extension autonome à This Bed We Made maintenant
-  disponible"
+title: "Lost & Found : une extension autonome à This Bed We Made"
 slug: lost-and-found-this-bed-we-made-lowbirth-games
 date: 2026-08-05T09:00:00
 author: slug
