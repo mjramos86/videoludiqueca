@@ -16,7 +16,7 @@ image: /assets/uploads/f067da03-236e-45a7-ae2b-28e66beae091.png
 excerpt: Le studio montréalais Lowbirth Games a lané le 5 août Lost & Found, un
   chapitre autonome situé quelques années après This Bed We Made, son enquête
   narrative vendue à près de 250 000 exemplaires.
-draft: true
+draft: false
 ---
 Le studio montréalais **[Lowbirth Games](https://www.lowbirthgames.com/fr)** offre une suite à son succès surprise. ***[Lost & Found: A This Bed We Made Story](https://store.steampowered.com/app/4333200/Lost__Found_A_This_Bed_We_Made_Story/)***, une nouvelle aventure **autonome** qui se déroule quelques années après les événements de *This Bed We Made*, est maintenant disponible sur Steam.
 
