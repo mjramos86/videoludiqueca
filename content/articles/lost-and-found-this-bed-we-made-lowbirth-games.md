@@ -4,7 +4,7 @@ title: "Lost & Found : une extension autonome à This Bed We Made maintenant
 slug: lost-and-found-this-bed-we-made-lowbirth-games
 date: 2026-08-05T09:00:00
 author: mario-j-ramos
-category: actualite
+category: apercu
 tags:
   - Lowbirth Games
   - This Bed We Made
