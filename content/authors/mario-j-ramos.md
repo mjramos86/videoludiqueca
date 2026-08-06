@@ -2,9 +2,9 @@
 name: Mario J. Ramos
 slug: mario-j-ramos
 role: Fondateur de Vidéoludique.ca · Scénariste et réalisateur
+photo: /assets/mario-j-ramos.jpg
 email: info@mariojramos.com
 website: https://mariojramos.com
-photo: /assets/mario-j-ramos.jpg
 social:
   - network: Facebook
     url: https://www.facebook.com/mjramos/
@@ -17,7 +17,6 @@ social:
   - network: Threads
     url: https://www.threads.net/@mariojorge.ramos
 ---
-
 Scénariste et réalisateur primé devenu journaliste vidéoludique, je couvre
 depuis dix ans l'industrie du jeu vidéo au Québec — le 5ᵉ pôle mondial du
 secteur. J'ai fondé **Vidéoludique.ca** pour mettre en lumière les studios,
