@@ -23,9 +23,14 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(ROOT, "_source")
 UA = "Mozilla/5.0 (compatible; videoludique-migration/1.0)"
 
-# The WordPress.com public API proxy avoids the origin's bot filtering.
-# Falls back to the site's own /wp-json endpoint if needed.
+# Fetch through the WordPress.com public API. We address the site by its numeric
+# blog id FIRST: the videoludique.ca domain now points at this static GitHub
+# Pages site, so resolving the API by domain (or hitting the site's own
+# /wp-json) returns the static HTML instead of the live WordPress data. The
+# blog id keeps resolving on WordPress.com regardless of where the DNS points.
+WPCOM_BLOG_ID = os.environ.get("WPCOM_BLOG_ID", "221340425")
 API_BASES = [
+    f"https://public-api.wordpress.com/wp/v2/sites/{WPCOM_BLOG_ID}",
     "https://public-api.wordpress.com/wp/v2/sites/videoludique.ca",
     "https://videoludique.ca/wp-json/wp/v2",
 ]
