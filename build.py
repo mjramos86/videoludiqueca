@@ -425,11 +425,11 @@ def _load_cms_articles():
         excerpt_html = (f"<p>{htmllib.escape(excerpt)}</p>" if excerpt
                         else _excerpt_from(html_body))
         author = (meta.get("author") or DEFAULT_AUTHOR_SLUG).strip()
-        img = (meta.get("image") or "").strip()
+        img = cms.encode_url(meta.get("image") or "")
         gallery = meta.get("gallery") or []
         if isinstance(gallery, str):
             gallery = [gallery]
-        gallery = [str(g).strip() for g in gallery if str(g).strip()]
+        gallery = [cms.encode_url(g) for g in gallery if str(g).strip()]
         out.append({
             "id": f"cms-{slug}", "slug": slug, "date": norm_date(meta.get("date")),
             "title": title, "excerpt": excerpt_html,
