@@ -6,7 +6,7 @@ author: slug
 category: chronique
 tags:
   - 1666, patrice désilets, amsterdam, panache, québec, montréal,
-image: /assets/uploads/VIDEOLUDIQUE.jpg
+image: /assets/uploads/VIDEOLUDIQUE (1920 x 1080 px).jpg
 draft: false
 ---
 **Alors que 1666 : Amsterdam, le 2e effort du studio québécois Panache Jeux Numériques sort en Accès Anticipé sur Steam, je me suis entretenu avec Patricee Désilets, cofondateur du studio et directeur créatif du jeu.**
