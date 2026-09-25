@@ -9,7 +9,7 @@ tags:
 image: /assets/uploads/VIDEOLUDIQUE (1920 x 1080 px).jpg
 draft: false
 ---
-**Alors que 1666 : Amsterdam, le 2e effort du studio québécois Panache Jeux Numériques sort en Accès Anticipé sur Steam, je me suis entretenu avec Patricee Désilets, cofondateur du studio et directeur créatif du jeu.**
+**Alors que [1666 : Amsterdam](https://store.steampowered.com/app/3949550/1666_Amsterdam/), le 2e effort du studio québécois [Panache Jeux Numériques](https://panachedigitalgames.com/) sort en Accès Anticipé sur Steam, je me suis entretenu avec Patricee Désilets, cofondateur du studio et directeur créatif du jeu.**
 
 **Mario :** Pourquoi Amsterdam, pourquoi 1666 ?
 
@@ -17,7 +17,7 @@ draft: false
 
 ![](</assets/uploads/1666 amsterdam 4.jpg>)
 
-**Mario :** Vous avez fait ***Ancestors : The Humankind Odyssey**.* Quand on s'était parlé à ce moment-là, vous m'aviez dit qu'**Ancestors**, c'était aussi l'idée de créer une espèce de boîte à outils à réutiliser sur vos différents projets. Sur Amsterdam, au-delà des outils, quelles sont surtout les leçons que vous avez apprises et que vous appliquez à ce nouveau projet ?
+**Mario :** Vous avez fait ***[Ancestors : The Humankind Odyssey](https://store.steampowered.com/app/536270/Ancestors_The_Humankind_Odyssey/)**.* Quand on s'était parlé à ce moment-là, vous m'aviez dit qu'**Ancestors**, c'était aussi l'idée de créer une espèce de boîte à outils à réutiliser sur vos différents projets. Sur Amsterdam, au-delà des outils, quelles sont surtout les leçons que vous avez apprises et que vous appliquez à ce nouveau projet ?
 
 **Patrice Désilets :** Plein de choses. C'est drôle, parce que ce qu'on a véritablement appris, en rétrospective, c'est ce qu'est un jeu **Panache**. C'est comme ça que je le vois. C'est quoi, vraiment, notre signature, au-delà de ce que j'aime faire en général : de l'historique, du monde ouvert et tout ça. C'est ce truc où on laisse un peu les joueurs à eux-mêmes, dans le sens où c'est un peu ton jeu. Une fois que je t'ai appris certaines mécaniques, tu fais les choses dans l'ordre que tu veux. Même si, cette fois-ci, il y a une histoire écrite, avec un début, un milieu et une fin, tu n'y échappes pas. C'est ça qu'on a appris, je te dirais : c'est quoi, la signature **Panache**. Ensuite, contrairement à ***Ancestors***, on essaie de te prendre un peu plus par la main au début. Dans ***1666***, on te laisse vivre ton aventure à partir d'un certain moment, quand le monde s'ouvre, mais on essaie de mieux t'apprendre les mécaniques et les systèmes dès le début du jeu, alors que sur ***Ancestors***, c'était peut-être assez sec. Après, c'est sûr qu'on a appris à faire du monde ouvert avec Unreal ; on a des connaissances sur la façon de gérer un personnage et tout ça. Et là, on est arrivés avec d'autres défis : comment on écrit une histoire à travers tout ça, comment on fait de l'*Early Access*, ce qu'on n'avait pas fait sur ***Ancestors***. C'est ça qui est le fun. Oui, on a du bagage, mais on est encore en apprentissage, et c'est intéressant intellectuellement pour une équipe. On ne fait pas du réchauffé, bien au contraire.
 
