@@ -174,6 +174,20 @@ def _esc(s):
     return "".join(_ESC.get(c, c) for c in s)
 
 
+def encode_url(u):
+    """Make a URL/path safe as an HTML attribute: trim, drop <> wrappers, and
+    percent-encode spaces (files uploaded with spaces in their names)."""
+    u = (u or "").strip()
+    if u.startswith("<") and u.endswith(">"):
+        u = u[1:-1].strip()
+    return u.replace(" ", "%20").replace('"', "%22")
+
+
+def _dest(bracketed, bare):
+    """Pick the matched markdown destination (either <…> or bare) and encode it."""
+    return encode_url(bracketed if bracketed is not None else bare)
+
+
 def _inline(t):
     """Inline spans: code, images, links, bold, italic. URL-safe (tokenised)."""
     stash = []
@@ -183,10 +197,14 @@ def _inline(t):
         return f"\x00{len(stash) - 1}\x00"
 
     t = re.sub(r"`([^`]+)`", lambda m: keep(f"<code>{_esc(m.group(1))}</code>"), t)
-    t = re.sub(r'!\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)',
-               lambda m: keep(f'<img src="{m.group(2)}" alt="{m.group(1)}">'), t)
-    t = re.sub(r'\[([^\]]+)\]\(([^)\s]+)(?:\s+"[^"]*")?\)',
-               lambda m: keep(f'<a href="{m.group(2)}">{m.group(1)}</a>'), t)
+    # images and links. The destination may be a bare URL, or — when it contains
+    # spaces (e.g. an uploaded file named "1666 amsterdam 4.jpg") — wrapped in
+    # <angle brackets> per CommonMark. Handle both, and percent-encode spaces so
+    # the emitted src/href is a valid URL.
+    t = re.sub(r'!\[([^\]]*)\]\(\s*(?:<([^>]*)>|([^)\s]+))\s*(?:"[^"]*"|\'[^\']*\')?\s*\)',
+               lambda m: keep(f'<img src="{_dest(m.group(2), m.group(3))}" alt="{m.group(1)}">'), t)
+    t = re.sub(r'\[([^\]]+)\]\(\s*(?:<([^>]*)>|([^)\s]+))\s*(?:"[^"]*"|\'[^\']*\')?\s*\)',
+               lambda m: keep(f'<a href="{_dest(m.group(2), m.group(3))}">{m.group(1)}</a>'), t)
     t = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", t)
     t = re.sub(r"__([^_]+)__", r"<strong>\1</strong>", t)
     t = re.sub(r"(?<!\*)\*([^*\n]+)\*(?!\*)", r"<em>\1</em>", t)
