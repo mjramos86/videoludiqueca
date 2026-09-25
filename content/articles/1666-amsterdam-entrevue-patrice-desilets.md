@@ -15,6 +15,8 @@ draft: false
 
 **Patrice Désilets :** On part large ! Ça part d'une envie de faire un jeu sur cette année-là. C'est une année un peu spéciale dans l'histoire, où il se passe plein de choses, avec en plus le « *number of the beast* », le chiffre du diable ou de la bête, à l'intérieur de l'année. C'était déjà en moi : ça faisait partie des années que j'avais étudiées, et je voulais déjà faire un jeu là-dessus à l'époque. Ensuite, ça part d'un voyage à Amsterdam en 2011 avec ma blonde de l'époque. En me promenant, je me disais : « Aïe, j'aurais pu faire un Assassin ici. » Je voyais un peu la matrice des maisons, les rues avec le canal, la rue, la façade… C'est quand même une ville assez « level designée ». Qu'est-ce qu'il y a de l'autre côté de ces façades-là ? Il y a plein de mystères. Le soir aussi, la ville a une certaine ambiance que j'aimais bien. Et là, je tourne un coin de rue et je tombe sur un bâtiment où c'est écrit « Anno 1666 ». Je me suis dit : « Ben oui, j'ai mon signe. » J'allais faire un *open world* à Amsterdam à propos du diable. C'était très vague, mais c'est ce que j'ai pitché à **THQ Montréal** quand je suis revenu et que j'ai commencé à travailler pour eux, et ils ont accepté. Ça part vraiment d'une visite en vacances.
 
+![](</assets/uploads/1666 amsterdam 4.jpg>)
+
 **Mario :** Vous avez fait ***Ancestors : The Humankind Odyssey**.* Quand on s'était parlé à ce moment-là, vous m'aviez dit qu'**Ancestors**, c'était aussi l'idée de créer une espèce de boîte à outils à réutiliser sur vos différents projets. Sur Amsterdam, au-delà des outils, quelles sont surtout les leçons que vous avez apprises et que vous appliquez à ce nouveau projet ?
 
 **Patrice Désilets :** Plein de choses. C'est drôle, parce que ce qu'on a véritablement appris, en rétrospective, c'est ce qu'est un jeu **Panache**. C'est comme ça que je le vois. C'est quoi, vraiment, notre signature, au-delà de ce que j'aime faire en général : de l'historique, du monde ouvert et tout ça. C'est ce truc où on laisse un peu les joueurs à eux-mêmes, dans le sens où c'est un peu ton jeu. Une fois que je t'ai appris certaines mécaniques, tu fais les choses dans l'ordre que tu veux. Même si, cette fois-ci, il y a une histoire écrite, avec un début, un milieu et une fin, tu n'y échappes pas. C'est ça qu'on a appris, je te dirais : c'est quoi, la signature **Panache**. Ensuite, contrairement à ***Ancestors***, on essaie de te prendre un peu plus par la main au début. Dans ***1666***, on te laisse vivre ton aventure à partir d'un certain moment, quand le monde s'ouvre, mais on essaie de mieux t'apprendre les mécaniques et les systèmes dès le début du jeu, alors que sur ***Ancestors***, c'était peut-être assez sec. Après, c'est sûr qu'on a appris à faire du monde ouvert avec Unreal ; on a des connaissances sur la façon de gérer un personnage et tout ça. Et là, on est arrivés avec d'autres défis : comment on écrit une histoire à travers tout ça, comment on fait de l'*Early Access*, ce qu'on n'avait pas fait sur ***Ancestors***. C'est ça qui est le fun. Oui, on a du bagage, mais on est encore en apprentissage, et c'est intéressant intellectuellement pour une équipe. On ne fait pas du réchauffé, bien au contraire.
@@ -22,6 +24,8 @@ draft: false
 **Mario :** Justement, c'est quand même rare de voir un projet d'action-aventure solo comme celui-là en *Early Access*. Comment l'approchez-vous ?
 
 **Patrice Désilets :** De plusieurs façons. Oui, c'est solo avec une trame narrative, mais il y a toute une partie où on a aussi attaqué un style qui, je pense, se fait davantage en *early access* : le roguelike. Dans 1666, il y a une partie plus linéaire au début où, comme je le disais, on apprend au joueur à jouer, mais après ça, on te lâche lousse, et là, il y a toute une série de loteries. Je n'ai jamais les mêmes habiletés au fur et à mesure que j'avance. L'*early access* nous apprend beaucoup là-dessus, et tu peux rejouer le jeu : ce n'est pas simplement un jeu linéaire narratif.
+
+![](</assets/uploads/1666 amsterdam 2.jpg>)
 
 Pour ce qui est de notre approche : on a sorti une première petite mise à jour il y a, je pense, 10 jours, et une autre s'en vient bientôt. L'idée, c'est vraiment de mettre le jeu à jour le plus rapidement possible. On a quatre grandes phases pour avancer dans l'histoire, mais au fur et à mesure, on *patche*, on améliore certains aspects selon ce que les gens nous disent, et on essaie d'arrimer le mieux possible notre *backlog* d'idées et de choses qu'on veut faire avec ce que la communauté nous dit. On trouve ça un peu exaltant. C'est un grand mot, mais c'est ça. On a du *feedback*, et on a des données. Ce n'est pas juste notre ressenti personnel. Étrangement, c'est déjà un peu dans notre ADN : notre façon de fabriquer est déjà très itérative. On s'écoutait, on écoutait le jeu ; là, on a simplement plus de données pour prendre de meilleures décisions. On a un plan : voici ce qu'on doit faire, voici ce qu'on veut faire et voici ce que les gens attendent de nous. On suit notre plan, on suit nos Jira, et on avance comme ça.
 
@@ -36,6 +40,8 @@ Pour ce qui est de notre approche : on a sorti une première petite mise à jour
 **Mario :** Je m'en doutais, parce que j'avais vu la citation. Veux-tu clarifier ça ?
 
 **Patrice Désilets :** Je le dis à tout le monde : effectivement, nous en avons utilisé dans le processus, en conception et en préproduction. Quand on a sorti le prologue, il y en a qui se sont glissés. Depuis, ils ont été enlevés et remplacés, et actuellement, nous n'en utilisons plus. C'est aussi simple que ça.
+
+![](</assets/uploads/1666 amsterdam 3.jpg>)
 
 **Mario :** À qui s'adresse ce jeu ? Est-ce que ceux qui ont trippé sur ***Ancestors*** vont y trouver leur compte, ou est-ce que ça pourrait être une audience un peu différente ?
 
@@ -54,6 +60,8 @@ Pour ce qui est de notre approche : on a sorti une première petite mise à jour
 **Patrice Désilets :** Là, pour toujours ! C'est ça, le souci de l'*early access*. D'habitude, tu finis le jeu, puis tu t'en vas en vacances.
 
 **Mario :** Oui, ça ne fait que commencer.
+
+![](</assets/uploads/1666 amsterdam 1.jpg>)
 
 **Patrice Désilets :** Oui, c'est juste le début. Mais au final, ce qu'on aime le plus, c'est le processus, la fabrication du jeu. C'est notre passion fondamentale, pour moi et pour le reste de mon équipe. Donc, c'est juste exaltant.
 
