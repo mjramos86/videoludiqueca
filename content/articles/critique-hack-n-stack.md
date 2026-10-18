@@ -6,6 +6,7 @@ author: slug
 category: critique
 tags:
   - hack n stack
+image: /assets/uploads/129ddb62f11a5568257a3f28d91653ec8726ce00dd53798d84b8e79157264865-1.avif
 draft: false
 ---
 **Avec [*Hack 'n' Stack*](https://store.steampowered.com/app/2228720/Hack_n_Stack/), le studio québécois [Triple Boris](https://www.tripleboris.com/), sous sa marque Dodo Tako et en collaboration avec Sticky Rice Games, marie défense de tours et casse-têtes de physique dans un party game coopératif aussi chaotique qu'attachant. Je l'ai testé sur Nintendo Switch avec deux coéquipiers de choix : mes enfants de 7 et 9 ans.**
