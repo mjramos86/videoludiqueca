@@ -11,10 +11,7 @@ tags:
   - Plaza Saint-Hubert
   - jeu indépendant
   - Québec
-excerpt: "Du 11 au 15 novembre, le festival GrosJoueurs investit la Plaza
-  Saint-Hubert pour sa toute première édition : plus de 25 activités dans 12
-  lieux, une arcade 100 % québécoise et une programmation presque entièrement
-  gratuite."
+excerpt: "Du 11 au 15 novembre, le festival GrosJoueurs investit la Plaza Saint-Hubert pour sa toute première édition : plus de 25 activités dans 12 lieux, une arcade 100 % québécoise et une programmation presque entièrement gratuite."
 draft: true
 ---
 **Du 11 au 15 novembre 2026, le jeu vidéo sort des salons et des centres de congrès pour s'installer en pleine rue commerçante. Le festival [GrosJoueurs](https://www.grosjoueurs.com) présente sa toute première édition sur la Plaza Saint-Hubert, à Montréal, avec plus de 25 activités réparties dans 12 lieux, pour tous les âges et presque toutes gratuites.**
