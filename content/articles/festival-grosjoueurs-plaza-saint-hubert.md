@@ -16,7 +16,7 @@ gallery:
   - /assets/uploads/festival-grosjoueurs-2026-affiche.jpg
   - /assets/uploads/grosjoueurs-logo.jpg
 excerpt: "Du 11 au 15 novembre, le festival GrosJoueurs investit la Plaza Saint-Hubert pour sa toute première édition : plus de 25 activations dans 12 lieux, une arcade 100 % québécoise et une programmation presque entièrement gratuite."
-draft: true
+draft: false
 ---
 **Du 11 au 15 novembre 2026, le jeu vidéo sort des salons et des centres de congrès pour s'installer en pleine artère commerciale. Le festival [GrosJoueurs](https://www.grosjoueurs.com) tiendra sa toute première édition sur la Plaza Saint-Hubert, à Montréal : plus de 25 activations réparties dans 12 lieux, pour tous les âges et tous les publics, et une programmation presque entièrement gratuite.**
 
@@ -49,10 +49,6 @@ Le festival est rendu possible grâce à l'aide financière de La Guilde du jeu 
 « La reconnaissance du jeu vidéo comme objet à la frontière de la culture et du divertissement passe par la mise en valeur de la créativité de ceux et celles qui façonnent ces univers ici, au Québec. Nous sommes fiers d'encourager la tenue de la première édition du Festival », souligne Jean Jacques Hermans, directeur général de La Guilde du jeu vidéo du Québec.
 
 De nombreux studios québécois appuient aussi l'initiative, notamment Clever Endeavor, Berzerk Studio, Paralives, Tribute Games, Lofi Games, Sabotage Studio, Red Barrels, Borealys, Lowbirth Games, Indie Asylum, Pixelles et Studio Lucid Dreams, ainsi que la chaire CREAT de l'Université Concordia, la SDC de la Plaza Saint-Hubert, Woolfell et l'entreprise créative Colegram.
-
-## Pourquoi on s'y rend
-
-À VIDÉOLUDIQUE.CA, on parle chaque semaine de la vitalité de la création québécoise. Voir un festival en faire son centre de gravité, et la présenter dans un quartier vivant plutôt que derrière un tourniquet, a quelque chose de réjouissant. Entre les jeux expérimentaux, la musique orchestrale, les jeux de société et les bornes d'arcade made in Québec, il y en aura pour les curieux comme pour les joueurs aguerris, et pour toute la famille.
 
 La programmation complète, avec les dates, les lieux et la billetterie, est disponible sur le site officiel du festival : [grosjoueurs.com](https://www.grosjoueurs.com/programmation).
 
