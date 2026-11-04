@@ -10,7 +10,7 @@ tags:
   - jeux québécois
   - 2026
 excerpt: "Des grosses productions montréalaises aux petits studios de Québec et du Saguenay, voici 20 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026."
-draft: true
+draft: false
 ---
 Le Québec est l'un des grands pôles mondiaux du jeu vidéo, et 2026 l'a encore prouvé. Des grosses productions montréalaises aux petits studios de Québec et du Saguenay, nos créateurs ont lancé cette année des jeux pour tous les goûts : soirées de party entre amis, récits qui restent en tête, horreur à partager… Voici notre sélection des Fêtes pour encourager le talent d'ici en faisant plaisir à quelqu'un (ou à soi-même).
 
