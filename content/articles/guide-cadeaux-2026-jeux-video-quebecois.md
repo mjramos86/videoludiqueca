@@ -9,7 +9,7 @@ tags:
   - Fêtes
   - jeux québécois
   - 2026
-image: /assets/uploads/guide-cadeaux-2026-une.jpg
+image: /assets/uploads/guide-cadeaux-2026-une-titre.jpg
 excerpt: "Des grosses productions montréalaises aux petits studios de Québec et du Saguenay, voici 20 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026."
 draft: false
 ---
