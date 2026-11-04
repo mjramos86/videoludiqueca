@@ -13,7 +13,7 @@ tags:
   - Québec
 image: /assets/uploads/migs26-visuel.jpg
 excerpt: "Les 10 et 11 novembre, le Sommet international du jeu de Montréal (MIGS) réunit l'industrie mondiale au Grand Quai du Vieux-Port autour de la découvrabilité, de la commercialisation et de l'intelligence artificielle."
-draft: true
+draft: false
 ---
 **Le Sommet international du jeu de Montréal (MIGS), le plus grand rendez-vous de l'industrie du jeu vidéo au Canada, revient les 10 et 11 novembre au Grand Quai du Vieux-Port de Montréal. Au cœur de cette édition 2026 : un défi devenu central pour les studios, celui de se faire voir dans un marché saturé et bouleversé par l'intelligence artificielle.**
 

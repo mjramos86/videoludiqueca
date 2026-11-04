@@ -13,7 +13,7 @@ tags:
   - Québec
 image: /assets/uploads/journee-jachete-jeu-video-quebecois-2026.jpg
 excerpt: "La première Journée j'achète un jeu vidéo québécois aura lieu le samedi 14 novembre. La Guilde lance aussi le portail Jeux vidéo du Québec, qui répertorie déjà plus de 400 jeux créés ici."
-draft: true
+draft: false
 ---
 **Le samedi 14 novembre marquera la toute première *Journée j'achète un jeu vidéo québécois* (JJJVQ). Pour l'occasion, La Guilde du jeu vidéo du Québec lance aussi une version bonifiée du portail [Jeux vidéo du Québec](https://jeuxvideoduquebec.com), un catalogue qui regroupe déjà plus de 400 jeux développés ici.**
 
