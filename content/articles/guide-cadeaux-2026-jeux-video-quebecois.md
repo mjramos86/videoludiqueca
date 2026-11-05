@@ -1,5 +1,5 @@
 ---
-title: "Guide cadeaux 2026 : 20 jeux vidéo québécois à glisser sous le sapin"
+title: "Guide cadeaux 2026 : 21 jeux vidéo québécois à glisser sous le sapin"
 slug: guide-cadeaux-2026-jeux-video-quebecois
 date: 2026-11-04T12:00:00
 author: mario-j-ramos
@@ -10,7 +10,7 @@ tags:
   - jeux québécois
   - 2026
 image: /assets/uploads/guide-cadeaux-2026-une-titre.jpg
-excerpt: "Des grosses productions montréalaises aux petits studios de Québec et du Saguenay, voici 20 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026."
+excerpt: "Des grosses productions montréalaises aux petits studios de Québec et du Saguenay, voici 21 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026."
 draft: false
 ---
 Le Québec est l'un des grands pôles mondiaux du jeu vidéo, et 2026 l'a encore prouvé. Des grosses productions montréalaises aux petits studios de Québec et du Saguenay, nos créateurs ont lancé cette année des jeux pour tous les goûts : soirées de party entre amis, récits qui restent en tête, horreur à partager… Voici notre sélection des Fêtes pour encourager le talent d'ici en faisant plaisir à quelqu'un (ou à soi-même).
@@ -228,6 +228,23 @@ Coincé dans un nouvel emploi plate au supermarché Anymart, vous tuez le temps 
 Ici, le niveau est littéralement un casse-tête : chaque tableau est découpé en pièces qu'on assemble, qu'on sépare et qu'on fait pivoter pour tracer un chemin jusqu'à la porte, avant de le parcourir avec son petit personnage. Les 100 niveaux faits à la main sont répartis dans 12 boîtes de casse-tête, chacune avec son thème et sa mécanique, et les boîtes avancées combinent le tout. Avec son style douillet, sa trame sonore apaisante et son petit prix, c'est un parfait cadeau pour les amateurs de réflexion. Il est aussi vérifié sur Steam Deck.
 
 <figure class="wp-block-embed wp-block-embed-youtube is-type-video"><div class="wp-block-embed__wrapper"><iframe src="https://www.youtube.com/embed/4jN8V4zvRUs" title="Piece by Piece – bande-annonce" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></figure>
+
+### The Solitaire Tower of Doom (accès anticipé)
+
+![Key art de The Solitaire Tower of Doom](/assets/uploads/guide-2026-solitaire-tower-of-doom.jpg)
+
+- **Studio :** emjayhar
+- **Genre :** Solitaire roguelite narratif / horreur occulte
+- **Mode :** Solo
+- **Plateformes :** PC, Mac, Linux (Steam)
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/5007930/The_Solitaire_Tower_of_Doom/)
+
+Montréal, 1990 : une secte vouée au Solitaire asservit les employés de bureau, une partie à la fois. Pour lui tenir tête, on choisit un Mécène temporel inspiré d'un personnage historique (Louis XIV, Churchill, Marie Stuart, Napoléon, John Dee…), qui influence sa façon de jouer, puis on descend les étages roguelike d'une tour en remportant des parties dans cinq variantes : Klondike, Spider, Pyramide, TriPeaks et FreeCell. Entre les étages, une boutique d'objets permet d'ajuster sa stratégie, et la progression d'une partie à l'autre débloque de nouveaux mécènes et dos de cartes. Le tout baigne dans un pixel art qui rappelle les jeux PC du début des années 90. Offert en accès anticipé depuis le 2 octobre pour moins de 5 $, c'est le petit cadeau parfait à glisser dans un bas de Noël.
+
+*Note de transparence : The Solitaire Tower of Doom est développé par l'auteur de ce blogue.*
+
+<iframe src="https://store.steampowered.com/widget/5007930/" title="The Solitaire Tower of Doom sur Steam" loading="lazy" style="aspect-ratio:auto;height:190px"></iframe>
 
 ### Royal Vermin (gratuit)
 
