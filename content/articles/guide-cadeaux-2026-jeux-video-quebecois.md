@@ -1,5 +1,5 @@
 ---
-title: "Guide cadeaux 2026 : 21 jeux vidéo québécois à glisser sous le sapin"
+title: "Guide cadeaux 2026 : 22 jeux vidéo québécois à glisser sous le sapin"
 slug: guide-cadeaux-2026-jeux-video-quebecois
 date: 2026-11-04T12:00:00
 author: videoludique-ca
@@ -13,7 +13,7 @@ tags:
   - journée j'achète un jeu vidéo québécois
   - JJJVQ
 image: /assets/uploads/guide-cadeaux-2026-une-v2.jpg
-excerpt: Voici 21 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026.
+excerpt: Voici 22 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026.
 draft: false
 ---
 **Le Québec est l'un des grands pôles mondiaux du jeu vidéo, et 2026 l'a encore prouvé. Des grosses productions aux petits studios, nos créateurs ont lancé cette année des jeux pour tous les goûts : soirées de party entre amis, récits qui restent en tête, horreur en coop… Voici notre sélection des Fêtes pour encourager le talent d'ici en faisant plaisir à quelqu'un (ou à soi-même).**
@@ -139,6 +139,21 @@ Attendu depuis des années par les fans de simulation de vie, *Paralives* est en
 Sophie Roy, la femme de chambre fouineuse de *This Bed We Made*, est de retour. Nous sommes en 1964 et elle travaille désormais comme hôtesse à bord d'un paquebot transatlantique, où les effets personnels des passagers disparaissent mystérieusement. On fait les lits, on nettoie les cabines… et on fouille tout pour résoudre l'enquête. Une histoire autonome d'une à deux heures, qu'on peut jouer sans connaître le premier jeu, et dont les choix précédents se reportent pour les fans. Un parfait cadeau de bas de Noël.
 
 <figure class="wp-block-embed wp-block-embed-youtube is-type-video"><div class="wp-block-embed__wrapper"><iframe src="https://www.youtube.com/embed/4bgODeXJV0w" title="Lost &amp; Found: A This Bed We Made Story – bande-annonce" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></figure>
+
+### Dans l'abîme du rêve
+
+![Key art de Dans l'abîme du rêve](/assets/uploads/guide-2026-dans-l-abime-du-reve.jpg)
+
+- **Studio :** Studio Chien d'Or
+- **Genre :** Aventure point-and-click 3D / horreur cosmique
+- **Mode :** Solo
+- **Plateformes :** PC (Windows)
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/3346520/) · [GOG](https://www.gog.com/fr/game/an_abyss_of_dreams)
+
+Alors que la Grande Noirceur s'abat sur le Québec, la jeune Thérèse perd sa mère et se retrouve à l'orphelinat Saint-Nicolas-de-la-Passion, un lieu régi par la brutalité, le silence et une foi aveugle. Chaque nuit, elle bascule dans un monde de rêves d'abord enchanteur, puis de plus en plus inquiétant, qui pourrait détenir la clé des événements troublants derrière les murs de l'orphelinat. Ce point-and-click 3D fait alterner les deux mondes à coups d'énigmes à la fois réalistes et surréalistes. Entièrement doublé en français, il ose aborder l'héritage sombre des institutions catholiques québécoises et le sort des enfants qu'elles ont enfermés. Un cadeau tout désigné pour les amateurs d'horreur qui aiment les récits bien de chez nous.
+
+<figure class="wp-block-embed wp-block-embed-youtube is-type-video"><div class="wp-block-embed__wrapper"><iframe src="https://www.youtube.com/embed/LmrXOqqVBrM" title="Dans l'abîme du rêve – bande-annonce" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></figure>
 
 ### Horripilant
 
