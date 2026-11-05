@@ -60,8 +60,6 @@ Récolter des ressources, empiler des murs et des tourelles, puis repousser des 
 
 Fondé par d'anciens développeurs de *Skylanders*, Hatchery Games bouscule la formule du jeu de monstres : au lieu de donner des ordres à vos créatures, vous les contrôlez directement en combat. On fait éclore des œufs, on fait évoluer ses Voidlings selon des embranchements qui changent leur apparence, leur élément et leurs capacités, puis on les croise et on greffe des gènes mutants pour créer des combinaisons uniques. Les joueurs le décrivent comme un croisement entre *Spore* et *Warframe*, et c'est assez juste.
 
-*Note de transparence : l'auteur de ce blogue a collaboré aux relations de presse de Hatchery Games.*
-
 <figure class="wp-block-embed wp-block-embed-youtube is-type-video"><div class="wp-block-embed__wrapper"><iframe src="https://www.youtube.com/embed/-AkhvyL2Bjs" title="Voidling Bound – bande-annonce" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></figure>
 
 ### Tears of Metal (accès anticipé)
@@ -242,8 +240,6 @@ Ici, le niveau est littéralement un casse-tête : chaque tableau est découpé 
 
 Montréal, 1990 : une secte vouée au Solitaire asservit les employés de bureau, une partie à la fois. Pour lui tenir tête, on choisit un Mécène temporel inspiré d'un personnage historique (Louis XIV, Churchill, Marie Stuart, Napoléon, John Dee…), qui influence sa façon de jouer, puis on descend les étages roguelike d'une tour en remportant des parties dans cinq variantes : Klondike, Spider, Pyramide, TriPeaks et FreeCell. Entre les étages, une boutique d'objets permet d'ajuster sa stratégie, et la progression d'une partie à l'autre débloque de nouveaux mécènes et dos de cartes. Le tout baigne dans un pixel art qui rappelle les jeux PC du début des années 90. Offert en accès anticipé depuis le 2 octobre pour moins de 5 $, c'est le petit cadeau parfait à glisser dans un bas de Noël.
 
-*Note de transparence : The Solitaire Tower of Doom est développé par l'auteur de ce blogue.*
-
 <iframe src="https://store.steampowered.com/widget/5007930/" title="The Solitaire Tower of Doom sur Steam" loading="lazy" style="aspect-ratio:auto;height:190px"></iframe>
 
 ### Royal Vermin (gratuit)
@@ -341,3 +337,9 @@ Créé par deux amis d'enfance qui en rêvaient depuis 2016, *The Glitch Fairy* 
 ## Bon magasinage!
 
 Acheter un jeu québécois, c'est soutenir directement nos studios, petits et grands. Vous avez un coup de cœur d'ici qu'on aurait oublié? Dites-le-nous en commentaire.
+
+**Note de transparence :** l'auteur de ce blogue a travaillé sur trois des jeux présentés dans ce guide :
+
+- *Hell is Us* : responsable des communications
+- *Voidling Bound* : relations de presse au Québec
+- *The Solitaire Tower of Doom* : créateur
