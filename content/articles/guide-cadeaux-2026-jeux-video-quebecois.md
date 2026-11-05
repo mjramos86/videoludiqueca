@@ -2,7 +2,7 @@
 title: "Guide cadeaux 2026 : 21 jeux vidéo québécois à glisser sous le sapin"
 slug: guide-cadeaux-2026-jeux-video-quebecois
 date: 2026-11-04T12:00:00
-author: mario-j-ramos
+author: videoludique-ca
 category: chronique
 tags:
   - guide cadeaux
@@ -338,7 +338,7 @@ Créé par deux amis d'enfance qui en rêvaient depuis 2016, *The Glitch Fairy* 
 
 Acheter un jeu québécois, c'est soutenir directement nos studios, petits et grands. Vous avez un coup de cœur d'ici qu'on aurait oublié? Dites-le-nous en commentaire.
 
-**Note de transparence :** l'auteur de ce blogue a travaillé sur trois des jeux présentés dans ce guide :
+**Note de transparence :** le créateur de ce blogue a travaillé sur trois des jeux présentés dans ce guide :
 
 - *Hell is Us* : responsable des communications
 - *Voidling Bound* : relations de presse au Québec
