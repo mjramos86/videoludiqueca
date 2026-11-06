@@ -1,5 +1,5 @@
 ---
-title: "Guide cadeaux 2026 : 25 jeux vidéo québécois à glisser sous le sapin"
+title: "Guide cadeaux 2026 : 26 jeux vidéo québécois à glisser sous le sapin"
 slug: guide-cadeaux-2026-jeux-video-quebecois
 date: 2026-11-04T12:00:00
 author: videoludique-ca
@@ -13,7 +13,7 @@ tags:
   - journée j'achète un jeu vidéo québécois
   - JJJVQ
 image: /assets/uploads/guide-cadeaux-2026-une-v2.jpg
-excerpt: Voici 25 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026.
+excerpt: Voici 26 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026.
 draft: false
 ---
 **Le Québec est l'un des grands pôles mondiaux du jeu vidéo, et 2026 l'a encore prouvé. Des grosses productions aux petits studios, nos créateurs ont lancé cette année des jeux pour tous les goûts : soirées de party entre amis, récits qui restent en tête, horreur en coop… Voici notre sélection des Fêtes pour encourager le talent d'ici en faisant plaisir à quelqu'un (ou à soi-même).**
@@ -229,6 +229,21 @@ Sorti de l'accès anticipé le 22 octobre, *Every Day We Fight* plonge une poign
 Les créateurs de *Spiritfarer* changent complètement de registre avec ce roguelike d'action où l'on incarne des âmes damnées qui se rebellent contre le jugement divin. L'idée folle : des parties en coopération à 33 joueurs, lancées en un clic grâce au matchmaking instantané, sans salon ni chat vocal. On se coordonne par émojis et par pings, on combine ses pouvoirs avec ceux des autres, on réanime les alliés tombés et on affronte des hordes de monstres et des boss gigantesques dans le style dessiné à la main propre au studio. Sorti en version 1.0 en juin avec ses trois mondes et son boss final, il se joue aussi très bien en solo ou entre amis, et chaque parcours rend un peu plus fort pour le suivant.
 
 <figure class="wp-block-embed wp-block-embed-youtube is-type-video"><div class="wp-block-embed__wrapper"><iframe src="https://www.youtube.com/embed/IJGhCE12cIM" title="33 Immortals – bande-annonce" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></figure>
+
+### Worship
+
+![Key art de Worship](/assets/uploads/guide-2026-worship.jpg)
+
+- **Studio :** Chasing Rats Games
+- **Genre :** Roguelite d'action et de stratégie
+- **Mode :** Solo
+- **Plateformes :** PC, PlayStation 5
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/1548180/Worship/)
+
+Les créateurs montréalais de *Struggling* nous transforment en fanatique d'un culte apocalyptique dans ce roguelite ouvertement inspiré de *Pikmin*. On recrute des fidèles en convertissant les mécréants, on les dirige au combat et dans des missions occultes, et on agrandit le repaire du culte pour obtenir des bénédictions impies. La grande idée : on lance ses sorts en dessinant des symboles de sang au sol, pour invoquer des abominations ou faire pleuvoir des grenouilles toxiques. Ces mêmes sceaux servent à résoudre les énigmes et à activer les sanctuaires. Avec son trait noir et blanc rehaussé de couleurs vives, ses quatre factions et son humour noir assumé, *Worship* est sorti de l'accès anticipé le 4 novembre et arrive en même temps sur PlayStation 5. Il est entièrement doublé en français.
+
+<figure class="wp-block-embed wp-block-embed-youtube is-type-video"><div class="wp-block-embed__wrapper"><iframe src="https://www.youtube.com/embed/nJ7iwLjCy20" title="Worship – bande-annonce" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></figure>
 
 ### Echoes of Mystralia (accès anticipé)
 
