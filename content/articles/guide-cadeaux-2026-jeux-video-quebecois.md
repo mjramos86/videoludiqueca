@@ -1,5 +1,5 @@
 ---
-title: "Guide cadeaux 2026 : 26 jeux vidéo québécois à glisser sous le sapin"
+title: "Guide cadeaux 2026 : 28 jeux vidéo québécois à glisser sous le sapin"
 slug: guide-cadeaux-2026-jeux-video-quebecois
 date: 2026-11-04T12:00:00
 author: videoludique-ca
@@ -13,7 +13,7 @@ tags:
   - journée j'achète un jeu vidéo québécois
   - JJJVQ
 image: /assets/uploads/guide-cadeaux-2026-une-v2.jpg
-excerpt: Voici 26 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026.
+excerpt: Voici 28 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026.
 draft: false
 ---
 **Le Québec est l'un des grands pôles mondiaux du jeu vidéo, et 2026 l'a encore prouvé. Des grosses productions aux petits studios, nos créateurs ont lancé cette année des jeux pour tous les goûts : soirées de party entre amis, récits qui restent en tête, horreur en coop… Voici notre sélection des Fêtes pour encourager le talent d'ici en faisant plaisir à quelqu'un (ou à soi-même).**
@@ -366,6 +366,36 @@ Un an après sa sortie, *Hell is Us* a débarqué sur Switch 2 avec sa plus gros
 Lancé en décembre 2025, le beat 'em up cosmique des créateurs de *TMNT: Shredder's Revenge* a dépassé 1,5 million de joueurs et continue de s'agrandir. Après l'ajout de Cyclope et de la Chose au printemps, l'extension *The Siege of Castle Doom* arrive le 10 novembre avec Docteur Fatalis et la Femme invisible comme personnages jouables, en plus d'un nouveau mode de jeu, pour un total de 19 héros. Le système d'échange en duo en plein combat et le pixel art rétro en font une valeur sûre pour jouer en famille.
 
 <figure class="wp-block-embed wp-block-embed-youtube is-type-video"><div class="wp-block-embed__wrapper"><iframe src="https://www.youtube.com/embed/b-rO2V3aG2I" title="Marvel Cosmic Invasion – bande-annonce" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></figure>
+
+### Foundation
+
+![Key art de Foundation](/assets/uploads/guide-2026-foundation.jpg)
+
+- **Studio :** Polymorph Games
+- **Genre :** City-builder médiéval
+- **Mode :** Solo
+- **Plateformes :** PC
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/690830/Foundation/) · [GOG](https://www.gog.com/fr/game/foundation) · [Extension Harvest Festival (Steam)](https://store.steampowered.com/app/4713280/)
+
+Sorti de son long accès anticipé en janvier 2025, le city-builder médiéval de Polymorph Games a vécu une très belle année 2026. Son principe reste unique : pas de grille, presque aucune contrainte de construction, et un village qui pousse de façon organique autour des chemins que tracent vos villageois. On assemble ses bâtiments pièce par pièce pour en faire de véritables monuments, on gère les emplois et les chaînes de production, et on peut jouer en mode détente pour simplement admirer son bourg grouillant de vie. Le 8 octobre, le jeu a reçu sa première grande extension, *Harvest Festival* : élevage, vergers, nouvelles cultures, nouvelles chaînes de production et une grande fête des récoltes pour célébrer le tout. C'est le cadeau tout désigné pour les bâtisseurs patients.
+
+<figure class="wp-block-embed wp-block-embed-youtube is-type-video"><div class="wp-block-embed__wrapper"><iframe src="https://www.youtube.com/embed/9zASkx6kKu0" title="Foundation – bande-annonce" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></figure>
+
+### Disney Dreamlight Valley
+
+![Key art de Disney Dreamlight Valley](/assets/uploads/guide-2026-disney-dreamlight-valley.jpg)
+
+- **Studio :** Gameloft Montréal
+- **Genre :** Simulation de vie / aventure
+- **Mode :** Solo, avec visites de vallées en multijoueur
+- **Plateformes :** PC, Mac, PlayStation 5, PlayStation 4, Xbox Series X|S, Xbox One, Nintendo Switch, Nintendo Switch 2
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/1401590/Disney_Dreamlight_Valley/) · [PlayStation Store](https://store.playstation.com/concept/10002466) · [Xbox / Microsoft Store](https://www.xbox.com/games/store/disney-dreamlight-valley/9NSF0BGH8D86) · [Nintendo eShop (Switch)](https://www.nintendo.com/us/store/products/disney-dreamlight-valley-switch/) · [Nintendo eShop (Switch 2)](https://www.nintendo.com/us/store/products/disney-dreamlight-valley-nintendo-switch-2-edition-switch-2/)
+
+Le jeu de simulation de vie de Gameloft Montréal n'a jamais cessé de grandir, et 2026 l'a encore prouvé. Les mises à jour gratuites ont amené tour à tour la Belle et le Clochard, Pocahontas, Hercule, Ralph la Casse et, pour l'Halloween, Oogie Boogie de *L'Étrange Noël de monsieur Jack*. En juillet, le premier pack d'aventure, *Honeyglow Woods*, a célébré les 100 ans de Winnie l'ourson avec une forêt inspirée du Bois des Cent Acres. Et le 18 novembre, juste à temps pour les Fêtes, arrive la grosse extension *The Keepsake Sea* : on s'y transforme en sirène, on explore trois nouveaux biomes avec des zones sous-marines à bord d'un bateau pirate personnalisable, et on accueille le capitaine Crochet, Wendy, Jack Sparrow, Milo Thatch et Mégara. Un cadeau parfait pour toute la famille.
+
+<figure class="wp-block-embed wp-block-embed-youtube is-type-video"><div class="wp-block-embed__wrapper"><iframe src="https://www.youtube.com/embed/ra45ITZ8L7E" title="Disney Dreamlight Valley – bande-annonce" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></figure>
 
 ### The Outlast Trials
 
