@@ -1,5 +1,5 @@
 ---
-title: "Guide cadeaux 2026 : 22 jeux vidéo québécois à glisser sous le sapin"
+title: "Guide cadeaux 2026 : 23 jeux vidéo québécois à glisser sous le sapin"
 slug: guide-cadeaux-2026-jeux-video-quebecois
 date: 2026-11-04T12:00:00
 author: videoludique-ca
@@ -13,7 +13,7 @@ tags:
   - journée j'achète un jeu vidéo québécois
   - JJJVQ
 image: /assets/uploads/guide-cadeaux-2026-une-v2.jpg
-excerpt: Voici 22 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026.
+excerpt: Voici 23 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026.
 draft: false
 ---
 **Le Québec est l'un des grands pôles mondiaux du jeu vidéo, et 2026 l'a encore prouvé. Des grosses productions aux petits studios, nos créateurs ont lancé cette année des jeux pour tous les goûts : soirées de party entre amis, récits qui restent en tête, horreur en coop… Voici notre sélection des Fêtes pour encourager le talent d'ici en faisant plaisir à quelqu'un (ou à soi-même).**
@@ -244,6 +244,21 @@ Coincé dans un nouvel emploi plate au supermarché Anymart, vous tuez le temps 
 Ici, le niveau est littéralement un casse-tête : chaque tableau est découpé en pièces qu'on assemble, qu'on sépare et qu'on fait pivoter pour tracer un chemin jusqu'à la porte, avant de le parcourir avec son petit personnage. Les 100 niveaux faits à la main sont répartis dans 12 boîtes de casse-tête, chacune avec son thème et sa mécanique, et les boîtes avancées combinent le tout. Avec son style douillet, sa trame sonore apaisante et son petit prix, c'est un parfait cadeau pour les amateurs de réflexion. Il est aussi vérifié sur Steam Deck.
 
 <figure class="wp-block-embed wp-block-embed-youtube is-type-video"><div class="wp-block-embed__wrapper"><iframe src="https://www.youtube.com/embed/4jN8V4zvRUs" title="Piece by Piece – bande-annonce" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></figure>
+
+### Rivage
+
+![Key art de Rivage](/assets/uploads/guide-2026-rivage.jpg)
+
+- **Studio :** Exnilo Studio (édité par Raw Fury)
+- **Genre :** Aventure / casse-tête de science-fiction à la première personne
+- **Mode :** Solo
+- **Plateformes :** PC, PlayStation 5, Xbox Series X|S
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/4094660/) · [PlayStation Store](https://store.playstation.com/concept/10017506) · [Xbox / Microsoft Store](https://www.xbox.com/games/store/rivage/9NZVRP8QQZ6N)
+
+Au 25e siècle, la station spatiale A.R.E.S. étudie VESTA, une planète qui pourrait devenir le nouveau foyer de l'humanité, jusqu'à ce qu'un phénomène inconnu la frappe. Miranda s'y réveille seule, prisonnière d'une anomalie qui la fait revivre la même boucle de temps, au milieu d'objets déplacés, de portes nouvellement ouvertes et de messages anonymes. Pour découvrir ce qui est arrivé à l'équipage, il faut fouiller une station entièrement interactive, reconstituer l'histoire de chacun à partir de journaux et de carnets, et résoudre des énigmes dont certaines solutions ne s'accomplissent pas en une seule boucle, mais préparent la suivante. Sorti le 22 septembre et entièrement traduit en français, c'est un beau cadeau pour les fans d'*Outer Wilds* et de mystères qui se dévoilent lentement.
+
+<figure class="wp-block-embed wp-block-embed-youtube is-type-video"><div class="wp-block-embed__wrapper"><iframe src="https://www.youtube.com/embed/ZLrrwo8NcQQ" title="Rivage – bande-annonce" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></figure>
 
 ### The Solitaire Tower of Doom (accès anticipé)
 
