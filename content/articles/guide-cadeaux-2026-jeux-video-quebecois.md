@@ -1,5 +1,5 @@
 ---
-title: "Guide cadeaux 2026 : 23 jeux vidéo québécois à glisser sous le sapin"
+title: "Guide cadeaux 2026 : 24 jeux vidéo québécois à glisser sous le sapin"
 slug: guide-cadeaux-2026-jeux-video-quebecois
 date: 2026-11-04T12:00:00
 author: videoludique-ca
@@ -13,7 +13,7 @@ tags:
   - journée j'achète un jeu vidéo québécois
   - JJJVQ
 image: /assets/uploads/guide-cadeaux-2026-une-v2.jpg
-excerpt: Voici 23 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026.
+excerpt: Voici 24 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026.
 draft: false
 ---
 **Le Québec est l'un des grands pôles mondiaux du jeu vidéo, et 2026 l'a encore prouvé. Des grosses productions aux petits studios, nos créateurs ont lancé cette année des jeux pour tous les goûts : soirées de party entre amis, récits qui restent en tête, horreur en coop… Voici notre sélection des Fêtes pour encourager le talent d'ici en faisant plaisir à quelqu'un (ou à soi-même).**
@@ -169,6 +169,21 @@ Alors que la Grande Noirceur s'abat sur le Québec, la jeune Thérèse perd sa m
 Derrière *Horripilant* se cache Pas Game, le studio d'une seule personne fondé à Montréal par Alexandre Declos. Ce petit jeu d'horreur mélange jeu incrémental, casse-tête et auto-battler : on combat, on mine et on réfléchit pour descendre toujours plus creux dans un donjon maudit, où chaque bonus a son prix. Avec son pixel art inquiétant, ses évaluations très positives sur Steam et son petit prix, c'est un excellent cadeau de bas de Noël pour les amateurs de frissons.
 
 <figure class="wp-block-embed wp-block-embed-youtube is-type-video"><div class="wp-block-embed__wrapper"><iframe src="https://www.youtube.com/embed/SnF7j2ECJQk" title="Horripilant – bande-annonce" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></figure>
+
+### ScopeCreep
+
+![Key art de ScopeCreep](/assets/uploads/guide-2026-scopecreep.jpg)
+
+- **Studio :** Foolbox Studio (édité par Pretty Soon)
+- **Genre :** Incrémental actif / défense
+- **Mode :** Solo
+- **Plateformes :** PC (Windows, Linux)
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/3595710/ScopeCreep/)
+
+On y incarne une flamme murmurante qui convoite des âmes. Au centre de l'écran, elle affronte des vagues d'esprits errants, récolte leurs essences et les réinvestit dans un vaste arbre d'améliorations pour plonger toujours plus loin dans le vide. Le combat est simple, mais la boucle « encore une amélioration » est redoutablement efficace, portée par un pixel art aux couleurs vives et une bande-son d'ambiance. Court, intense et sans temps mort, c'est l'incrémental parfait pour ceux qui n'ont pas de temps à perdre. Le jeu sort le 16 novembre, et une démo gratuite permet de l'essayer dès maintenant sur Steam.
+
+<figure class="wp-block-embed wp-block-embed-youtube is-type-video"><div class="wp-block-embed__wrapper"><iframe src="https://www.youtube.com/embed/VULOdzjplzg" title="ScopeCreep – bande-annonce" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></figure>
 
 ### Tape to Tape
 
