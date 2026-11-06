@@ -1,5 +1,5 @@
 ---
-title: "Guide cadeaux 2026 : 24 jeux vidéo québécois à glisser sous le sapin"
+title: "Guide cadeaux 2026 : 25 jeux vidéo québécois à glisser sous le sapin"
 slug: guide-cadeaux-2026-jeux-video-quebecois
 date: 2026-11-04T12:00:00
 author: videoludique-ca
@@ -13,7 +13,7 @@ tags:
   - journée j'achète un jeu vidéo québécois
   - JJJVQ
 image: /assets/uploads/guide-cadeaux-2026-une-v2.jpg
-excerpt: Voici 24 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026.
+excerpt: Voici 25 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026.
 draft: false
 ---
 **Le Québec est l'un des grands pôles mondiaux du jeu vidéo, et 2026 l'a encore prouvé. Des grosses productions aux petits studios, nos créateurs ont lancé cette année des jeux pour tous les goûts : soirées de party entre amis, récits qui restent en tête, horreur en coop… Voici notre sélection des Fêtes pour encourager le talent d'ici en faisant plaisir à quelqu'un (ou à soi-même).**
@@ -214,6 +214,21 @@ Après plus de trois ans en accès anticipé, le jeu de hockey du studio de Qué
 Sorti de l'accès anticipé le 22 octobre, *Every Day We Fight* plonge une poignée de civils, issus des deux camps d'une guerre en cours, au cœur d'une invasion extraterrestre qui a figé le temps. Le hic : chaque fois qu'ils meurent, tout recommence. On explore la ville en temps réel, on s'infiltre pour trouver la meilleure position, puis on bascule en combat tactique au tour par tour, dans la lignée de *XCOM*. La version complète ajoute beaucoup de contenu, dont des missions bien plus variées, 70 % plus d'armes et des niveaux de difficulté pour tous les profils. Un excellent choix pour les stratèges. Destiné à un public adulte.
 
 <figure class="wp-block-embed wp-block-embed-youtube is-type-video"><div class="wp-block-embed__wrapper"><iframe src="https://www.youtube.com/embed/uKoFLNs0CSE" title="Every Day We Fight – bande-annonce" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></figure>
+
+### 33 Immortals
+
+![Key art de 33 Immortals](/assets/uploads/guide-2026-33-immortals.jpg)
+
+- **Studio :** Thunder Lotus
+- **Genre :** Action roguelike coopératif
+- **Mode :** Solo ou coopération en ligne jusqu'à 33 joueurs
+- **Plateformes :** PC, Xbox Series X|S (aussi dans le Game Pass)
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/958520/33_Immortals/) · [Epic Games Store](https://store.epicgames.com/p/33-immortals-9873a2) · [Xbox / Microsoft Store](https://www.xbox.com/games/store/33-immortals/9P8LR42PTRGJ)
+
+Les créateurs de *Spiritfarer* changent complètement de registre avec ce roguelike d'action où l'on incarne des âmes damnées qui se rebellent contre le jugement divin. L'idée folle : des parties en coopération à 33 joueurs, lancées en un clic grâce au matchmaking instantané, sans salon ni chat vocal. On se coordonne par émojis et par pings, on combine ses pouvoirs avec ceux des autres, on réanime les alliés tombés et on affronte des hordes de monstres et des boss gigantesques dans le style dessiné à la main propre au studio. Sorti en version 1.0 en juin avec ses trois mondes et son boss final, il se joue aussi très bien en solo ou entre amis, et chaque parcours rend un peu plus fort pour le suivant.
+
+<figure class="wp-block-embed wp-block-embed-youtube is-type-video"><div class="wp-block-embed__wrapper"><iframe src="https://www.youtube.com/embed/IJGhCE12cIM" title="33 Immortals – bande-annonce" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></figure>
 
 ### Echoes of Mystralia (accès anticipé)
 
