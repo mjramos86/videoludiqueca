@@ -1,5 +1,5 @@
 ---
-title: "Guide cadeaux 2026 : 28 jeux vidéo québécois à glisser sous le sapin"
+title: "Guide cadeaux 2026 : 29 jeux vidéo québécois à glisser sous le sapin"
 slug: guide-cadeaux-2026-jeux-video-quebecois
 date: 2026-11-04T12:00:00
 author: videoludique-ca
@@ -13,7 +13,7 @@ tags:
   - journée j'achète un jeu vidéo québécois
   - JJJVQ
 image: /assets/uploads/guide-cadeaux-2026-une-v2.jpg
-excerpt: Voici 28 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026.
+excerpt: Voici 29 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026.
 draft: false
 ---
 **Le Québec est l'un des grands pôles mondiaux du jeu vidéo, et 2026 l'a encore prouvé. Des grosses productions aux petits studios, nos créateurs ont lancé cette année des jeux pour tous les goûts : soirées de party entre amis, récits qui restent en tête, horreur en coop… Voici notre sélection des Fêtes pour encourager le talent d'ici en faisant plaisir à quelqu'un (ou à soi-même).**
@@ -244,6 +244,21 @@ Les créateurs de *Spiritfarer* changent complètement de registre avec ce rogue
 Les créateurs montréalais de *Struggling* nous transforment en fanatique d'un culte apocalyptique dans ce roguelite ouvertement inspiré de *Pikmin*. On recrute des fidèles en convertissant les mécréants, on les dirige au combat et dans des missions occultes, et on agrandit le repaire du culte pour obtenir des bénédictions impies. La grande idée : on lance ses sorts en dessinant des symboles de sang au sol, pour invoquer des abominations ou faire pleuvoir des grenouilles toxiques. Ces mêmes sceaux servent à résoudre les énigmes et à activer les sanctuaires. Avec son trait noir et blanc rehaussé de couleurs vives, ses quatre factions et son humour noir assumé, *Worship* est sorti de l'accès anticipé le 4 novembre et arrive en même temps sur PlayStation 5. Il est entièrement doublé en français.
 
 <figure class="wp-block-embed wp-block-embed-youtube is-type-video"><div class="wp-block-embed__wrapper"><iframe src="https://www.youtube.com/embed/nJ7iwLjCy20" title="Worship – bande-annonce" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></figure>
+
+### Gear Up Einstein! (accès anticipé)
+
+![Key art de Gear Up Einstein!](/assets/uploads/guide-2026-gear-up-einstein.jpg)
+
+- **Studio :** No Deadlines
+- **Genre :** Auto-battler roguelite stratégique
+- **Mode :** Solo ou coopération jusqu'à 3 joueurs (en ligne ou en local)
+- **Plateformes :** PC, Mac, Linux (Steam)
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/2950410/Gear_Up_Einstein/)
+
+Et si Einstein troquait la craie pour une épée? Dans cet auto-battler roguelite, une machine à voyager dans le temps permet de recruter des figures historiques et de les envoyer combattre des envahisseurs monstrueux, de l'Égypte antique à la Renaissance italienne. Chaque personnage a ses propres bonus, et tout l'art consiste à combiner les bonnes synergies et à équiper son escouade dans les boutiques entre les combats, avant de regarder la bataille se dérouler toute seule dans un chaos spectaculaire. Le tout se joue en solo ou à trois, en partageant l'équipement pour monter des combos dévastateurs, et le QG s'améliore d'une mission à l'autre. Entièrement doublé en français, le jeu sort en accès anticipé sur Steam le 6 novembre.
+
+<figure class="wp-block-embed wp-block-embed-youtube is-type-video"><div class="wp-block-embed__wrapper"><iframe src="https://www.youtube.com/embed/cjixk4lRIWA" title="Gear Up Einstein! – bande-annonce" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></figure>
 
 ### Echoes of Mystralia (accès anticipé)
 
