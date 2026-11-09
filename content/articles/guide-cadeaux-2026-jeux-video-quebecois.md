@@ -1,5 +1,5 @@
 ---
-title: "Guide cadeaux 2026 : 29 jeux vidéo québécois à glisser sous le sapin"
+title: "Guide cadeaux 2026 : 30 jeux vidéo québécois à glisser sous le sapin"
 slug: guide-cadeaux-2026-jeux-video-quebecois
 date: 2026-11-04T12:00:00
 author: videoludique-ca
@@ -13,7 +13,7 @@ tags:
   - journée j'achète un jeu vidéo québécois
   - JJJVQ
 image: /assets/uploads/guide-cadeaux-2026-une-v2.jpg
-excerpt: Voici 29 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026.
+excerpt: Voici 30 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026.
 draft: false
 ---
 **Le Québec est l'un des grands pôles mondiaux du jeu vidéo, et 2026 l'a encore prouvé. Des grosses productions aux petits studios, nos créateurs ont lancé cette année des jeux pour tous les goûts : soirées de party entre amis, récits qui restent en tête, horreur en coop… Voici notre sélection des Fêtes pour encourager le talent d'ici en faisant plaisir à quelqu'un (ou à soi-même).**
@@ -411,6 +411,21 @@ Sorti de son long accès anticipé en janvier 2025, le city-builder médiéval d
 Le jeu de simulation de vie de Gameloft Montréal n'a jamais cessé de grandir, et 2026 l'a encore prouvé. Les mises à jour gratuites ont amené tour à tour la Belle et le Clochard, Pocahontas, Hercule, Ralph la Casse et, pour l'Halloween, Oogie Boogie de *L'Étrange Noël de monsieur Jack*. En juillet, le premier pack d'aventure, *Honeyglow Woods*, a célébré les 100 ans de Winnie l'ourson avec une forêt inspirée du Bois des Cent Acres. Et le 18 novembre, juste à temps pour les Fêtes, arrive la grosse extension *The Keepsake Sea* : on s'y transforme en sirène, on explore trois nouveaux biomes avec des zones sous-marines à bord d'un bateau pirate personnalisable, et on accueille le capitaine Crochet, Wendy, Jack Sparrow, Milo Thatch et Mégara. Un cadeau parfait pour toute la famille.
 
 <figure class="wp-block-embed wp-block-embed-youtube is-type-video"><div class="wp-block-embed__wrapper"><iframe src="https://www.youtube.com/embed/ra45ITZ8L7E" title="Disney Dreamlight Valley – bande-annonce" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></figure>
+
+### Aloft (accès anticipé)
+
+![Key art d'Aloft](/assets/uploads/guide-2026-aloft.jpg)
+
+- **Studio :** Astrolabe Interactive (édité par Funcom)
+- **Genre :** Survie cosy / bac à sable
+- **Mode :** Solo ou coopération en ligne jusqu'à 8 joueurs
+- **Plateformes :** PC (Steam), PlayStation 5 au début de 2027
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/1660080/Aloft/)
+
+Dans *Aloft*, n'importe quelle île flottante peut devenir un navire céleste : on y installe une barre, un gouvernail et des voiles, puis on part explorer un archipel de nuages pour y bâtir son foyer, cultiver, élever des animaux et combattre une corruption fongique qui ronge l'écosystème. C'est une survie tout en douceur, qui récompense les bonnes actions plutôt que de punir les erreurs, et qui se joue à merveille entre amis. En 2026, le jeu a continué de prendre son envol avec la mise à jour *Discovery & Ancestry* en août, la dernière de l'accès anticipé : un Esprit du vent pour diriger les courants, un tout nouveau monde à explorer et des améliorations de personnage. Et la suite s'annonce belle : la version 1.0 arrivera au début de 2027, en même temps qu'une version PlayStation 5. Entièrement traduit en français.
+
+<figure class="wp-block-embed wp-block-embed-youtube is-type-video"><div class="wp-block-embed__wrapper"><iframe src="https://www.youtube.com/embed/zslUbFEaTm4" title="Aloft – bande-annonce" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></figure>
 
 ### The Outlast Trials
 
