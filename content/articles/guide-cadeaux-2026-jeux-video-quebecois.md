@@ -12,7 +12,7 @@ tags:
   - jeux vidéo du québec
   - journée j'achète un jeu vidéo québécois
   - JJJVQ
-image: /assets/uploads/guide-cadeaux-2026-une-v2.jpg
+image: /assets/uploads/guide-cadeaux-2026-une-v3.jpg
 excerpt: Voici 30 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026.
 draft: false
 ---
