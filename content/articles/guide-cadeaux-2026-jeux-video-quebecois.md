@@ -329,11 +329,9 @@ Au 25e siècle, la station spatiale A.R.E.S. étudie VESTA, une planète qui pou
 - **Mode :** Solo
 - **Plateformes :** PC, Mac, Linux (Steam)
 
-**Où l'acheter :** [Steam](https://store.steampowered.com/app/5007930/The_Solitaire_Tower_of_Doom/)
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/5007930/The_Solitaire_Tower_of_Doom/) · [itch.io](https://emjayhar.itch.io/the-solitaire-tower-of-doom)
 
 Montréal, 1990 : une secte vouée au Solitaire asservit les employés de bureau, une partie à la fois. Pour lui tenir tête, on choisit un Mécène temporel inspiré d'un personnage historique (Louis XIV, Churchill, Marie Stuart, Napoléon, John Dee…), qui influence sa façon de jouer, puis on descend les étages roguelike d'une tour en remportant des parties dans cinq variantes : Klondike, Spider, Pyramide, TriPeaks et FreeCell. Entre les étages, une boutique d'objets permet d'ajuster sa stratégie, et la progression d'une partie à l'autre débloque de nouveaux mécènes et dos de cartes. Le tout baigne dans un pixel art qui rappelle les jeux PC du début des années 90. Offert en accès anticipé depuis le 2 octobre pour moins de 5 $, c'est le petit cadeau parfait à glisser dans un bas de Noël.
-
-<iframe src="https://store.steampowered.com/widget/5007930/" title="The Solitaire Tower of Doom sur Steam" loading="lazy" style="aspect-ratio:auto;height:190px"></iframe>
 
 ### Royal Vermin
 
