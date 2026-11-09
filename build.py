@@ -236,7 +236,6 @@ def page_shell(title, body, description=None, canonical=None, og_image=None,
   <div class="wrap header-inner">
     <a class="brand" href="/">
       <span class="brand-name">VIDÉO<span class="brand-accent">LUDIQUE</span>.CA</span>
-      <span class="brand-tag">{SITE_TAGLINE}</span>
     </a>
     <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
     <nav class="site-nav">{nav_html()}</nav>
