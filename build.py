@@ -125,6 +125,19 @@ def _embed_iframe(m):
                 f'allowfullscreen></iframe></div>')
     return f'<div class="wp-block-embed__wrapper"><a href="{url}" rel="noopener" target="_blank">{url}</a></div>'
 
+VIDEO_P_RE = re.compile(
+    r'<p>\s*(?:<a [^>]*href="(https?://[^"]+)"[^>]*>[^<]*</a>|(https?://\S+?))\s*</p>')
+
+def _video_paragraph(m):
+    """A paragraph that is only a YouTube/Vimeo/VideoPress URL becomes a player
+    (same behaviour as WordPress; survives the Pages CMS rich-text editor)."""
+    url = (m.group(1) or m.group(2)).replace("&amp;", "&")
+    if not re.search(r'(?:youtu\.be/|youtube\.com/(?:watch\?v=|embed/|shorts/)|vimeo\.com/\d|videopress\.com/v/)', url):
+        return m.group(0)
+    return ('<figure class="wp-block-embed wp-block-embed-youtube is-type-video">'
+            + EMBED_WRAP_RE.sub(_embed_iframe, f'<div class="wp-block-embed__wrapper">{url}</div>')
+            + '</figure>')
+
 def rewrite_html(content):
     """Make a post/page body portable: strip domain, localize media, collect paths.
 
@@ -136,6 +149,7 @@ def rewrite_html(content):
     # 0. convert bare-URL embeds (raw markup) to iframes, then drop wp block comments
     s = EMBED_WRAP_RE.sub(_embed_iframe, s)
     s = WP_COMMENT_RE.sub("", s)
+    s = VIDEO_P_RE.sub(_video_paragraph, s)
     # 1. domain -> root-absolute
     s = DOMAIN_RE.sub("", s)
     s = s.replace('href="//videoludique.ca', 'href="').replace('src="//videoludique.ca', 'src="')
@@ -444,7 +458,10 @@ def _load_cms_articles():
 # ---------------------------------------------------------------------------
 # build: normalize, merge, drop drafts, sort newest-first, load bodies
 # ---------------------------------------------------------------------------
-_all = [_norm_imported(dict(p)) for p in posts_meta] + _load_cms_articles()
+_cms_articles = _load_cms_articles()
+# an imported WordPress post re-created in the CMS (same slug) is replaced by it
+_cms_slugs = {p["slug"] for p in _cms_articles}
+_all = [_norm_imported(dict(p)) for p in posts_meta if p["slug"] not in _cms_slugs] + _cms_articles
 posts = sorted((p for p in _all if not p["_draft"]),
                key=lambda p: p["date"], reverse=True)
 
