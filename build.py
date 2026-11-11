@@ -539,12 +539,80 @@ def render_post(p, idx):
 # ---------------------------------------------------------------------------
 # run
 # ---------------------------------------------------------------------------
+SEARCH_FORM = (
+    '<form class="site-search" role="search" action="/" method="get">'
+    '<label class="visually-hidden" for="site-search-q">Rechercher sur le site</label>'
+    '<input id="site-search-q" name="q" type="search" autocomplete="off" '
+    'placeholder="Rechercher un jeu, un studio, un sujet…">'
+    '<button type="submit">Rechercher</button></form>')
+SEARCH_RESULTS = ('<section id="search-results" class="search-results" hidden aria-live="polite">'
+                  '<p class="search-count"></p><div class="card-grid"></div></section>')
+SEARCH_SCRIPT = r"""<script>
+(function(){
+  var form=document.querySelector('.site-search'), input=document.getElementById('site-search-q');
+  var box=document.getElementById('search-results'); if(!form||!input||!box) return;
+  var grid=box.querySelector('.card-grid'), count=box.querySelector('.search-count');
+  var main=[].slice.call(document.querySelectorAll('.card-grid')).filter(function(g){return !box.contains(g);});
+  var pager=document.querySelector('.pagination'), data=null, loading=null, timer=null;
+  function norm(s){return (s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[’']/g,"'");}
+  function esc(s){return (s||'').replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function load(){
+    if(data) return Promise.resolve(data);
+    if(!loading) loading=fetch('/search-index.json').then(function(r){return r.json();}).then(function(j){
+      data=j.map(function(p){p._t=norm(p.t);p._g=norm(p.g+' '+p.c);p._e=norm(p.e);p._b=norm(p.b);return p;}); return data;});
+    return loading;
+  }
+  function card(p){
+    var img=p.i?'<a class="card-media" href="'+p.u+'"><img src="'+esc(p.i)+'" alt="'+esc(p.a)+'" loading="lazy" width="800" height="450"></a>':'';
+    var cat=p.c?'<a class="card-cat" href="/category/'+p.s+'/">'+esc(p.c)+'</a>':'';
+    return '<article class="card">'+img+'<div class="card-body">'+cat+
+      '<h2 class="card-title"><a href="'+p.u+'">'+esc(p.t)+'</a></h2>'+
+      '<div class="card-excerpt"><p>'+esc(p.e)+'</p></div>'+
+      '<time class="card-date" datetime="'+p.d+'">'+esc(p.f)+'</time></div></article>';
+  }
+  function show(on){
+    box.hidden=!on; main.forEach(function(g){g.hidden=on;}); if(pager) pager.hidden=on;
+  }
+  function run(q){
+    var terms=norm(q).split(/\s+/).filter(Boolean);
+    var url=new URL(location.href);
+    if(terms.length){url.searchParams.set('q',q);}else{url.searchParams.delete('q');}
+    history.replaceState(null,'',url.pathname+url.search);
+    if(!terms.length){show(false);return;}
+    load().then(function(d){
+      var res=[];
+      d.forEach(function(p){
+        var score=0;
+        for(var i=0;i<terms.length;i++){
+          var t=terms[i], s=0;
+          if(p._t.indexOf(t)>-1) s+=10;
+          if(p._g.indexOf(t)>-1) s+=5;
+          if(p._e.indexOf(t)>-1) s+=3;
+          if(p._b.indexOf(t)>-1) s+=1;
+          if(!s) return; score+=s;
+        }
+        res.push([score,p]);
+      });
+      res.sort(function(a,b){return b[0]-a[0]||(a[1].d<b[1].d?1:-1);});
+      var n=res.length;
+      count.textContent=n?(n+(n>1?' résultats':' résultat')+' pour « '+q.trim()+' »'):'Aucun résultat pour « '+q.trim()+' ».';
+      grid.innerHTML=res.slice(0,60).map(function(r){return card(r[1]);}).join('');
+      show(true);
+    });
+  }
+  input.addEventListener('focus',load,{once:true});
+  input.addEventListener('input',function(){clearTimeout(timer);var v=input.value;timer=setTimeout(function(){run(v);},180);});
+  form.addEventListener('submit',function(e){e.preventDefault();run(input.value);box.scrollIntoView({behavior:'smooth',block:'start'});});
+  var q0=new URLSearchParams(location.search).get('q'); if(q0){input.value=q0;run(q0);}
+})();
+</script>"""
+
 def build_home():
     def intro(pg):
         if pg == 1:
             return ('<section class="hero-band"><div class="wrap">'
                     '<h1>L’actualité du jeu vidéo québécois</h1>'
-                    f'<p>{SITE_TAGLINE}</p></div></section>')
+                    f'<p>{SITE_TAGLINE}</p>{SEARCH_FORM}</div></section>')
         return f'<div class="wrap archive-head"><h1>Articles — page {pg}</h1></div>'
     for path, body, pg, total in paginate(posts, "/", intro):
         wrapped = body if pg == 1 else f'<div class="wrap">{body}</div>'
@@ -557,7 +625,9 @@ def build_home():
             # ensure pagination inside wrap
             html_body = re.sub(r'(<nav class="pagination">.*?</nav>)$',
                                r'<div class="wrap">\1</div>', html_body, flags=re.S)
-            write(path, page_shell(SITE_TITLE, html_body, canonical="/"))
+            html_body = html_body.replace('<div class="wrap"><div class="card-grid">',
+                                          '<div class="wrap">' + SEARCH_RESULTS + '<div class="card-grid">', 1)
+            write(path, page_shell(SITE_TITLE, html_body + SEARCH_SCRIPT, canonical="/"))
         else:
             write(path, page_shell(SITE_TITLE, f'<div class="wrap">{body}</div>',
                                    canonical=path))
@@ -844,6 +914,29 @@ def build_sitemap():
     write("/sitemap.xml", xml)
     write("/robots.txt", f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n")
 
+def build_search_index():
+    """/search-index.json — compact index for the homepage search bar."""
+    items = []
+    for p in posts:
+        body = p["_body"] if p["_cms"] else (body_fragment(p["id"]) or "")
+        text = " ".join(decode(rewrite_html(body)).split())
+        c = CAT.get(p["_cats"][0]) if p["_cats"] else None
+        items.append({
+            "t": decode(p["title"]),
+            "u": post_path(p),
+            "d": p["date"],
+            "f": fr_date(p["date"]),
+            "c": decode(c["name"]) if c else "",
+            "s": c["slug"] if c else "",
+            "g": " ".join(decode(TAG[t]["name"]) for t in p["_tags"] if t in TAG),
+            "e": decode(p.get("excerpt", "")).strip(),
+            "b": text,
+            "i": p["_featured"] or "",
+            "a": decode(p["_falt"]),
+        })
+    write("/search-index.json", json.dumps(items, ensure_ascii=False, separators=(",", ":")))
+    return len(items)
+
 def build_404():
     body = ('<div class="wrap error404"><h1>404</h1>'
             '<p>La page demandée est introuvable.</p>'
@@ -871,6 +964,7 @@ def main():
     build_date_archives()
     build_feed()
     build_sitemap()
+    build_search_index()
     build_404()
     n = write_media_manifest()
     print(f"posts={len(posts)} authors={len(AUTHORS)} "
