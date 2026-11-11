@@ -15,7 +15,7 @@ tags:
   - "réalité virtuelle"
   - "squido studio"
   - "VR"
-image: /assets/uploads/wp/2024/02/key_art_digigods_landscape_01.png
+image: /assets/uploads/wp/2024/02/key_art_digigods_landscape_01.jpg
 excerpt: "Le studio montréalais Squido Studio, qui nous a précédemment donné No More Rainbows, annonce un nouveau jeu en VR/MR (réalité virtuelle et réalité mixte) qui sera en démonstration au GDC (Game developers conference) du 18 au 22 mars prochain à San Francisco. Anarchitects permettra notamment aux joueurs de créer leur propre jeu avec un système visuel intuitif."
 draft: false
 ---
@@ -29,17 +29,17 @@ draft: false
 
 https://www.youtube.com/watch?v=PsoPJtOpc3I
 
-![capture d'écran du jeu vidéo anarchitects](/assets/uploads/wp/2024/02/anarchitects-screenshot-3.png)
+![capture d'écran du jeu vidéo anarchitects](/assets/uploads/wp/2024/02/anarchitects-screenshot-3.jpg)
 
 DigiGods est un jeu sandbox en VR/MR qui offre une plateforme innovante permettant aux joueurs de construire, jouer et partager leurs créations sans nécessiter de script ou de codage, grâce à un système de *drag-and-drop* intuitif. Squido Studio promet également une physique multijoueur en temps réel révolutionnaire.
 
-![capture d'écran du jeu vidéo anarchitects](/assets/uploads/wp/2024/02/anarchitects-screenshot-1.png)
+![capture d'écran du jeu vidéo anarchitects](/assets/uploads/wp/2024/02/anarchitects-screenshot-1.jpg)
 
 Les joueurs seront libres de créer des expériences diverses telles que des puzzles complexes, un shooter d’équipe en gravité zéro ou même des jeux de société.
 
 **[Surveillez le site web officiel du jeu](https://www.anarchitects.gg/) pour le dévoilement de la première bande-annonce le 15 mars prochain.**
 
-![capture d'écran du jeu vidéo anarchitects](/assets/uploads/wp/2024/02/anarchitects-screenshot-2.png)
+![capture d'écran du jeu vidéo anarchitects](/assets/uploads/wp/2024/02/anarchitects-screenshot-2.jpg)
 
 **À LIRE AUSSI : [La semaine sherbrookoise du jeu vidéo : une 3e édition aura lieu en mars](/2024/02/17/la-semaine-sherbrookoise-du-jeu-video-une-3e-edition-aura-lieu-en-mars/)**
 

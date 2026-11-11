@@ -23,7 +23,7 @@ Bien que ***[Ancestors : The Humankind Odyssey](https://store.steampowered.com/a
 
 Pour rappel, l’annonce de ***1666: Amsterdam*** est l’aboutissement d’une épopée qui a commencé une quinzaine d’années alors que Patrice Désilets, co-fondateur de **Panache Jeux Numériques**, développe une première version du jeu chez **THQ Montréal**. Dans la foulée de la faillite de **THQ**, **Ubisoft** rachète leur studio montréalais, et éventuellement licencie Désilets. Il s’ensuit une saga judiciaire pour les droits de la propriété intellectuelle du jeu, qui se réglera finalement à l’amiable; **Ubisoft** restitue les droits à son idéateur.
 
-![patrice désilets sur la scène du summer game fest 2026 annonce de 1666 amsterdam de panache jeux numériques](/assets/uploads/wp/2026/09/971ed-capture-decran-2026-06-06-151200-1.png)
+![patrice désilets sur la scène du summer game fest 2026 annonce de 1666 amsterdam de panache jeux numériques](/assets/uploads/wp/2026/09/971ed-capture-decran-2026-06-06-151200-1.jpg)
 
 **Image tirée du Summer Game Fest 2026 diffusée sur la chaîne YouTube de The Game Awards**
 
@@ -35,11 +35,11 @@ https://www.youtube.com/watch?v=6nUzNiiCi2Q
 
 ***1666 : Amsterdam*** est un jeu d’action-aventure à la troisième personne se déroulant au XVIIe siècle, en plein Âge d’or néerlandais, mais dans une version uchronique où l’histoire a pris un autre chemin. On y suit Noa Brooklyn, descendante d’une longue lignée de Zaindaris, des gardiens chargés de préserver l’équilibre du monde. Son rôle depuis la naissance : devenir Perceptrice et reprendre un immense pouvoir accordé il y a 333 ans aux Originaux, qui ne se laisseront pas faire. Elle ne sera pas seule dans cette quête : Aaron, un chat, l’accompagnera.
 
-![capture d'écran du jeu vidéo 1666 amsterdam de panache jeux numériques](/assets/uploads/wp/2026/09/2420a-5.png)
+![capture d'écran du jeu vidéo 1666 amsterdam de panache jeux numériques](/assets/uploads/wp/2026/09/2420a-5.jpg)
 
 Ayant mobilisé près de 70 personnes, le jeu se décrit comme sombre, unique et envoûtant.
 
-![capture d'écran du jeu vidéo 1666 amsterdam de panache jeux numériques](/assets/uploads/wp/2026/09/d739b-3-1.png)
+![capture d'écran du jeu vidéo 1666 amsterdam de panache jeux numériques](/assets/uploads/wp/2026/09/d739b-3-1.jpg)
 
 ## Le père d’Assassin’s Creed et un catalogue qui force le respect
 
@@ -47,13 +47,13 @@ Derrière le projet, deux cofondateurs au parcours imposant : **Patrice Désilet
 
 Leur premier titre, [*Ancestors : The Humankind Odyssey*](https://ancestorsgame.com/fr/), s’est écoulé à plus de 2,5 millions d’exemplaires depuis 2019.
 
-![capture d'écran du jeu vidéo 1666 amsterdam de panache jeux numériques](/assets/uploads/wp/2026/09/3bbbe-6.png)
+![capture d'écran du jeu vidéo 1666 amsterdam de panache jeux numériques](/assets/uploads/wp/2026/09/3bbbe-6.jpg)
 
 ## 100 % québécois, y compris la musique
 
 Panache s’associe à l’éditeur montréalais [Gambit Digital](https://www.gambitdigital.ca/) pour les services d’édition additionnels. La musique originale est signée **[Jorane](https://www.youtube.com/@joranemusic)**, la violoncelliste et vocaliste québécoise reconnue mondialement.
 
-![capture d'écran du jeu vidéo 1666 amsterdam de panache jeux numériques](/assets/uploads/wp/2026/09/f2554-4.png)
+![capture d'écran du jeu vidéo 1666 amsterdam de panache jeux numériques](/assets/uploads/wp/2026/09/f2554-4.jpg)
 
 La sortie en *Accès Anticipé*, est prévue **plus tard en 2026**.
 

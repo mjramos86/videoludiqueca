@@ -21,7 +21,7 @@ draft: false
 
 N’ayant finalement pas eu le temps de jouer autant qu’eux, je leur ai demandé de donner leurs points de vue pour cette critique.
 
-![capture d'écran du jeu vidéo enshrouded](/assets/uploads/wp/2025/05/enshrouded_05_exploration02_presskit.png)
+![capture d'écran du jeu vidéo enshrouded](/assets/uploads/wp/2025/05/enshrouded_05_exploration02_presskit.jpg)
 
 **Les points forts de Enshrouded selon Trent Faucon :**
 
@@ -35,7 +35,7 @@ N’ayant finalement pas eu le temps de jouer autant qu’eux, je leur ai demand
 2. **Cohérence du monde brisée par la régénération de la carte :** Les deux aspects les plus importants pour moi dans un jeu sont sa personnalité et sa narration. Bien que le processus narratif d’exploration et de construction fonctionne très bien pour me divertir en découvrant ce monde, un élément m’a profondément dérangé. Dans un jeu qui nous invite à construire, creuser et couper du bois, on s’attend à ce que la carte ne se régénère pas à chaque fois que l’on quitte la partie. Aussi ridicule que cela puisse paraître, cela nuit énormément à la crédibilité de l’univers dans mon récit de bâtisseur. Je déforeste un chemin et creuse une galerie… et la prochaine fois que je relance le jeu, tout est revenu. Booouuuuhhh.
 3. **Surcharge de fonctionnalités :** Le jeu semble vouloir en faire trop. J’imagine les séances de brainstorming des créateurs, lançant des idées de fonctionnalités pour finalement décider de tout implémenter. Le résultat est qu’il y a beaucoup de choses dont l’utilité reste à prouver, et d’autres qui fonctionnent à moitié. Parfois, il vaut mieux se concentrer sur quelques points forts et y mettre le paquet.
 
-![capture d'écran du jeu vidéo enshrouded](/assets/uploads/wp/2025/05/enshrouded_07_farming01_presskit.png)
+![capture d'écran du jeu vidéo enshrouded](/assets/uploads/wp/2025/05/enshrouded_07_farming01_presskit.jpg)
 
 **Les points forts de Enshrouded selon Dominic Arsenault :**
 
@@ -49,7 +49,7 @@ N’ayant finalement pas eu le temps de jouer autant qu’eux, je leur ai demand
 2. **Thème et direction artistique génériques :** Le thème du jeu, son titre, le sujet, la direction artistique, le monde : tout cela est quelconque, voire générique. Le « shroud » ressemble au blight de *Warcraft III*, au creep de *StarCraft*, à la shadow curse de *Baldur’s Gate III*, etc. Est-il intéressant, captivant ou intrigant de découvrir le mystère de sa présence, le passé de ce monde, les empires déchus d’autrefois ? Pas vraiment. C’est suffisant pour nous donner un prétexte pour continuer à construire et explorer, sans plus.
 3. **Gestion d’inventaire et d’objets laborieuse :** Il y a beaucoup de manutention à faire dans l’inventaire et la gestion des objets. De nombreux matériaux, objets transformés à construire, ressources à ramasser sur les ennemis ou dans l’environnement s’entassent pêle-mêle dans un sac à dos ou dans des coffres que l’on doit construire. Bien que l’on finisse par débloquer des coffres plus grands et des coffres magiques permettant d’utiliser les ressources sans les avoir sur soi, on regrette les fonctionnalités et les automatisations que l’on trouve dans un *Baldur’s Gate III*, par exemple. Ne serait-ce qu’avoir des sacs séparés pour les matériaux et les consommables, que les objets soient regroupés automatiquement, et ainsi de suite.
 
-![capture d'écran du jeu vidéo enshrouded](/assets/uploads/wp/2025/05/enshrouded_02_survival_presskit.png)
+![capture d'écran du jeu vidéo enshrouded](/assets/uploads/wp/2025/05/enshrouded_02_survival_presskit.jpg)
 
 En résumé, Enshrouded offre une expérience de jeu solide avec des mécaniques d’exploration et de construction bien réalisées. Cependant, un manque d’originalité, des choix de conception discutables comme la régénération de la carte, et une gestion d’inventaire perfectible tempèrent l’enthousiasme et suggèrent des axes d’amélioration pour l’avenir.
 

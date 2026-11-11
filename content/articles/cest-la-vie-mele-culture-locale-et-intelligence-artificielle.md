@@ -13,7 +13,7 @@ tags:
   - "jeux vidéo"
   - "jonathan lessard"
   - "québec"
-image: /assets/uploads/wp/2025/01/langues-1.png
+image: /assets/uploads/wp/2025/01/langues-1.jpg
 excerpt: "C’est la vie!, créé par Jonathan Lessard, offre une expérience de jeu innovante où les joueurs traversent la vie dans un Québec des années 1980, réimaginé par l’intelligence artificielle. En équilibrant événements négatifs et positifs, le jeu présente une esthétique unique et humoristique, avec une démo disponible sur Itch.io."
 draft: false
 ---
@@ -23,7 +23,7 @@ draft: false
 
 Les joueurs naviguent à travers différentes phases de l’existence, de la naissance à la mort, en gérant des cartes représentant des événements marquants. Le système de jeu repose sur trouver un équilibre : les cartes d’événements négatifs, comme l’acné à l’adolescence ou l’absence d’un parent, génèrent du crédit cosmique que les joueurs peuvent investir dans des cartes avec des expériences positives.
 
-![capture d'écran du jeu vidéo c'est la vie](/assets/uploads/wp/2025/01/debutants.png)
+![capture d'écran du jeu vidéo c'est la vie](/assets/uploads/wp/2025/01/debutants.jpg)
 
 Le jeu se démarque également par son ancrage dans la culture québécoise. L’action se déroule dans un Québec des années 1980 « halluciné » par l’IA, créant un univers d’une étrange familiarité. Les joueurs peuvent choisir de jouer en français québécois ou en anglais.
 

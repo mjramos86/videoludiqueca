@@ -11,7 +11,7 @@ tags:
   - "montréal"
   - "québec"
   - "the storybook vale"
-image: /assets/uploads/wp/2024/11/ddv_thestorybookvale_keyart_1920x1080.png
+image: /assets/uploads/wp/2024/11/ddv_thestorybookvale_keyart_1920x1080.jpg
 excerpt: "The Storybook Vale, la nouvelle extension de Disney Dreamlight Valley, introduit cinq villageois et des aventures avec des créatures vivantes."
 draft: false
 ---

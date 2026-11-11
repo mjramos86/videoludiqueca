@@ -13,7 +13,7 @@ tags:
   - "québec"
   - "red barrels"
   - "the outlast trials"
-image: /assets/uploads/wp/2024/07/d2d638a5da5498e9664094a2808d64c1a5fb704a.png
+image: /assets/uploads/wp/2024/07/d2d638a5da5498e9664094a2808d64c1a5fb704a.jpg
 excerpt: "Le jeu The Outlast Trials du studio québécois Red Barrels a connu un grand succès, avec plus de 1,5 million d’unités vendues sur Steam, en plus des versions PS5 et Xbox Series. La récente mise à jour Project Lupara introduit de nouveaux contenus et fonctionnalités, notamment une nouvelle carte, un nouveau vilain et des événements spéciaux."
 draft: false
 ---

@@ -14,7 +14,7 @@ tags:
   - "québec"
   - "retro mtl"
   - "ultimate nintendo"
-image: /assets/uploads/wp/2024/05/capture-decran-le-2024-05-01-a-13.31.47.png
+image: /assets/uploads/wp/2024/05/capture-decran-le-2024-05-01-a-13.31.47.jpg
 excerpt: "Le populaire youtuber spécialisé en jeux vidéo rétro, Pat Contri (Pat the NES Punk), publie un nouvel ouvrage intitulé Ultimate Nintendo : Guide to the N64 Library où il passe en revue l’entièreté de la librairie de jeux vidéo publiés pour la Nintendo 64 entre 1996 et 2002. C’est la boutique montréalaise Retro MTL qui sera le seul détaillant canadien à en faire la distribution."
 draft: false
 ---

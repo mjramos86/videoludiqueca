@@ -11,7 +11,7 @@ tags:
   - "outward"
   - "québec"
   - "rpg"
-image: /assets/uploads/wp/2023/12/xal06100028036-20230215-0004.png
+image: /assets/uploads/wp/2023/12/xal06100028036-20230215-0004.jpg
 excerpt: "Le studio québécois Nine Dots Studio a annoncé aujourd’hui une nouvelle qui devrait ravir les propriétaires de Nintendo Switch. Outward, un jeu de rôle à monde ouvert précédemment sorti sur PC, PlayStation, Xbox et feu Stadia, sera bientôt disponible également sur la console hybride de Nintendo."
 draft: false
 ---
@@ -42,17 +42,17 @@ C’est la version définitive de Outward qui sortira sur Nintendo Switch, qui i
 
 Voici quelques captures d’écrans tirées de la version Nintendo Switch :
 
-![](/assets/uploads/wp/2023/12/xtl01100012849-20230215-0004.png)
+![](/assets/uploads/wp/2023/12/xtl01100012849-20230215-0004.jpg)
 
-![](/assets/uploads/wp/2023/12/xal07100107912-20230215-0024.png)
+![](/assets/uploads/wp/2023/12/xal07100107912-20230215-0024.jpg)
 
-![](/assets/uploads/wp/2023/12/xal07100107912-20230214-0021.png)
+![](/assets/uploads/wp/2023/12/xal07100107912-20230214-0021.jpg)
 
-![](/assets/uploads/wp/2023/12/xal06100028036-20230215-0028.png)
+![](/assets/uploads/wp/2023/12/xal06100028036-20230215-0028.jpg)
 
-![](/assets/uploads/wp/2023/12/xal06100028036-20230215-0025.png)
+![](/assets/uploads/wp/2023/12/xal06100028036-20230215-0025.jpg)
 
-![](/assets/uploads/wp/2023/12/xal06100028036-20230215-0004.png)
+![](/assets/uploads/wp/2023/12/xal06100028036-20230215-0004.jpg)
 
 La sortie sur Nintendo Switch est prévue pour 2024.
 

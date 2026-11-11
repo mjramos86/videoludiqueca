@@ -13,7 +13,7 @@ tags:
   - "narratif"
   - "québec"
   - "spiral"
-image: /assets/uploads/wp/2024/09/keyart_v2_logo.png
+image: /assets/uploads/wp/2024/09/keyart_v2_logo.jpg
 excerpt: "Après six ans de développement, Folklore Games lance Spiral, un jeu narratif abordant la maladie d’Alzheimer à travers les yeux de Bernard, un homme âgé. Ce jeu poétique invite à explorer ses souvenirs tout en favorisant l’empathie et la compréhension envers les personnes confrontées à cette maladie. Disponible sur Steam et Xbox."
 draft: false
 ---

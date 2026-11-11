@@ -16,7 +16,7 @@ tags:
   - "rainbow six siege x"
   - "sport électronique"
   - "ubisoft"
-image: /assets/uploads/wp/2025/03/r6s_dualfront_ka_logo_16x9_1920x1080.png
+image: /assets/uploads/wp/2025/03/r6s_dualfront_ka_logo_16x9_1920x1080.jpg
 excerpt: "Ubisoft Montréal a annoncé que Tom Clancy’s Rainbow Six Siege X sera lancé le 10 juin. Cette mise à jour gratuite introduit le mode innovant Dual Front, une modernisation graphique, ainsi qu’une lutte renforcée contre la triche. Le jeu adopte un modèle partiellement free-to-play, avec des événements esports prévus."
 draft: false
 ---
@@ -38,7 +38,7 @@ L’ajout le plus important est sans doute le nouveau mode permanent **Dual Fron
 
 Une bêta fermée de ce mode est disponible dès maintenant jusqu’au 19 mars sur PlayStation 5, Xbox Series X|S et PC via Ubisoft Connect. L’accès peut être obtenu via des Twitch Drops en regardant les streams de créateurs de contenus partenaires.
 
-![capture d'écran de la mise à jour rainbow six siege x de Ubisoft Montréal](/assets/uploads/wp/2025/03/r6_siegex_screenshots_final_2025.02.28_screenshot_1_4k.png)
+![capture d'écran de la mise à jour rainbow six siege x de Ubisoft Montréal](/assets/uploads/wp/2025/03/r6_siegex_screenshots_final_2025.02.28_screenshot_1_4k.jpg)
 
 ## Améliorations graphiques et techniques
 

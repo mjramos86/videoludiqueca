@@ -13,7 +13,7 @@ tags:
   - "montréal"
   - "québec"
   - "uqam"
-image: /assets/uploads/wp/2024/04/capture-decran-le-2024-04-04-a-14.41.47.png
+image: /assets/uploads/wp/2024/04/capture-decran-le-2024-04-04-a-14.41.47.jpg
 excerpt: "Gabrielle Trépanier-Jobin, professeure en jeux vidéo à l’École des Médias de l’UQAM, vient de publier une étude qui plonge en détails sur l’état des choses dans l’industrie du jeu vidéo québécoise en ce qui a trait aux pratiques de diversité, équité et inclusion dans les petits et grands studios de jeux vidéo."
 draft: false
 ---

@@ -12,7 +12,7 @@ tags:
   - "québec"
   - "rpg"
   - "yvalys"
-image: /assets/uploads/wp/2025/06/background-pluralys.png
+image: /assets/uploads/wp/2025/06/background-pluralys.jpg
 excerpt: "Ivalys, un studio québécois, a annoncé le jeu de rôle Pluralys, qui allie humour et mystère. Le joueur incarne Élie, un jeune garçon dont la vie paisible est bouleversée par des visiteurs mystérieux. Une démo est disponible sur Steam pour le Steam NextFest."
 draft: false
 ---
@@ -26,18 +26,18 @@ Rejoignez la communauté Discord du jeu [ici.](https://discord.com/invite/D2Qq2Z
 
 **Quelques captures d’écrans du jeu :**
 
-![capture d'écran du jeu vidéo pluralys du studio ivalys](/assets/uploads/wp/2025/06/conversation-with-an-extra-terrest1.png)
+![capture d'écran du jeu vidéo pluralys du studio ivalys](/assets/uploads/wp/2025/06/conversation-with-an-extra-terrest1.jpg)
 
-![capture d'écran du jeu vidéo pluralys du studio ivalys](/assets/uploads/wp/2025/06/conversation-with-an-extra-terrest.png)
+![capture d'écran du jeu vidéo pluralys du studio ivalys](/assets/uploads/wp/2025/06/conversation-with-an-extra-terrest.jpg)
 
-![capture d'écran du jeu vidéo pluralys du studio ivalys](/assets/uploads/wp/2025/06/conversation-with-medie.png)
+![capture d'écran du jeu vidéo pluralys du studio ivalys](/assets/uploads/wp/2025/06/conversation-with-medie.jpg)
 
-![capture d'écran du jeu vidéo pluralys du studio ivalys](/assets/uploads/wp/2025/06/desert.png)
+![capture d'écran du jeu vidéo pluralys du studio ivalys](/assets/uploads/wp/2025/06/desert.jpg)
 
-![capture d'écran du jeu vidéo pluralys du studio ivalys](/assets/uploads/wp/2025/06/hospital.png)
+![capture d'écran du jeu vidéo pluralys du studio ivalys](/assets/uploads/wp/2025/06/hospital.jpg)
 
-![capture d'écran du jeu vidéo pluralys du studio ivalys](/assets/uploads/wp/2025/06/train-station.png)
+![capture d'écran du jeu vidéo pluralys du studio ivalys](/assets/uploads/wp/2025/06/train-station.jpg)
 
-![capture d'écran du jeu vidéo pluralys du studio ivalys](/assets/uploads/wp/2025/06/waterfall.png)
+![capture d'écran du jeu vidéo pluralys du studio ivalys](/assets/uploads/wp/2025/06/waterfall.jpg)
 
 **À LIRE AUSSI : [Premières impressions : l’audace uchronique de Bonaparte : A Mechanized Revolution](/2025/05/22/premieres-impressions-laudace-uchronique-de-bonaparte-a-mechanized-revolution/)**

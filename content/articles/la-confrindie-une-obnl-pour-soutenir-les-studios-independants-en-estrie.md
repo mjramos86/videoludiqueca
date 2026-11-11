@@ -16,7 +16,7 @@ tags:
   - "sherbrooke"
   - "ubisoft sherbrooke"
   - "UQAC"
-image: /assets/uploads/wp/2025/01/photo_ca.png
+image: /assets/uploads/wp/2025/01/photo_ca.jpg
 excerpt: "La Confrindie, nouvel organisme à but non lucratif, ambitionne de positionner Sherbrooke comme un pôle de l’industrie du jeu vidéo au Québec. Soutenant les studios indépendants et l’essor de la communauté vidéoludique, l’organisation s’appuie sur des partenariats locaux pour renforcer l’écosystème, favoriser la diversité et promouvoir des initiatives collaboratives."
 draft: false
 ---

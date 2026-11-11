@@ -101,7 +101,7 @@ On attend de voir comment se développe la suite, mais pour l’instant, ce livr
 
 ![](/assets/uploads/wp/2025/07/hidden-secrets-game.png)
 
-![](/assets/uploads/wp/2025/07/jabba-the-hutt-ennemi-poison-game.png)
+![](/assets/uploads/wp/2025/07/jabba-the-hutt-ennemi-poison-game.jpg)
 
 ![](/assets/uploads/wp/2025/07/maringouins-game.png)
 

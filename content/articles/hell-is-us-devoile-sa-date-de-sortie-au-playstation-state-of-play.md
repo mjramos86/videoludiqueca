@@ -10,7 +10,7 @@ tags:
   - "montréal"
   - "québec"
   - "rogue factor"
-image: /assets/uploads/wp/2025/02/capture-decran-le-2025-02-13-a-11.05.51.png
+image: /assets/uploads/wp/2025/02/capture-decran-le-2025-02-13-a-11.05.51.jpg
 excerpt: "image à la une : Rogue Factor Le studio québécois Rogue Factor a dévoilé la date de sortie de Hell is Us lors du PlayStation State of Play qui a été présenté hier. Le jeu d’action-aventure sera disponible sur PC, PlayStation 5 et Xbox Series le 4 septembre 2025. « Dans Hell is Us, les joueurs incarnent Rémi,…"
 draft: false
 ---
@@ -26,7 +26,7 @@ https://www.youtube.com/watch?v=8iZbNIAM8eQ
 
 Cette nouvelle bande-annonce a d’ailleurs attiré l’attention d’Hideo Kojima, le célèbre créateur des franchises **Metal Gear** et **Death Stranding**, qui l’a « retweeté » sur la plateforme social X.
 
-![](/assets/uploads/wp/2025/02/capture-decran-le-2025-02-13-a-10.29.10.png)
+![](/assets/uploads/wp/2025/02/capture-decran-le-2025-02-13-a-10.29.10.jpg)
 
 **À LIRE AUSSI : [E-AI de retour en 2025](/2025/02/05/e-ai-de-retour-en-2025/)**
 

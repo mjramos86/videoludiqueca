@@ -196,7 +196,7 @@ L’autre affaire, c’est que quand on enregistre les voix… Dans Dead by Dayl
 
 Ce qu’on enregistre, c’est des cris, des halètements, des gémissements, des hurlements. Puis, c’est intense. D’habitude, c’est une session d’à peu près trois à quatre heures de quelqu’un qui se déchire la gueule, la gorge, à hurler dans un micro.
 
-![dead by daylight nicolas cage](/assets/uploads/wp/2023/11/05_keyart_no_logo_1920x1080_eaf5fc2676.png)
+![dead by daylight nicolas cage](/assets/uploads/wp/2023/11/05_keyart_no_logo_1920x1080_eaf5fc2676.jpg)
 
 Nous, quand on est arrivé pour enregistrer pour Nick Cage… Il y aurait une session où tu enregistres des lignes bien normales, pour par exemple la bande-annonce, puis des trucs comme ça. Puis il y a une session de *exertions*, qu’ils appellent, essentiellement des cris. On a dit « Ça, on le ferait faire par un expert, genre chanteur de métal ou quelqu’un qui est habitué à se déchirer la voix. » Il a dit « Non, non, non. Il n’y a jamais eu de sosie vocale de Nick Cage. On ne va pas commencer aujourd’hui. Je vais aller faire. »
 

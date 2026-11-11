@@ -12,7 +12,7 @@ tags:
   - "montréal"
   - "québec"
   - "saven"
-image: /assets/uploads/wp/2025/09/screenshot2.png
+image: /assets/uploads/wp/2025/09/screenshot2.jpg
 excerpt: "image à la une : Horrawr SAVEN est un jeu d’horreur psychologique à la première personne développé par le studio québécois Horrawr, dont la sortie est prévue pour le 22 octobre 2025 sur PC (Steam et Itch.io). Ce titre promet une expérience immersive et angoissante, inspirée des grands classiques du cinéma d’horreur, où la survie…"
 draft: false
 ---

@@ -13,7 +13,7 @@ tags:
   - "montréal"
   - "québec"
   - "steam"
-image: /assets/uploads/wp/2026/02/image003.png
+image: /assets/uploads/wp/2026/02/image003.jpg
 excerpt: "images gracieuseté de l’Indie Asylum Pour une autre année, l’Indie Asylum et La Guilde du jeu vidéo du Québec s’associent pour la Célébration des jeux du Québec, un événement Steam qui met en valeur le talent et la créativité vidéoludique québécoise jusqu’au 23 février 2026. DÉCOUVRE LA VENTE ICI. Nombreux jeux vidéo créés au Québec…"
 draft: false
 ---

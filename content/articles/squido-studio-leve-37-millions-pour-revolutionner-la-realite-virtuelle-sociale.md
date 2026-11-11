@@ -12,7 +12,7 @@ tags:
   - "réalité virtuelle"
   - "squido studio"
   - "VR"
-image: /assets/uploads/wp/2024/10/key_art_digigods_landscape_01.png
+image: /assets/uploads/wp/2024/10/key_art_digigods_landscape_01.jpg
 excerpt: "Le studio Squido à Montréal a levé 3,7 millions de dollars pour développer DigiGods, une plateforme sociale en réalité virtuelle pour les jeunes. Cette initiative attire des investisseurs tels que Triptyq Capital et Meta, et promet des innovations comme un environnement multijoueur immersif et une création de contenu simplifiée."
 draft: false
 ---

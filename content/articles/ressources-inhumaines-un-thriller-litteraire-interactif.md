@@ -36,13 +36,13 @@ Au fil de l’aventure, le joueur devra résoudre des énigmes cryptiques, exami
 >
 > **Pascal Nataf, cofondateur d’Affordance Studio**
 
-![capture d'écran du jeu vidéo ressources inhumaines](/assets/uploads/wp/2025/04/phys_inventory.png)
+![capture d'écran du jeu vidéo ressources inhumaines](/assets/uploads/wp/2025/04/phys_inventory.jpg)
 
 Le jeu se contrôle aisément avec seulement deux doigts, que ce soit sur PC ou sur appareil mobile. Cette simplicité permet aux lecteurs habitués de se concentrer sur le récit, tandis que les joueurs expérimentés trouveront de nombreuses opportunités d’interaction avec l’histoire.
 
 Le jeu a été développé sous l’égide de Moteurs Finnegan, une entité née de la collaboration entre Affordance Studio et Éditions Alto; le collectif Indie Asylum a également apporté sa contribution au développement du projet.
 
-![capture d'écran du jeu vidéo ressources inhumaines](/assets/uploads/wp/2025/04/stat_choice.png)
+![capture d'écran du jeu vidéo ressources inhumaines](/assets/uploads/wp/2025/04/stat_choice.jpg)
 
 *Ressources inhumaines* est disponible dès le 16 avril sur [Steam](https://store.steampowered.com/app/3379360/Inhuman_Resources_A_Literary_Machination/) pour PC au prix de 14,99 $ et sur les plateformes mobiles [iOS](https://apps.apple.com/us/app/inhuman-resources/id6741593429) et Android au prix de 7,99 $.
 

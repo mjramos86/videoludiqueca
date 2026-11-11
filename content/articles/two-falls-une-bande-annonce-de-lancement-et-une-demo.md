@@ -16,7 +16,7 @@ tags:
   - "québec"
   - "two falls"
   - "Unreliable Narrators"
-image: /assets/uploads/wp/2024/10/capture-decran-le-2024-10-11-a-23.46.36.png
+image: /assets/uploads/wp/2024/10/capture-decran-le-2024-10-11-a-23.46.36.jpg
 excerpt: "Le jeu d’aventure narratif “Two Falls” du studio Unreliable Narrators sera lancé le 8 novembre sur Steam et l’Epic Games Store, avec une démo jouable disponible."
 draft: false
 ---

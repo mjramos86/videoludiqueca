@@ -12,7 +12,7 @@ tags:
   - "montréal"
   - "québec"
   - "the legend of zelda"
-image: /assets/uploads/wp/2024/04/capture-decran-le-2024-04-05-a-13.10.28.png
+image: /assets/uploads/wp/2024/04/capture-decran-le-2024-04-05-a-13.10.28.jpg
 excerpt: "Le développeur de jeux vidéo Johan Vinet, du studio Canary Games, a dévoilé cette semaine son prochain projet : Castaway. Si vous êtes nostalgiques des jeux vidéo The Legend of Zelda sur Game Boy, ceci devrait vous plaire."
 draft: false
 ---

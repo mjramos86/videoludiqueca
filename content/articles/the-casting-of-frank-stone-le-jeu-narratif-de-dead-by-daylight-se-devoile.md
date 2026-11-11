@@ -15,7 +15,7 @@ tags:
   - "solo"
   - "supermassive games"
   - "the casting of frank stone"
-image: /assets/uploads/wp/2023/12/key_art.png
+image: /assets/uploads/wp/2023/12/key_art.jpg
 excerpt: "Hier soir aux Game Awards, Behaviour Interactive et Supermassive Games ont dévoilé The Casting of Frank Stone, un jeu solo narratif se déroulant dans l’univers de Dead by Daylight."
 draft: false
 ---

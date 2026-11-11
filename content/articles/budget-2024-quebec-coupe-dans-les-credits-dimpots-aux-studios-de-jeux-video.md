@@ -14,7 +14,7 @@ tags:
   - "jeux vidéo"
   - "montréal"
   - "québec"
-image: /assets/uploads/wp/2024/03/342825368_950881032927481_4858163436603684830_n.png
+image: /assets/uploads/wp/2024/03/342825368_950881032927481_4858163436603684830_n.jpg
 excerpt: "Le gouvernement du Québec a dévoilé aujourd’hui son budget 2024, qui a immédiatement fait sursauter l’industrie du jeu vidéo québécoise avec une réduction des crédits d’impôts qui ont historiquement aidé le Québec à devenir un pôle mondial dans la création vidéoludique."
 draft: false
 ---

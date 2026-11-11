@@ -44,7 +44,7 @@ J’ai discuté avec **Charles Cecil et l’artiste Dave Gibbons, co-créateur d
 
 **J’ai battu Mike Weir au Golf…** c’est à dire, à Mario Golf à l’occasion de la sortie de Mario Golf : Super Rush sur Nintendo Switch.
 
-![mike weir rds jeux vidéo mario golf](/assets/uploads/wp/2024/03/capture-decran-le-2024-03-01-a-16.44.13.png)
+![mike weir rds jeux vidéo mario golf](/assets/uploads/wp/2024/03/capture-decran-le-2024-03-01-a-16.44.13.jpg)
 
 Dans le cadre du **MEGA 2019**, j’ai eu l’opportunité d’interviewer des acteurs clés de l’industrie du jeu vidéo québécoise, dont Philippe Morin de Red Barrels, [Patrice Désilets de Panache Jeux numériques](https://www.youtube.com/watch?v=8Eb0uYRx5jg), [Karl Tremblay de Triple Boris](https://www.youtube.com/watch?v=Mvg5nedWzfc), Guillaume Provost de Compulsion Games et Louis-Félix Cauchon de Jeux Boréalys.
 

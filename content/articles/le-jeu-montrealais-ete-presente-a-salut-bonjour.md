@@ -12,7 +12,7 @@ tags:
   - "montréal"
   - "peinture"
   - "québec"
-image: /assets/uploads/wp/2024/07/capture-decran-le-2024-07-26-a-15.00.28.png
+image: /assets/uploads/wp/2024/07/capture-decran-le-2024-07-26-a-15.00.28.jpg
 excerpt: "Été, un jeu d’exploration et de peinture à Montréal, est désormais disponible sur Steam. Le directeur créatif Lazlo Bonin a présenté le jeu sur Salut Bonjour. Une bande-annonce est également disponible sur la chaîne YouTube du studio Impossible. Le jeu offre une expérience immersive où l’on incarne un peintre explorant Montréal. Profitez d’une réduction de 25% jusqu’au 30 juillet sur Steam."
 draft: false
 ---

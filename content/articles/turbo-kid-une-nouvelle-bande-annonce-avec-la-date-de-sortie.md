@@ -13,7 +13,7 @@ tags:
   - "québec"
   - "roadkill superstar"
   - "turbo kid"
-image: /assets/uploads/wp/2024/02/capture-decran-le-2024-02-21-a-16.44.55.png
+image: /assets/uploads/wp/2024/02/capture-decran-le-2024-02-21-a-16.44.55.jpg
 excerpt: "Le studio québécois Outerminds a dévoilé aujourd’hui une nouvelle bande-annonce pour le très attendu Turbo Kid, l’adaptation vidéoludique du long métrage québécois du collectif de réalisateur Roadkill Superstar. En plus de dévoilé davantage de la jouabilité, on connait maintenant le date de sortie : le 10 avril 2024."
 draft: false
 ---

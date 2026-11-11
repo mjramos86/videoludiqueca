@@ -9,7 +9,7 @@ tags:
   - "jeux vidéo"
   - "québec"
   - "yellow brick games"
-image: /assets/uploads/wp/2024/04/capture-decran-le-2024-04-02-a-12.42.25.png
+image: /assets/uploads/wp/2024/04/capture-decran-le-2024-04-02-a-12.42.25.jpg
 excerpt: "La semaine dernière, Yellow Brick Games présentait un avant-goût de son premier projet, sans nous dévoiler le titre. On le connaît maintenant : Eternal Strands."
 draft: false
 ---

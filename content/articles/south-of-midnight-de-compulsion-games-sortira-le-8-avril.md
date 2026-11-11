@@ -12,7 +12,7 @@ tags:
   - "québec"
   - "south of midnight"
   - "xbox"
-image: /assets/uploads/wp/2025/01/capture-decran-le-2025-01-23-a-14.04.12.png
+image: /assets/uploads/wp/2025/01/capture-decran-le-2025-01-23-a-14.04.12.jpg
 excerpt: "Le studio Compulsion Games annonce la sortie de son jeu South of Midnight le 8 avril 2025, lors du Developer Direct de Xbox. Plongé dans un univers gothique après un ouragan à Prospero, le jeu mêle réalité et folklore. Il sera disponible sur Xbox Series X | S et PC, incluant Game Pass."
 draft: false
 ---

@@ -30,7 +30,7 @@ La campagne Kickstarter, prévue du 24 septembre au 24 octobre 2024, vise à col
 
 Les développeurs proposent une phase de pré-lancement du 10 au 23 septembre 2024. Les personnes [qui suivront le projet sur Kickstarter](https://www.kickstarter.com/projects/literategames/heroes-of-the-dark-prophecy) et s[‘abonneront à l’infolettre officielle](https://docs.google.com/forms/d/e/1FAIpQLSdyuiLJZxQW4O_t6ZKXT3Z9M6OcxoABmLnMvD51QYr7TV4DtQ/viewform) pendant cette période seront éligibles pour recevoir un cadeau exclusif gratuit, à condition de s’engager à soutenir le projet pour au moins 5 $ une fois la campagne lancée. Le cadeau? Un document avec des cartes détaillées de l’univers du jeu, mettant en évidence des points d’intérêt clés et offrant des informations précieuses pour l’artisanat et l’exploration.
 
-![visuel kickstarter du jeu vidéo heroes of the dark prophecy](/assets/uploads/wp/2024/09/calltoaction.png)
+![visuel kickstarter du jeu vidéo heroes of the dark prophecy](/assets/uploads/wp/2024/09/calltoaction.jpg)
 
 ## Participation de la communauté
 

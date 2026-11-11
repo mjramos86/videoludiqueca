@@ -12,7 +12,7 @@ tags:
   - "québec"
   - "ship of fools"
   - "stratégie"
-image: /assets/uploads/wp/2024/05/dkta-key-art-fullhd.png
+image: /assets/uploads/wp/2024/05/dkta-key-art-fullhd.jpg
 excerpt: "Le studio Québécois derrière le succès international Ship of Fools, Fika Productions, lance aujourd’hui une campagne de sociofinancement pour leur nouveau projet : Don’t Kill Them All."
 draft: false
 ---

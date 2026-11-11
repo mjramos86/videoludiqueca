@@ -11,7 +11,7 @@ tags:
   - "outward 2"
   - "québec"
   - "rpg"
-image: /assets/uploads/wp/2024/03/capture-decran-le-2024-03-07-a-11.42.47.png
+image: /assets/uploads/wp/2024/03/capture-decran-le-2024-03-07-a-11.42.47.jpg
 excerpt: "Le studio québécois Nine Dots Studio a annoncé aujourd’hui deux projets en développement, en amont de PAX East qui aura lieu à Boston ce mois-ci."
 draft: false
 ---

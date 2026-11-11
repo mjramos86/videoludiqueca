@@ -26,7 +26,7 @@ On peut penser à la disparition d’émissions spécialisées telles que M.Net,
 
 Chaque fois qu’un jeu vidéo fait parler de lui dans la presse au Québec, on le retrouve invariablement dans les pages technologiques, entre l’annonce du prochain iPhone ou les dernières annonces de Meta. On retrouve parfois aussi le jeu vidéo dans la section des finances quand il est question de performance commerciale, de l’arrivée d’un studio majeur étranger ou les aléas du marché de l’emploi.
 
-![capture d'écran du jeu vidéo two falls de unreliable narrators](/assets/uploads/wp/2024/11/maikan-walk-in-the-snow.png)
+![capture d'écran du jeu vidéo two falls de unreliable narrators](/assets/uploads/wp/2024/11/maikan-walk-in-the-snow.jpg)
 
 *Two Falls (Nishu Takuatshina) de Unreliable Narrators nous fait découvrir à travers ses personnages la complexité de la relation entre les Premières Nations et les colons européens dans la Nouvelle-France du 17e siècle.*
 
@@ -36,7 +36,7 @@ Tout comme le cinéma, le jeu vidéo est né comme une curiosité technologique,
 
 Aujourd’hui, le jeu vidéo et le cinéma ont en commun d’être des formes d’art qui font appel à l’expertise de nombreux artistes et techniciens de différentes spécialisations et corps de métiers.
 
-![key art du jeu vidéo spiral de folklore games](/assets/uploads/wp/2024/09/keyart_v2_logo.png)
+![key art du jeu vidéo spiral de folklore games](/assets/uploads/wp/2024/09/keyart_v2_logo.jpg)
 
 *Spiral de Folklore Games aborde avec poésie et délicatesse la maladie d’Alzheimer.*
 
@@ -46,7 +46,7 @@ Là où le cinéma et la télévision nous racontent une histoire, le jeu vidéo
 
 On peut retrouver dans le jeu vidéo une simple joie ludique d’exploration et de création grâce à des mécanismes spécifiques au médium, tels que dans **[Été](/2024/08/21/critique-ete-ruelles-et-colimacons/),** un jeu où on découvre Montréal à travers les yeux d’un peintre étranger en vacances dans la métropole québécoise.
 
-![capture d'écran du jeu vidéo été du studio impossible](/assets/uploads/wp/2024/08/ete_screenshot_14_cornerstore.png)
+![capture d'écran du jeu vidéo été du studio impossible](/assets/uploads/wp/2024/08/ete_screenshot_14_cornerstore.jpg)
 
 *Été de Impossible nous fait découvrir un Montréal idéalisé à travers les yeux d’un peintre.*
 

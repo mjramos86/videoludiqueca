@@ -11,7 +11,7 @@ tags:
   - "quebec games celebration"
   - "steam"
   - "ubisoft"
-image: /assets/uploads/wp/2025/02/event_cover-1.png
+image: /assets/uploads/wp/2025/02/event_cover-1.jpg
 excerpt: "image à la une : Indie Asylum / illustration de Tara Miller Du 17 au 24 février, c’est la vente Steam annuelle Célébration des jeux du Québec! Il s’agit d’une initiative de l’Indie Asylum en collaboration avec La Guilde du jeu vidéo du Québec. Une superbe occasion d’acheter local et de garnir votre bibliothèque Steam…"
 draft: false
 ---

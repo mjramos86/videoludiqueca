@@ -11,7 +11,7 @@ tags:
   - "québec"
   - "reflector entertainment"
   - "unknown 9"
-image: /assets/uploads/wp/2024/03/unknown9_awakening_screenshot_4.png
+image: /assets/uploads/wp/2024/03/unknown9_awakening_screenshot_4.jpg
 excerpt: "C’est lors du Xbox Partner Showcase que Reflector Entertainment, le studio montréalais de Bandai Namco, a dévoilé son projet Unknown 9 : Awakening, un jeu d’action et d’aventure qui fera partie d’un univers narratif multimédia."
 draft: false
 ---

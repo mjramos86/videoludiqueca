@@ -11,7 +11,7 @@ tags:
   - "montréal"
   - "québec"
   - "the hungry fly"
-image: /assets/uploads/wp/2024/10/hufl-keyart_logo_16-9.png
+image: /assets/uploads/wp/2024/10/hufl-keyart_logo_16-9.jpg
 excerpt: "Le studio indépendant Erupting Avocado, en partenariat avec indie.io, a lancé sur Steam “The Hungry Fly”, un jeu d’horreur psychologique. Les joueurs incarnent une mouche maudite dans un marais, avec pour objectif de dévorer un monstre en décomposition. Le jeu, remarqué lors d’événements, mêle habilement horreur et expérience unique."
 draft: false
 ---

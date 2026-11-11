@@ -11,7 +11,7 @@ tags:
   - "ps5"
   - "québec"
   - "Unreliable Narrators"
-image: /assets/uploads/wp/2026/09/743eb-1232-x-706.png
+image: /assets/uploads/wp/2026/09/743eb-1232-x-706.jpg
 excerpt: "Unreliable Narrators, le studio québécois derrière Two Falls, dévoile la date de sortie de The Caribou Trail : le 14 mai 2026 sur PC et PlayStation 5. Ce jeu narratif à la première personne suit un jeune Terre-Neuvien enrôlé dans le Newfoundland Regiment lors de la campagne de Gallipoli, l’une des pages les plus méconnues de la Première Guerre mondiale."
 draft: false
 ---

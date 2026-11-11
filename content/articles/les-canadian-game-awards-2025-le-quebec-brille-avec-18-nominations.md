@@ -23,7 +23,7 @@ draft: false
 
 Parmi les nominations majeures, le jeu **[Biomorph](/2024/04/11/biomorph-entrevue-avec-la-compositrice-laurence-manning/)** du studio montréalais Lucid Dreams et **[Été](/2024/08/21/critique-ete-ruelles-et-colimacons/)** du studio Impossible se retrouvent tous deux en lice pour le prestigieux titre de Jeu de l’année. **Behaviour Interactive**, autre fleuron québécois, est quant à lui nommé dans la catégorie Studio de l’année.
 
-![capture d'écran du jeu vidéo été du studio impossible](/assets/uploads/wp/2024/08/ete_screenshot_14_cornerstore.png)
+![capture d'écran du jeu vidéo été du studio impossible](/assets/uploads/wp/2024/08/ete_screenshot_14_cornerstore.jpg)
 
 *Été de Impossible*
 
@@ -31,7 +31,7 @@ Parmi les nominations majeures, le jeu **[Biomorph](/2024/04/11/biomorph-entrevu
 
 L’événement **BLAST R6 Major Montreal 2024** figure parmi les événements esports nommés, soulignant l’importance grandissante de Montréal sur la scène compétitive internationale.
 
-![capture d'écran du jeu vidéo Biomorph](/assets/uploads/wp/2024/04/biomorph_capture_06.png)
+![capture d'écran du jeu vidéo Biomorph](/assets/uploads/wp/2024/04/biomorph_capture_06.jpg)
 
 *Biomorph de Lucid Dreams Studio*
 

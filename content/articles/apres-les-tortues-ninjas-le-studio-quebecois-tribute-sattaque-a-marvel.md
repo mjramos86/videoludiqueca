@@ -19,7 +19,7 @@ tags:
   - "steam"
   - "tribute games"
   - "xbox"
-image: /assets/uploads/wp/2025/03/unnamed-1.png
+image: /assets/uploads/wp/2025/03/unnamed-1.jpg
 excerpt: "Marvel Cosmic Invasion, un jeu d’action beat’em up rétro de Dotemu et Tribute Games, a été annoncé lors du Nintendo Direct. Prévu pour 2025, il met en scène des héros Marvel comme Captain America et Spider-Man affrontant le vilain Annihilus. La mécanique Cosmic Swap permet de jouer en duo et en coopération jusqu’à 4 joueurs."
 draft: false
 ---
@@ -37,7 +37,7 @@ Dans un communiqué, Tribute Games confirme l’identité des personnages jouabl
 
 *Dans **MARVEL Cosmic Invasion**, le super vilain immortel Annihilus lance une attaque sans précédent dans toute la galaxie, menaçant toute forme de vie connue. Pour affronter cette redoutable Vague d’Annihilation, les plus grands super-héros de notre planète doivent unir leurs forces avec leurs homologues venus de toute la galaxie pour une aventure stellaire à couper le souffle. Combattez dans les rues de New York et jusqu’aux confins de la Zone négative pour empêcher Annihilus de répandre la mort dans le cosmos.*
 
-![capture d'écran du jeu vidéo marvel cosmic invasion de tribute games](/assets/uploads/wp/2025/03/unnamed-5.png)
+![capture d'écran du jeu vidéo marvel cosmic invasion de tribute games](/assets/uploads/wp/2025/03/unnamed-5.jpg)
 
 Une différence marquante entre la jouabilité de Shredder’s Revenge et Cosmic Invasion, est que le joueur peut sélectionner d’emblée un duo de personnages et qu’il peut alterner entre les deux en plein combat grâce à la mécanique *Cosmic Swap*. Il est possible de jouer en coopération jusqu’à 4 joueurs, en multijoueur local ou en ligne, avec possibilité de *crossplay* entre les différentes plateformes.
 

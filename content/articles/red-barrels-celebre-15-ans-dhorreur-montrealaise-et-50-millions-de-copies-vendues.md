@@ -13,7 +13,7 @@ tags:
   - "quebec"
   - "red barrels"
   - "the outlast trials"
-image: /assets/uploads/wp/2026/09/03ff3-capture-decran-2026-05-28-115831.png
+image: /assets/uploads/wp/2026/09/03ff3-capture-decran-2026-05-28-115831.jpg
 excerpt: "Fondé à Montréal en 2011, Red Barrels a célébré son 15e anniversaire lors des Prix du jeu canadien. Plus de 50 millions de jeux vendus et un nouveau projet en développement : le studio québécois est plus en forme que jamais."
 draft: false
 ---
@@ -67,7 +67,7 @@ Lancé en 2013, ***Outlast*** et ses suites ont généré plus de 230 millions d
 >
 > **Philippe Morin, cofondateur et PDG de Red Barrels**
 
-![photo d'équipe de Red Barrels sur le tapis des Canadian Game Awards](/assets/uploads/wp/2026/09/548b7-yhbhswo3mnusmscduggit1foufdcyvpm9sklhxyc.png)
+![photo d'équipe de Red Barrels sur le tapis des Canadian Game Awards](/assets/uploads/wp/2026/09/548b7-yhbhswo3mnusmscduggit1foufdcyvpm9sklhxyc.jpg)
 
 ****Une partie de l’équipe de Red Barrels****
 
@@ -115,7 +115,7 @@ Pour souligner l’étape en grand, une soirée spéciale avait lieu le 26 mai a
 
 Aussi, pour l’occasion, le studio a lancé une nouvelle collection de marchandises disponibles sur leur [boutique en ligne.](https://store.redbarrelsgames.com/collections/15-year-anniversary-collection)
 
-![image de marchandises 15e anniversaire de Red Barrels](/assets/uploads/wp/2026/09/0346a-8b1o1lzr3qbk0eo8o4wfeojzp6fqkdx0qpaoum4m.png)
+![image de marchandises 15e anniversaire de Red Barrels](/assets/uploads/wp/2026/09/0346a-8b1o1lzr3qbk0eo8o4wfeojzp6fqkdx0qpaoum4m.jpg)
 
 ---
 

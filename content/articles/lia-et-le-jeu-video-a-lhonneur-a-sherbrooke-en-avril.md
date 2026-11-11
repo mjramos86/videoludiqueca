@@ -13,7 +13,7 @@ tags:
   - "nad-uqac"
   - "québec"
   - "sherbrooke"
-image: /assets/uploads/wp/2025/03/publication_dn_sherbrooke.png
+image: /assets/uploads/wp/2025/03/publication_dn_sherbrooke.jpg
 excerpt: "Le CDRIN, en partenariat avec La Confrindie et l’École NAD-UQAC, organise le 15 avril un événement “Dialogues numériques” consacré à l’impact de l’intelligence artificielle dans l’industrie du jeu vidéo. Cette rencontre inclura un panel d’experts et des opportunités de réseautage pour les professionnels locaux, axée sur l’innovation et les défis liés à l’IA."
 draft: false
 ---

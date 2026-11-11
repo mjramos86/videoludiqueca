@@ -10,7 +10,7 @@ tags:
   - "lucid dreams studio"
   - "montréal"
   - "québec"
-image: /assets/uploads/wp/2024/04/biomorph_capture_06.png
+image: /assets/uploads/wp/2024/04/biomorph_capture_06.jpg
 excerpt: "Biomorph, un metroidvania qui te permet de prendre le contrôle de tes ennemis et leurs habiletés, est maintenant disponible sur Steam. Il s’agit du nouveau jeu du studio québécois Lucid Dreams Studio qui nous a précédemment donné Legends of Ethernal."
 draft: false
 ---

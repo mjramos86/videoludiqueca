@@ -11,7 +11,7 @@ tags:
   - "québec"
   - "red barrels"
   - "the outlast trials"
-image: /assets/uploads/wp/2024/03/capture-decran-le-2024-03-04-a-17.04.24.png
+image: /assets/uploads/wp/2024/03/capture-decran-le-2024-03-04-a-17.04.24.jpg
 excerpt: "Bien que The Outlast Trials ait atteint le million de copies vendues, le jeu n’est pas officiellement sorti, étant en Early Acess sur Steam depuis l’automne 2023. Aujourd’hui, The Outlast Trials est officiellement lancé, en même temps que la sortie de la version console sur PS4, PS5, Xbox One et Xbox Series."
 draft: false
 ---

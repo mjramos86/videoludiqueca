@@ -53,7 +53,7 @@ Tout au long du développement du jeu, nous avons épluché archives, livres et 
 
 Puisque nous avons écrit *This Bed We Made* en pleine pandémie, il ne nous a pas vraiment été possible d’interroger des gens ayant vécu dans les années 50, outre les grands-parents de quelques membres de l’équipe. Par contre, pour notre deuxième jeu, qui se déroule également dans le passé, nous avons ajouté à notre processus de recherche des rencontres avec des personnes du troisième âge pour qu’elles nous partagent leurs expériences uniques.
 
-![](/assets/uploads/wp/2024/06/gamescom.png)
+![](/assets/uploads/wp/2024/06/gamescom.jpg)
 
 *Olivier Lussier au Gamescom 2023*
 

@@ -37,17 +37,17 @@ S’inscrivant dans la tradition des « simulateurs de marche » – terme utili
 
 Le jeu brille par son traitement nuancé d’une période historique souvent négligée dans l’enseignement scolaire au primaire et secondaire. La représentation des perspectives autochtones est particulièrement réussie, montrant la complexité des relations entre les différentes nations et les colons européens. Le jeu met notamment l’accent sur les réalités distinctes des Wendat et des Innus, entre autres.
 
-![capture d'écran du jeu vidéo two falls du personnage waikan](/assets/uploads/wp/2024/11/maikan.png)
+![capture d'écran du jeu vidéo two falls du personnage waikan](/assets/uploads/wp/2024/11/maikan.jpg)
 
 Two Falls excelle dans sa galerie de personnages qui incarnent les multiples facettes de cette période historique. Pierre et les autres coureurs de bois : un métier dangereux dans une nature remplie de dangers fatals. Jeanne : la colonisatrice Fille du Roy nouvellement arrivée dont la foi chrétienne sera bousculée. Waikan : le chasseur Innu dégoûté devant les pratiques colonisatrices destructrices des colons français. Tehon : l’interprète Wendat tiraillé entre deux mondes. Le Père Augustin : le missionnaire Jésuite prêt à tout pour propager la foi de son dieu.
 
-![capture d'écran du jeu vidéo two falls avec séquence de choix de dialogues avec pierre le coureur de bois](/assets/uploads/wp/2024/11/maikan-fire-choice.png)
+![capture d'écran du jeu vidéo two falls avec séquence de choix de dialogues avec pierre le coureur de bois](/assets/uploads/wp/2024/11/maikan-fire-choice.jpg)
 
 L’authenticité du récit est renforcée par l’implication directe de créateurs autochtones dans l’équipe de développement. L’ensemble de la narration a été développée en étroite collaboration avec un conseil d’aînés autochtones, assurant ainsi une représentation respectueuse et fidèle des cultures et perspectives des Premières Nations. Aussi, le studio de services 3D, [Awastoki](https://awastoki.com/), situé dans une communauté Wendat, a participé au développement visuel du jeu.
 
 Au fur et à mesure que le joueur progresse, il débloque des entrées de codex où on retrouve des textes sur les personnages du jeu, mais aussi sur les lieux, faune, flore et les différents peuples qui habitent le territoire.
 
-![capture d'écran du jeu vidéo two falls du codex de jeanne](/assets/uploads/wp/2024/11/codex.png)
+![capture d'écran du jeu vidéo two falls du codex de jeanne](/assets/uploads/wp/2024/11/codex.jpg)
 
 La version française bénéficie d’un doublage de qualité qui renforce l’immersion et la crédibilité des personnages. On sent qu’il y a un superbe souci du détail dans la variation des accents français entre les personnages; les coureurs de bois ne s’exprimant pas de la même façon que le père Jésuite ni que Jeanne. (Je n’ai pas joué à la version anglaise.)
 
@@ -57,7 +57,7 @@ Malgré la promesse d’une exploration du Canada (Nouvelle-France) sauvage, le 
 
 Le jeu souffre de quelques problèmes de performances et de bogues qui seront sans doute corrigés via des mises à jour.
 
-![capture d'écran du jeu vidéo two falls lors d'une rencontre avec un loup](/assets/uploads/wp/2024/11/jeanne-wolf-encounter.png)
+![capture d'écran du jeu vidéo two falls lors d'une rencontre avec un loup](/assets/uploads/wp/2024/11/jeanne-wolf-encounter.jpg)
 
 Si le jeu présente certaines limitations techniques et de jouabilité, ses défauts s’effacent rapidement devant l’importance et la pertinence de son sujet. Two Falls : Nishu Takuatshina réussit son pari de nous faire vivre une expérience mémorable en abordant une période historique complexe avec nuance et sensibilité. C’est un titre qui mérite d’être salué pour sa contribution à la compréhension de notre histoire collective.
 

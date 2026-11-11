@@ -14,7 +14,7 @@ tags:
   - "québec"
   - "tech"
   - "techno"
-image: /assets/uploads/wp/2025/02/eai2025-1152x648-fr-675a0221.png
+image: /assets/uploads/wp/2025/02/eai2025-1152x648-fr-675a0221.jpg
 excerpt: "images gracieuseté de E-AI La deuxième édition d’E-AI se tiendra les 26 et 27 février 2025 au Palais des congrès de Montréal, explorant l’impact de l’intelligence artificielle sur les industries créatives, culturelles et du divertissement. Sous le thème « À échelle humaine », l’événement vise à démontrer le potentiel de l’IA comme catalyseur de créativité…"
 draft: false
 ---

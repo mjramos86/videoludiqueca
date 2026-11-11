@@ -24,11 +24,11 @@ Les amateurs de jeux vidéo ne seront pas en reste : une soirée Joue et jase se
 
 Il est d’ailleurs possible d’aller [essayer les jeux de l’édition 2023.](https://itch.io/jam/game-jam-de-quebec-2023) Dans les coups de coeur de cette édition, on peut compter **A reason to cry**, **Can you wash the sins of your father** et **Chroma**.
 
-![capture d'écran du jeu chroma game jam de québec 2023](/assets/uploads/wp/2024/09/7ylu7n.png)
+![capture d'écran du jeu chroma game jam de québec 2023](/assets/uploads/wp/2024/09/7ylu7n.jpg)
 
 *Chroma par Misault*
 
-![capture d'écran du jeu can you wash the sins of your father game jam de québec 2023](/assets/uploads/wp/2024/09/capture-decran-le-2024-09-09-a-13.31.38.png)
+![capture d'écran du jeu can you wash the sins of your father game jam de québec 2023](/assets/uploads/wp/2024/09/capture-decran-le-2024-09-09-a-13.31.38.jpg)
 
 *Can you was the sins of your father par vincentcj*
 

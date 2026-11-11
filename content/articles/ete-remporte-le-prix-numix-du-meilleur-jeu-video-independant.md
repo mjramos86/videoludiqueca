@@ -10,7 +10,7 @@ tags:
   - "montréal"
   - "prix numix"
   - "québec"
-image: /assets/uploads/wp/2024/08/ete_screenshot_14_cornerstore.png
+image: /assets/uploads/wp/2024/08/ete_screenshot_14_cornerstore.jpg
 excerpt: "Le gala des Prix Numix a célébré l’excellence en création numérique au Québec et à l’international. Le jeu vidéo indépendant primé est Été du studio Impossible, décerné le 29 mai 2025 au Club Soda. Concurrentes incluaient Biomorph et Two Falls. Une critique complète du jeu est disponible."
 draft: false
 ---

@@ -15,7 +15,7 @@ tags:
   - "outlast"
   - "québec"
   - "red barrels"
-image: /assets/uploads/wp/2024/03/capture-decran-le-2024-03-04-a-17.04.24.png
+image: /assets/uploads/wp/2024/03/capture-decran-le-2024-03-04-a-17.04.24.jpg
 excerpt: "image à la une : Red Barrels La franchise Outlast du studio indépendant québécois Red Barrels fera l’objet d’une adaptation cinématographique. Le projet se retrouve chez le studio américain Lionsgate, connu, entre autres, pour la production de la série de films d’horreur SAW. Dans mon article sur Le Lobby de Loto-Québec, j’explique à quel point…"
 draft: false
 ---

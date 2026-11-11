@@ -11,7 +11,7 @@ tags:
   - "loose leaf"
   - "montréal"
   - "québec"
-image: /assets/uploads/wp/2023/12/unnamed.png
+image: /assets/uploads/wp/2023/12/unnamed.jpg
 excerpt: "Day of the Devs est une présentation annuelle organisée par Double Fine et iambit8 qui met de l’avant des productions à venir de studios de jeux vidéo indépendants de partout dans le monde. L’édition de cette année est présentée en amont des Game Awards qui aura lieu demain 7 décembre 2023 en ligne. Un jeu en développement au Québec a été dévoilé : Loose Leaf : A tea witch simulation de Kitfox Games."
 draft: false
 ---

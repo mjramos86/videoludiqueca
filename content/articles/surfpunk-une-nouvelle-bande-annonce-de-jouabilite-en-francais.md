@@ -11,7 +11,7 @@ tags:
   - "montréal"
   - "québec"
   - "surfpunk"
-image: /assets/uploads/wp/2024/10/surfpunk-key-art.png
+image: /assets/uploads/wp/2024/10/surfpunk-key-art.jpg
 excerpt: "Le studio Double Stallion a présenté son jeu Surfpunk, un RPG coopératif dans un univers manga. Le gameplay rapide inclut des combats, amélioration d’équipement et cartes générées procéduralement."
 draft: false
 ---

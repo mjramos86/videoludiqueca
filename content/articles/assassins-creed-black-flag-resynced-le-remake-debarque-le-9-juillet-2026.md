@@ -18,7 +18,7 @@ draft: false
 
 **[Ubisoft](https://www.ubisoft.com/) confirme la date de sortie tant attendue : *Assassin’s Creed Black Flag Resynced*, le remake du classique de 2013, arrivera le 9 juillet 2026 sur PlayStation 5, Xbox Series X|S et PC — via l’Ubisoft Store, Steam et l’Epic Games Store. Développé principalement par [Ubisoft Singapour](https://www.ubisoft.com/), avec la contribution notamment d’Ubisoft Montréal et d’Ubisoft Québec, le titre est propulsé par la dernière version du moteur Anvil.**
 
-![](/assets/uploads/wp/2026/09/5670b-img_5640.png)
+![](/assets/uploads/wp/2026/09/5670b-img_5640.jpg)
 
 #### Retour aux Caraïbes, mais en mieux
 
@@ -26,7 +26,7 @@ Fidèle à l’original dans son âme, *Black Flag Resynced* est néanmoins enti
 
 Le joueur retrouve **Edward Kenway**, capitaine pirate rebelle entraîné malgré lui dans le conflit séculaire entre Assassins et Templiers, naviguant à travers les Caraïbes à l’Âge d’Or de la piraterie. Il croisera une nouvelle fois des figures légendaires telles que **Barbe Noire**, **Anne Bonny** et **Calico Jack**. Pour ceux qui n’ont jamais eu la chance de jouer à l’original, c’est le moment idéal — et pour les nostalgiques, une occasion de replonger dans un des titres les plus aimés de la franchise.
 
-![](/assets/uploads/wp/2026/09/fc3a6-img_5639.png)
+![](/assets/uploads/wp/2026/09/fc3a6-img_5639.jpg)
 
 #### Woodkid de retour dans la franchise
 
@@ -40,7 +40,7 @@ Les joueurs qui précommanderont le jeu recevront le **pack Carmin de Barbe-Noir
 - **Édition Deluxe** (numérique uniquement) — inclut le jeu de base, le pack Maître Assassin et le pack Naval Maître Assassin
 - **Édition Collector** — tout le contenu Deluxe, plus une figurine d’Edward Kenway, une broche en métal, un boîtier SteelBook® exclusif et une carte du monde en tissu
 
-![](/assets/uploads/wp/2026/09/8fd54-img_5638.png)
+![](/assets/uploads/wp/2026/09/8fd54-img_5638.jpg)
 
 Le jeu sera également disponible dès le lancement via **Ubisoft+** (22,99 $ par mois). Plus d’informations sur [assassinscreed.com](https://www.assassinscreed.com/).
 

@@ -15,7 +15,7 @@ tags:
   - "OJV"
   - "orchestre de jeux vidéo"
   - "québec"
-image: /assets/uploads/wp/2025/03/metroidvania1080.png
+image: /assets/uploads/wp/2025/03/metroidvania1080.jpg
 excerpt: "L’Orchestre de Jeux Vidéo (OJV) présente “MetroidVania”, un concert célébrant les musiques des sagas Metroid et Castlevania, ainsi que des œuvres contemporaines comme Hollow Knight. Dirigé par Jonathan Dagenais, le concert aura lieu à Montréal le 29 mars et à Québec le 12 avril 2025, promettant d’attirer les fans de jeux et de musique orchestrale."
 draft: false
 ---

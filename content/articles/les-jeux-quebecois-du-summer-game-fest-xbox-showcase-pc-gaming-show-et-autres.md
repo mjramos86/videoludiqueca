@@ -24,7 +24,7 @@ tags:
   - "wholesome direct"
   - "worship"
   - "xbox games showcase"
-image: /assets/uploads/wp/2024/06/capture-decran-le-2024-06-10-a-17.40.29.png
+image: /assets/uploads/wp/2024/06/capture-decran-le-2024-06-10-a-17.40.29.jpg
 excerpt: "L’annulation de l’E3 en raison de la pandémie de Covid-19 a conduit à la montée d’initiatives alternatives comme le Summer Game Fest. Le Québec était bien représenté dans ces événements avec des titres comme Tears of Metal, South of Midnight et Eternal Strands, entre autres."
 draft: false
 ---

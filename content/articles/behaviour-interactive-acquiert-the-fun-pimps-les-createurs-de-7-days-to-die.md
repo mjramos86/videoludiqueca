@@ -24,7 +24,7 @@ draft: false
 
 En acquérant The Fun Pimps, Behaviour ne met pas seulement la main sur un studio — il intègre une franchise avec une base de joueurs massive et une *IP* reconnue mondialement.
 
-![capture d'écran du jeu 7 days to die](/assets/uploads/wp/2026/09/7578e-7days_screenshot_4k_06-scaled-1.png)
+![capture d'écran du jeu 7 days to die](/assets/uploads/wp/2026/09/7578e-7days_screenshot_4k_06-scaled-1.jpg)
 
 ## Une stratégie d’expansion soutenue
 

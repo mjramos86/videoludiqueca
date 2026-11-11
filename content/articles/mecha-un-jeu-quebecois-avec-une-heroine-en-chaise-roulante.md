@@ -13,7 +13,7 @@ tags:
   - "montréal"
   - "québec"
   - "shishi studios"
-image: /assets/uploads/wp/2025/02/image004.png
+image: /assets/uploads/wp/2025/02/image004.jpg
 excerpt: "images gracieuseté de Studios Shishi Le studio québécois Shishi a dévoilé un premier aperçu de Mecha, un nouveau jeu de plateformes et puzzles d’environnement en 3D. Le personnage principal est Coni, une ingénieure en robotique qui utilise un fauteuil roulant et qui a conçu des robots, nommés Mechas. Suite à une alerte signalant que tous…"
 draft: false
 ---
