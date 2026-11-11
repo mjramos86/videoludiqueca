@@ -18,6 +18,8 @@ draft: false
 ---
 **Le Québec est l'un des grands pôles mondiaux du jeu vidéo, et 2026 l'a encore prouvé. Des grosses productions aux petits studios, nos créateurs ont lancé cette année des jeux pour tous les goûts : soirées de party entre amis, récits qui restent en tête, horreur en coop… Voici notre sélection des Fêtes pour encourager le talent d'ici en faisant plaisir à quelqu'un (ou à soi-même).**
 
+> **Le samedi 14 novembre, c'est la toute première [Journée j'achète un jeu vidéo québécois](/2026/11/04/journee-jachete-un-jeu-video-quebecois-portail/)!** C'est l'occasion idéale de prendre de l'avance sur vos achats des Fêtes avec les jeux de ce guide, tout en encourageant directement nos studios d'ici.
+
 ## Les nouveautés de 2026
 
 ### Scott Pilgrim EX
