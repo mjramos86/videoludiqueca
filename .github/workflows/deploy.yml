@@ -1,15 +1,13 @@
 name: Build & deploy to GitHub Pages
 
-# Fetches the latest content from videoludique.ca (WordPress REST API),
-# generates the static site, downloads the media, and deploys to GitHub Pages
-# on the videoludique.ca custom domain.
+# Generates the static site from the Pages CMS content (content/, assets/)
+# and deploys it to GitHub Pages on the videoludique.ca custom domain.
+# All former WordPress posts and images now live in this repository.
 
 on:
   push:
     branches: [ main, claude/videoludique-wordpress-migration-rrwn74 ]
   workflow_dispatch:      # run manually from the Actions tab
-  schedule:
-    - cron: '0 8 * * 1'   # weekly re-sync (Mondays 08:00 UTC) — optional
 
 permissions:
   contents: read
@@ -33,17 +31,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Fetch all content from WordPress
-        run: python3 fetch_content.py
-        continue-on-error: true   # site content is committed in _source/; a dead/moved
-                                  # WordPress API must never block the deploy
-
       - name: Generate static site
         run: python3 build.py
-
-      - name: Download media (images)
-        run: bash scripts/download_media.sh
-        continue-on-error: true   # never block deploy on a few missing images
 
       - name: Assemble _site
         run: |
