@@ -1,5 +1,5 @@
 ---
-title: "Guide cadeaux 2026 : 30 jeux vidéo québécois à glisser sous le sapin"
+title: "Guide cadeaux 2026 : 31 jeux vidéo québécois à glisser sous le sapin"
 slug: guide-cadeaux-2026-jeux-video-quebecois
 date: 2026-11-04T12:00:00
 author: videoludique-ca
@@ -13,7 +13,7 @@ tags:
   - journée j'achète un jeu vidéo québécois
   - JJJVQ
 image: /assets/uploads/guide-cadeaux-2026-une-v3.jpg
-excerpt: Voici 30 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026.
+excerpt: Voici 31 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026.
 draft: false
 ---
 **Le Québec est l'un des grands pôles mondiaux du jeu vidéo, et 2026 l'a encore prouvé. Des grosses productions aux petits studios, nos créateurs ont lancé cette année des jeux pour tous les goûts : soirées de party entre amis, récits qui restent en tête, horreur en coop… Voici notre sélection des Fêtes pour encourager le talent d'ici en faisant plaisir à quelqu'un (ou à soi-même).**
@@ -139,6 +139,21 @@ Attendu depuis des années par les fans de simulation de vie, *Paralives* est en
 Sophie Roy, la femme de chambre fouineuse de *This Bed We Made*, est de retour. Nous sommes en 1964 et elle travaille désormais comme hôtesse à bord d'un paquebot transatlantique, où les effets personnels des passagers disparaissent mystérieusement. On fait les lits, on nettoie les cabines… et on fouille tout pour résoudre l'enquête. Une histoire autonome d'une à deux heures, qu'on peut jouer sans connaître le premier jeu, et dont les choix précédents se reportent pour les fans. Un parfait cadeau de bas de Noël.
 
 <figure class="wp-block-embed wp-block-embed-youtube is-type-video"><div class="wp-block-embed__wrapper"><iframe src="https://www.youtube.com/embed/4bgODeXJV0w" title="Lost &amp; Found: A This Bed We Made Story – bande-annonce" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></figure>
+
+### Hillthorn
+
+![Key art de Hillthorn](/assets/uploads/guide-2026-hillthorn.jpg)
+
+- **Studio :** Fool Moon (édité par Raw Fury)
+- **Genre :** Enquête / mystère à base de cartes
+- **Mode :** Solo
+- **Plateformes :** PC, Mac, Linux, Nintendo Switch, iOS, Android
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/3504050/Hillthorn/) · [Nintendo eShop](https://www.nintendo.com/us/store/products/hillthorn-switch/) · [App Store](https://apps.apple.com/ca/app/hillthorn/id6772127766) · [Google Play](https://play.google.com/store/apps/details?id=com.foolmoon.hillthorn)
+
+Un enfant a disparu dans une communauté recluse perchée sur une montagne, et c'est à vous, détective étranger et malvenu, de le retrouver. La particularité d'*Hillthorn* : l'enquête se déroule sans un seul mot. Chaque indice, chaque lieu et chaque rencontre prend la forme d'une carte qu'il faut examiner, combiner et interpréter avec sa seule logique et son intuition. Mais chaque action fait tourner l'horloge, et il est impossible de suivre toutes les pistes : il faut choisir, et vivre avec les conséquences, jusqu'à l'une des différentes fins. Porté par une direction artistique en noir et blanc saisissante, ce mystère montréalais est sorti le 10 novembre sur PC, Switch et mobile. Un cadeau parfait pour les amateurs d'énigmes et d'ambiances inquiétantes.
+
+<figure class="wp-block-embed wp-block-embed-youtube is-type-video"><div class="wp-block-embed__wrapper"><iframe src="https://www.youtube.com/embed/3SDjRZGMOLk" title="Hillthorn – bande-annonce" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></figure>
 
 ### Dans l'abîme du rêve
 
