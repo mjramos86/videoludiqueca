@@ -752,9 +752,8 @@ def build_date_archives():
 
 # about-page profile data (curated) -----------------------------------------
 ABOUT_PHOTO = "/assets/mario-j-ramos.jpg"
-ABOUT_LEDE = ("Scénariste et réalisateur primé devenu journaliste vidéoludique, "
-              "je couvre depuis dix ans l’industrie du jeu vidéo au Québec — "
-              "le 5<sup>e</sup> pôle mondial du secteur.")
+ABOUT_LEDE = ("De Rétro Nouveau à RDS Jeux vidéo et maintenant sur Videoludique.ca, "
+              "je couvre l’industrie du jeu vidéo depuis maintenant plus de 10 ans.")
 
 # social links with inline SVG glyphs (name, url, viewBox, path)
 ABOUT_SOCIAL = [
@@ -858,7 +857,6 @@ def build_page_about():
         {about_social_html()}
         <div class="about-actions">
           <a class="btn" href="mailto:info@mariojramos.com">Me contacter</a>
-          <a class="btn btn-ghost" href="https://mariojramos.com/" rel="noopener" target="_blank">Portfolio</a>
         </div>
       </div>
     </header>
