@@ -771,9 +771,13 @@ ABOUT_SOCIAL = [
 
 # curated directory of Québec video-game media / orgs / podcasts
 ABOUT_NETWORK = [
-    ("Communauté", [
+    ("Communautés", [
         ("Discord HUB", "https://discord.gg/MUxn4WY4Qx",
          "Lieu d’échanges et de discussions entre passionnés de jeux vidéo."),
+        ("Nintendo Fans QC", "https://www.facebook.com/groups/1205921249443552",
+         "Groupe Facebook qui rassemble les fans de Nintendo au Québec."),
+        ("L’Anneau ludique", "https://discord.gg/D6HZY695Pm",
+         "Discord de discussions sur le jeu vidéo comme dixième art et comme culture."),
     ]),
     ("Médias québécois — nouvelles & critiques", [
         ("Le Bêta-Testeur", "https://www.lebetatesteur.ca/",
@@ -814,6 +818,12 @@ ABOUT_NETWORK = [
         ("Canadian Game Awards", "https://canadiangameawards.ca/",
          "Les Prix du jeu canadien célèbrent les développeurs, créateurs de contenu "
          "et l’esport d’un océan à l’autre."),
+        ("MIGS — Montréal International Game Summit", "https://migs.biz/fr/",
+         "Le grand rendez-vous annuel de l’industrie du jeu vidéo à Montréal."),
+        ("Jeux Vidéo du Québec", "https://jeuxvideoduquebec.com/",
+         "Vitrine de l’industrie québécoise du jeu vidéo : studios, talents et savoir-faire."),
+        ("LUDOV", "https://www.ludov.ca/",
+         "Laboratoire universitaire de documentation et d’observation vidéoludiques."),
     ]),
     ("Balados", [
         ("Chez Papa Cassette", "https://baladoquebec.ca/papa-cassette-podcast",
@@ -834,6 +844,10 @@ ABOUT_NETWORK = [
          "Balado et WebTV sur la culture geek, les comics et la culture pop."),
         ("Arcade Québec", "https://arcadequebec.com/",
          "Balado et let’s play rétro, dont les Mercredis Twitch."),
+        ("Profil ludique", "https://baladoquebec.ca/profil-ludique",
+         "Balado scientifique sur le jeu vidéo propulsé par l’UQAT Montréal."),
+        ("La Grande Ludothèque", "https://baladoquebec.ca/la-grande-ludotheque",
+         "Le balado de Dominic Arsenault sur le jeu vidéo, chaque JEU-di."),
     ]),
     ("Médias anglophones canadiens", [
         ("AGN — A Gaming Network", "https://www.agamingnetwork.com/",
