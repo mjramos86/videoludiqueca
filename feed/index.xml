@@ -6,25 +6,97 @@
   <link>https://videoludique.ca/</link>
   <description>Vidéoludique.ca est un blogue indépendant qui couvre l’industrie du jeu vidéo au Québec, 5e pôle mondial.</description>
   <language>fr-CA</language>
-  <lastBuildDate>Tue, 21 Jul 2026 01:47:46 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 12 Nov 2026 01:40:32 +0000</lastBuildDate>
   <item>
-    <title>Le studio montréalais Panache Jeux numériques dévoile enfin 1666: Amsterdam</title>
+    <title>Guide cadeaux 2026 : 31 jeux vidéo québécois à glisser sous le sapin</title>
+    <link>https://videoludique.ca/2026/11/04/guide-cadeaux-2026-jeux-video-quebecois/</link>
+    <guid isPermaLink="true">https://videoludique.ca/2026/11/04/guide-cadeaux-2026-jeux-video-quebecois/</guid>
+    <pubDate>Wed, 04 Nov 2026 12:00:00 +0000</pubDate>
+    <description>Voici 31 jeux vidéo québécois à offrir (ou à s&#x27;offrir) pour les Fêtes 2026.</description>
+    <category>Chronique</category>
+  </item>
+  <item>
+    <title>Le 14 novembre, on achète un jeu vidéo québécois!</title>
+    <link>https://videoludique.ca/2026/11/04/journee-jachete-un-jeu-video-quebecois-portail/</link>
+    <guid isPermaLink="true">https://videoludique.ca/2026/11/04/journee-jachete-un-jeu-video-quebecois-portail/</guid>
+    <pubDate>Wed, 04 Nov 2026 10:00:00 +0000</pubDate>
+    <description>La première Journée j&#x27;achète un jeu vidéo québécois aura lieu le samedi 14 novembre. La Guilde lance aussi le portail Jeux vidéo du Québec, qui répertorie déjà plus de 400 jeux créés ici.</description>
+    <category>Actualité</category>
+  </item>
+  <item>
+    <title>MIGS 2026 : faire rayonner les jeux d&#x27;ici dans un marché en pleine transformation</title>
+    <link>https://videoludique.ca/2026/11/04/migs-2026-sommet-international-jeu-montreal/</link>
+    <guid isPermaLink="true">https://videoludique.ca/2026/11/04/migs-2026-sommet-international-jeu-montreal/</guid>
+    <pubDate>Wed, 04 Nov 2026 09:00:00 +0000</pubDate>
+    <description>Les 10 et 11 novembre, le Sommet international du jeu de Montréal (MIGS) réunit l&#x27;industrie mondiale au Grand Quai du Vieux-Port autour de la découvrabilité, de la commercialisation et de l&#x27;intelligence artificielle.</description>
+    <category>Actualité</category>
+  </item>
+  <item>
+    <title>GrosJoueurs : un premier festival de jeu vidéo s&#x27;empare de la Plaza Saint-Hubert</title>
+    <link>https://videoludique.ca/2026/10/27/festival-grosjoueurs-plaza-saint-hubert/</link>
+    <guid isPermaLink="true">https://videoludique.ca/2026/10/27/festival-grosjoueurs-plaza-saint-hubert/</guid>
+    <pubDate>Tue, 27 Oct 2026 09:00:00 +0000</pubDate>
+    <description>Du 11 au 15 novembre, le festival GrosJoueurs investit la Plaza Saint-Hubert pour sa toute première édition : plus de 25 activations dans 12 lieux, une arcade 100 % québécoise et une programmation presque entièrement gratuite.</description>
+    <category>Actualité</category>
+  </item>
+  <item>
+    <title>Hack &#x27;n&#x27; Stack : bâtir, défendre… et rire ensemble</title>
+    <link>https://videoludique.ca/2026/10/18/critique-hack-n-stack/</link>
+    <guid isPermaLink="true">https://videoludique.ca/2026/10/18/critique-hack-n-stack/</guid>
+    <pubDate>Sun, 18 Oct 2026 14:14:00 +0000</pubDate>
+    <description>Avec *Hack &#x27;n&#x27; Stack*, le studio québécois Triple Boris, sous sa marque Dodo Tako et en collaboration avec Sticky Rice Games, marie défense de tours et casse-têtes de physique dans un party game coopératif aussi chaotique qu&#x27;attachant. Je l&#x27;ai testé sur Nintendo Switch avec deux coéquipiers de choix : mes enfants de 7 et 9…</description>
+    <category>Critique</category>
+  </item>
+  <item>
+    <title>Critique : Marvel Tōkon: Fighting Souls</title>
+    <link>https://videoludique.ca/2026/10/10/critique-marvel-fighting-souls/</link>
+    <guid isPermaLink="true">https://videoludique.ca/2026/10/10/critique-marvel-fighting-souls/</guid>
+    <pubDate>Sat, 10 Oct 2026 15:42:00 +0000</pubDate>
+    <description>Avec Marvel Tōkon: Fighting Souls, Arc System Works ramène Marvel au sommet du jeu de combat. Le résultat est spectaculaire, accessible et généreux. Pendant des décennies, Marvel a été une royauté du jeu de combat, de X-Men: Children of the Atom jusqu&#x27;au mythique Marvel vs. Capcom 2. Puis Marvel vs. Capcom: Infinite a déçu, et…</description>
+    <category>Non-Quebec</category>
+  </item>
+  <item>
+    <title>1666 : Amsterdam - Entrevue avec Patrice Désilets</title>
+    <link>https://videoludique.ca/2026/09/25/1666-amsterdam-entrevue-patrice-desilets/</link>
+    <guid isPermaLink="true">https://videoludique.ca/2026/09/25/1666-amsterdam-entrevue-patrice-desilets/</guid>
+    <pubDate>Fri, 25 Sep 2026 16:11:00 +0000</pubDate>
+    <description>Alors que 1666 : Amsterdam, le 2e effort du studio québécois Panache Jeux Numériques sort en Accès Anticipé sur Steam, je me suis entretenu avec Patricee Désilets, cofondateur du studio et directeur créatif du jeu. Mario : Pourquoi Amsterdam, pourquoi 1666 ? Patrice Désilets : On part large ! Ça part d&#x27;une envie de faire…</description>
+    <category>Chronique</category>
+  </item>
+  <item>
+    <title>Lost &amp; Found : une extension autonome à This Bed We Made maintenant disponible</title>
+    <link>https://videoludique.ca/2026/08/05/lost-and-found-this-bed-we-made-lowbirth-games/</link>
+    <guid isPermaLink="true">https://videoludique.ca/2026/08/05/lost-and-found-this-bed-we-made-lowbirth-games/</guid>
+    <pubDate>Wed, 05 Aug 2026 09:00:00 +0000</pubDate>
+    <description>Le studio montréalais Lowbirth Games a lané le 5 août Lost &amp; Found, un</description>
+    <category>Actualité</category>
+  </item>
+  <item>
+    <title>Folklore Games annonce Manifest Unknown, un simulateur de train narratif</title>
+    <link>https://videoludique.ca/2026/08/02/manifest-unknown-folklore-games/</link>
+    <guid isPermaLink="true">https://videoludique.ca/2026/08/02/manifest-unknown-folklore-games/</guid>
+    <pubDate>Sun, 02 Aug 2026 09:00:00 +0000</pubDate>
+    <description>&quot;Le studio indépendant montréalais Folklore Games dévoile Manifest</description>
+    <category>Aperçu</category>
+  </item>
+  <item>
+    <title>Le studio montréalais Panache Jeux numériques dévoile enfin 1666: Amsterdam</title>
     <link>https://videoludique.ca/2026/06/06/le-studio-montrealais-panache-jeux-numeriques-devoile-enfin-1666-amsterdam/</link>
     <guid isPermaLink="true">https://videoludique.ca/2026/06/06/le-studio-montrealais-panache-jeux-numeriques-devoile-enfin-1666-amsterdam/</guid>
     <pubDate>Sat, 06 Jun 2026 15:34:15 +0000</pubDate>
-    <description>Quinze ans après la naissance du projet, le studio montréalais Panache Jeux numériques présente enfin le prologue de 1666 : Amsterdam lors du Summer Games Fest. Ce jeu d’action-aventure à la troisième personne plonge dans l’Amsterdam du XVIIe siècle, entre magie noire et occulte, avec une musique signée Jorane. Les 30 premières minutes sont déjà offertes gratuitement sur Steam et Epic Games.</description>
+    <description>Quinze ans après la naissance du projet, le studio montréalais Panache Jeux numériques présente enfin le prologue de 1666 : Amsterdam lors du Summer Games Fest. Ce jeu d’action-aventure à la troisième personne plonge dans l’Amsterdam du XVIIe siècle, entre magie noire et occulte, avec une musique signée Jorane. Les 30 premières minutes sont déjà offertes gratuitement sur Steam et Epic Games.</description>
     <category>Aperçu</category>
   </item>
   <item>
-    <title>Hack ‘n’ Stack : un jeu de party chaotique à venir sur PC et Switch</title>
+    <title>Hack ‘n’ Stack : un jeu de party chaotique à venir sur PC et Switch</title>
     <link>https://videoludique.ca/2026/06/05/hack-n-stack-dodo-tako-prepare-son-deuxieme-jeu/</link>
     <guid isPermaLink="true">https://videoludique.ca/2026/06/05/hack-n-stack-dodo-tako-prepare-son-deuxieme-jeu/</guid>
     <pubDate>Fri, 05 Jun 2026 21:47:00 +0000</pubDate>
-    <description>Moins d’un an après Where is Billy?, Triple Boris lance un deuxième jeu sous sa division Dodo Tako : Hack ‘n’ Stack, un jeu de party chaotique mélant physique, tower defense et action pour 2 à 4 joueurs. Prévu en août 2026 sur Steam et Nintendo Switch, une démo est déjà disponible.</description>
+    <description>Moins d’un an après Where is Billy?, Triple Boris lance un deuxième jeu sous sa division Dodo Tako : Hack ‘n’ Stack, un jeu de party chaotique mélant physique, tower defense et action pour 2 à 4 joueurs. Prévu en août 2026 sur Steam et Nintendo Switch, une démo est déjà disponible.</description>
     <category>Aperçu</category>
   </item>
   <item>
-    <title>Red Barrels célèbre 15 ans d’horreur montréalaise et 50 millions de copies vendues</title>
+    <title>Red Barrels célèbre 15 ans d’horreur montréalaise et 50 millions de copies vendues</title>
     <link>https://videoludique.ca/2026/05/28/red-barrels-celebre-15-ans-dhorreur-montrealaise-et-50-millions-de-copies-vendues/</link>
     <guid isPermaLink="true">https://videoludique.ca/2026/05/28/red-barrels-celebre-15-ans-dhorreur-montrealaise-et-50-millions-de-copies-vendues/</guid>
     <pubDate>Thu, 28 May 2026 12:17:04 +0000</pubDate>
@@ -32,7 +104,7 @@
     <category>Actualité</category>
   </item>
   <item>
-    <title>Le Québec brille aux Canadian Game Awards</title>
+    <title>Le Québec brille aux Canadian Game Awards</title>
     <link>https://videoludique.ca/2026/05/27/le-quebec-brille-aux-canadian-game-awards/</link>
     <guid isPermaLink="true">https://videoludique.ca/2026/05/27/le-quebec-brille-aux-canadian-game-awards/</guid>
     <pubDate>Wed, 27 May 2026 19:17:27 +0000</pubDate>
@@ -40,7 +112,7 @@
     <category>Actualité</category>
   </item>
   <item>
-    <title>Outward 2 : le RPG québécois de Nine Dots Studio entre en accès anticipé le 7 juillet</title>
+    <title>Outward 2 : le RPG québécois de Nine Dots Studio entre en accès anticipé le 7 juillet</title>
     <link>https://videoludique.ca/2026/05/27/outward-2-le-rpg-quebecois-de-nine-dots-studio-entre-en-acces-anticipe-le-7-juillet/</link>
     <guid isPermaLink="true">https://videoludique.ca/2026/05/27/outward-2-le-rpg-quebecois-de-nine-dots-studio-entre-en-acces-anticipe-le-7-juillet/</guid>
     <pubDate>Wed, 27 May 2026 17:31:24 +0000</pubDate>
@@ -48,7 +120,7 @@
     <category>Aperçu</category>
   </item>
   <item>
-    <title>The Outlast Trials — La Saison 6.1 Prime Time est maintenant disponible</title>
+    <title>The Outlast Trials — La Saison 6.1 Prime Time est maintenant disponible</title>
     <link>https://videoludique.ca/2026/05/20/the-outlast-trials-la-saison-6-1-prime-time-est-maintenant-disponible/</link>
     <guid isPermaLink="true">https://videoludique.ca/2026/05/20/the-outlast-trials-la-saison-6-1-prime-time-est-maintenant-disponible/</guid>
     <pubDate>Wed, 20 May 2026 13:53:43 +0000</pubDate>
@@ -56,7 +128,7 @@
     <category>Aperçu</category>
   </item>
   <item>
-    <title>LUDOV : Des chercheurs de l’Université de Montréal veulent écrire l’histoire socioculturelle du jeu vidéo québécois</title>
+    <title>LUDOV : Des chercheurs de l’Université de Montréal veulent écrire l’histoire socioculturelle du jeu vidéo québécois</title>
     <link>https://videoludique.ca/2026/05/20/ludov-des-chercheurs-de-luniversite-de-montreal-veulent-ecrire-lhistoire-socioculturelle-du-jeu-video-quebecois/</link>
     <guid isPermaLink="true">https://videoludique.ca/2026/05/20/ludov-des-chercheurs-de-luniversite-de-montreal-veulent-ecrire-lhistoire-socioculturelle-du-jeu-video-quebecois/</guid>
     <pubDate>Wed, 20 May 2026 11:59:03 +0000</pubDate>
@@ -64,7 +136,7 @@
     <category>Actualité</category>
   </item>
   <item>
-    <title>La poutine dans le jeu vidéo ou l’affirmation de notre héritage culinaire</title>
+    <title>La poutine dans le jeu vidéo ou l’affirmation de notre héritage culinaire</title>
     <link>https://videoludique.ca/2026/05/03/la-poutine-dans-le-jeu-video-ou-laffirmation-de-notre-heritage-culinaire/</link>
     <guid isPermaLink="true">https://videoludique.ca/2026/05/03/la-poutine-dans-le-jeu-video-ou-laffirmation-de-notre-heritage-culinaire/</guid>
     <pubDate>Sun, 03 May 2026 12:26:48 +0000</pubDate>
@@ -72,7 +144,7 @@
     <category>Chronique</category>
   </item>
   <item>
-    <title>Tears of Metal : le roguelike de Paper Cult débarque sur Xbox et Game Pass</title>
+    <title>Tears of Metal : le roguelike de Paper Cult débarque sur Xbox et Game Pass</title>
     <link>https://videoludique.ca/2026/04/24/tears-of-metal-le-roguelike-de-paper-cult-debarque-sur-xbox-et-game-pass/</link>
     <guid isPermaLink="true">https://videoludique.ca/2026/04/24/tears-of-metal-le-roguelike-de-paper-cult-debarque-sur-xbox-et-game-pass/</guid>
     <pubDate>Fri, 24 Apr 2026 18:04:26 +0000</pubDate>
@@ -80,7 +152,7 @@
     <category>Actualité</category>
   </item>
   <item>
-    <title>Assassin’s Creed Black Flag Resynced : le remake débarque le 9 juillet 2026</title>
+    <title>Assassin’s Creed Black Flag Resynced : le remake débarque le 9 juillet 2026</title>
     <link>https://videoludique.ca/2026/04/24/assassins-creed-black-flag-resynced-le-remake-debarque-le-9-juillet-2026/</link>
     <guid isPermaLink="true">https://videoludique.ca/2026/04/24/assassins-creed-black-flag-resynced-le-remake-debarque-le-9-juillet-2026/</guid>
     <pubDate>Fri, 24 Apr 2026 17:56:09 +0000</pubDate>
@@ -88,15 +160,15 @@
     <category>Actualité</category>
   </item>
   <item>
-    <title>Inon Zur sera l’invité spécial du concert Heroes : Symphonie de jeux vidéo à Montréal</title>
+    <title>Inon Zur sera l’invité spécial du concert Heroes : Symphonie de jeux vidéo à Montréal</title>
     <link>https://videoludique.ca/2026/04/23/inon-zur-sera-linvite-special-du-concert-heroes-symphonie-de-jeux-video-a-montreal/</link>
     <guid isPermaLink="true">https://videoludique.ca/2026/04/23/inon-zur-sera-linvite-special-du-concert-heroes-symphonie-de-jeux-video-a-montreal/</guid>
     <pubDate>Thu, 23 Apr 2026 10:45:29 +0000</pubDate>
-    <description>Le compositeur légendaire Inon Zur — derrière les musiques de Fallout, Starfield et Dragon Age — sera présent en personne lors du concert Heroes : Symphonie de jeux vidéo de l’OSM, le 20 mai 2026 à la Maison symphonique de Montréal. Il participera également à une rencontre-discussion pré-concert avec le superviseur musical d’Ubisoft, Simon Landry.</description>
+    <description>Le compositeur légendaire Inon Zur — derrière les musiques de Fallout, Starfield et Dragon Age — sera présent en personne lors du concert Heroes : Symphonie de jeux vidéo de l’OSM, le 20 mai 2026 à la Maison symphonique de Montréal. Il participera également à une rencontre-discussion pré-concert avec le superviseur musical d’Ubisoft, Simon Landry.</description>
     <category>Actualité</category>
   </item>
   <item>
-    <title>The Caribou Trail : un studio québécois plonge dans les tranchées de Gallipoli</title>
+    <title>The Caribou Trail : un studio québécois plonge dans les tranchées de Gallipoli</title>
     <link>https://videoludique.ca/2026/04/20/the-caribou-trail-un-studio-quebecois-plonge-dans-les-tranchees-de-gallipoli/</link>
     <guid isPermaLink="true">https://videoludique.ca/2026/04/20/the-caribou-trail-un-studio-quebecois-plonge-dans-les-tranchees-de-gallipoli/</guid>
     <pubDate>Mon, 20 Apr 2026 13:46:51 +0000</pubDate>
@@ -104,15 +176,15 @@
     <category>Aperçu</category>
   </item>
   <item>
-    <title>La Route vers Horizon 6 : Pourquoi on tripe (encore) autant ?</title>
+    <title>La Route vers Horizon 6 : Pourquoi on tripe (encore) autant ?</title>
     <link>https://videoludique.ca/2026/04/17/la-route-vers-horizon-6-pourquoi-on-tripe-encore-autant/</link>
     <guid isPermaLink="true">https://videoludique.ca/2026/04/17/la-route-vers-horizon-6-pourquoi-on-tripe-encore-autant/</guid>
     <pubDate>Fri, 17 Apr 2026 12:09:51 +0000</pubDate>
     <description>Eric Hébert partage son parcours dans le monde des jeux de course en monde ouvert, soulignant ses expériences marquantes avec des titres comme Gran Turismo et Need for Speed. Il classe ses jeux préférés de la série Forza Horizon en mettant en avant la qualité technique et l’impact émotionnel de chacun, tout en exprimant son excitation pour Forza Horizon 6 au Japon.</description>
-    <category>Chronique</category><category>Non-Quebec</category>
+    <category>Chronique</category>
   </item>
   <item>
-    <title>Mojo Party : deux studios montréalais s’associent à WatchMojo pour un jeu de party culture pop</title>
+    <title>Mojo Party : deux studios montréalais s’associent à WatchMojo pour un jeu de party culture pop</title>
     <link>https://videoludique.ca/2026/04/16/mojo-party-deux-studios-montrealais-sassocient-a-watchmojo-pour-un-jeu-de-party-culture-pop/</link>
     <guid isPermaLink="true">https://videoludique.ca/2026/04/16/mojo-party-deux-studios-montrealais-sassocient-a-watchmojo-pour-un-jeu-de-party-culture-pop/</guid>
     <pubDate>Thu, 16 Apr 2026 16:00:56 +0000</pubDate>
@@ -120,7 +192,7 @@
     <category>Actualité</category>
   </item>
   <item>
-    <title>L’OJV embarque le public dans une Expédition Indie cet été</title>
+    <title>L’OJV embarque le public dans une Expédition Indie cet été</title>
     <link>https://videoludique.ca/2026/04/15/lojv-embarque-le-public-dans-une-expedition-indie-cet-ete/</link>
     <guid isPermaLink="true">https://videoludique.ca/2026/04/15/lojv-embarque-le-public-dans-une-expedition-indie-cet-ete/</guid>
     <pubDate>Wed, 15 Apr 2026 21:09:11 +0000</pubDate>
@@ -128,7 +200,7 @@
     <category>Actualité</category>
   </item>
   <item>
-    <title>Sea of Stars de Sabotage Studio arrive sur mobile</title>
+    <title>Sea of Stars de Sabotage Studio arrive sur mobile</title>
     <link>https://videoludique.ca/2026/04/10/sea-of-stars-de-sabotage-studio-arrive-sur-mobile-le-rpg-quebecois-conquere-ios-et-android/</link>
     <guid isPermaLink="true">https://videoludique.ca/2026/04/10/sea-of-stars-de-sabotage-studio-arrive-sur-mobile-le-rpg-quebecois-conquere-ios-et-android/</guid>
     <pubDate>Fri, 10 Apr 2026 23:17:21 +0000</pubDate>
@@ -136,7 +208,7 @@
     <category>Aperçu</category>
   </item>
   <item>
-    <title>iLLOGIKA lance Studio Rabaska, sa nouvelle filiale spécialisée en réalité virtuelle en lieu</title>
+    <title>iLLOGIKA lance Studio Rabaska, sa nouvelle filiale spécialisée en réalité virtuelle en lieu</title>
     <link>https://videoludique.ca/2026/04/03/illogika-lance-studio-rabaska-sa-nouvelle-filiale-specialisee-en-realite-virtuelle-en-lieu/</link>
     <guid isPermaLink="true">https://videoludique.ca/2026/04/03/illogika-lance-studio-rabaska-sa-nouvelle-filiale-specialisee-en-realite-virtuelle-en-lieu/</guid>
     <pubDate>Fri, 03 Apr 2026 22:48:07 +0000</pubDate>
@@ -144,7 +216,7 @@
     <category>Actualité</category>
   </item>
   <item>
-    <title>Behaviour Interactive acquiert The Fun Pimps : les créateurs de 7 Days to Die</title>
+    <title>Behaviour Interactive acquiert The Fun Pimps : les créateurs de 7 Days to Die</title>
     <link>https://videoludique.ca/2026/03/24/behaviour-interactive-acquiert-the-fun-pimps-les-createurs-de-7-days-to-die/</link>
     <guid isPermaLink="true">https://videoludique.ca/2026/03/24/behaviour-interactive-acquiert-the-fun-pimps-les-createurs-de-7-days-to-die/</guid>
     <pubDate>Tue, 24 Mar 2026 22:15:00 +0000</pubDate>
@@ -152,7 +224,7 @@
     <category>Actualité</category>
   </item>
   <item>
-    <title>Red Barrels lance Project Judas et célèbre 15 ans d’horreur montréalaise</title>
+    <title>Red Barrels lance Project Judas et célèbre 15 ans d’horreur montréalaise</title>
     <link>https://videoludique.ca/2026/03/19/red-barrels-lance-project-judas-et-celebre-15-ans-dhorreur-montrealaise/</link>
     <guid isPermaLink="true">https://videoludique.ca/2026/03/19/red-barrels-lance-project-judas-et-celebre-15-ans-dhorreur-montrealaise/</guid>
     <pubDate>Thu, 19 Mar 2026 23:02:00 +0000</pubDate>
@@ -160,11 +232,11 @@
     <category>Aperçu</category>
   </item>
   <item>
-    <title>Vente Steam : la Célébration des jeux du Québec 2026 est arrivée.</title>
+    <title>Vente Steam : la Célébration des jeux du Québec 2026 est arrivée.</title>
     <link>https://videoludique.ca/2026/02/20/vente-steam-la-celebration-des-jeux-du-quebec-2026-est-arrivee/</link>
     <guid isPermaLink="true">https://videoludique.ca/2026/02/20/vente-steam-la-celebration-des-jeux-du-quebec-2026-est-arrivee/</guid>
     <pubDate>Fri, 20 Feb 2026 13:58:09 +0000</pubDate>
-    <description>images gracieuseté de l’Indie Asylum Pour une autre année, l’Indie Asylum et La Guilde du jeu vidéo du Québec s’associent pour la Célébration des jeux du Québec, un événement Steam qui met en valeur le talent et la créativité vidéoludique québécoise jusqu’au 23 février 2026. DÉCOUVRE LA VENTE ICI. Nombreux jeux vidéo créés au Québec […]</description>
+    <description>images gracieuseté de l’Indie Asylum Pour une autre année, l’Indie Asylum et La Guilde du jeu vidéo du Québec s’associent pour la Célébration des jeux du Québec, un événement Steam qui met en valeur le talent et la créativité vidéoludique québécoise jusqu’au 23 février 2026. DÉCOUVRE LA VENTE ICI. Nombreux jeux vidéo créés au Québec…</description>
     <category>Actualité</category>
   </item>
   <item>
@@ -174,78 +246,6 @@
     <pubDate>Wed, 21 Jan 2026 11:15:06 +0000</pubDate>
     <description>La Guilde du jeu vidéo du Québec, en collaboration avec Les Affaires, a publié une série d’articles sur l’inclusion dans le milieu corporatif, illustrée par l’industrie du jeu vidéo locale. Ces articles démontrent comment la neurodiversité, la culture autochtone et la représentation des femmes contribuent à l’innovation.</description>
     <category>Actualité</category>
-  </item>
-  <item>
-    <title>7 Days Blood Moons : le studio iLLOGIKA lance une démo gratuite et une mise à jour</title>
-    <link>https://videoludique.ca/2025/12/22/7-days-blood-moons-le-studio-illogika-lance-une-demo-gratuite-et-une-mise-a-jour/</link>
-    <guid isPermaLink="true">https://videoludique.ca/2025/12/22/7-days-blood-moons-le-studio-illogika-lance-une-demo-gratuite-et-une-mise-a-jour/</guid>
-    <pubDate>Mon, 22 Dec 2025 16:19:26 +0000</pubDate>
-    <description>images gracieuseté de iLLOGIKA Le studio québécois iLLOGIKA a annoncé, le 18 décembre dernier, le lancement d’une version d’essai gratuite de son titre 7 Days Blood Moons sur la plateforme Steam. Cette initiative s’accompagne d’une série de correctifs et d’ajouts de contenu visant à stabiliser l’expérience de jeu en accès anticipé. Lancé le 4 novembre […]</description>
-    <category>Aperçu</category>
-  </item>
-  <item>
-    <title>L’industrie mondiale du jeu vidéo de retour à Montréal pour le MIGS25</title>
-    <link>https://videoludique.ca/2025/11/10/lindustrie-mondiale-du-jeu-video-de-retour-a-montreal-pour-le-migs25/</link>
-    <guid isPermaLink="true">https://videoludique.ca/2025/11/10/lindustrie-mondiale-du-jeu-video-de-retour-a-montreal-pour-le-migs25/</guid>
-    <pubDate>Mon, 10 Nov 2025 13:45:14 +0000</pubDate>
-    <description>Du 11 au 12 novembre, Montréal accueillera le Sommet international du jeu de Montréal 2025 (MIGS25), réunissant 90 conférencier.ère.s et 2500 professionnel.le.s de l’industrie du jeu vidéo. Cet événement mettra l’accent sur l’innovation et le financement, fortifiant le rôle de Montréal dans l’écosystème mondial du jeu vidéo.</description>
-    <category>Actualité</category>
-  </item>
-  <item>
-    <title>Incarnez un goéland déjanté dans ce jeu d’un développeur solo</title>
-    <link>https://videoludique.ca/2025/09/27/incarnez-un-goeland-dejante-dans-ce-jeu-dun-developpeur-solo/</link>
-    <guid isPermaLink="true">https://videoludique.ca/2025/09/27/incarnez-un-goeland-dejante-dans-ce-jeu-dun-developpeur-solo/</guid>
-    <pubDate>Sat, 27 Sep 2025 12:45:55 +0000</pubDate>
-    <description>Bryan Martinet, après des licenciements chez Eidos Montréal, lance Maarti Games et crée Goeland, un jeu d’aventure humoristique. Les joueurs incarnent un goéland, interagissant librement sur une île immersive, aidant des habitants, résolvant des défis et enquêtant sur la pollution. La date de sortie reste indéterminée, mais le jeu est à wishlister sur Steam.</description>
-    <category>Aperçu</category>
-  </item>
-  <item>
-    <title>Saven : essayez la démo ce jeu d’Horrawr</title>
-    <link>https://videoludique.ca/2025/09/27/saven-essayez-la-demo-ce-jeu-dhorrawr/</link>
-    <guid isPermaLink="true">https://videoludique.ca/2025/09/27/saven-essayez-la-demo-ce-jeu-dhorrawr/</guid>
-    <pubDate>Sat, 27 Sep 2025 12:10:21 +0000</pubDate>
-    <description>image à la une : Horrawr SAVEN est un jeu d’horreur psychologique à la première personne développé par le studio québécois Horrawr, dont la sortie est prévue pour le 22 octobre 2025 sur PC (Steam et Itch.io). Ce titre promet une expérience immersive et angoissante, inspirée des grands classiques du cinéma d’horreur, où la survie […]</description>
-    <category>Aperçu</category>
-  </item>
-  <item>
-    <title>Camille et Laura : la poésie du quotidien</title>
-    <link>https://videoludique.ca/2025/08/05/camille-et-laura-la-poesie-du-quotidien/</link>
-    <guid isPermaLink="true">https://videoludique.ca/2025/08/05/camille-et-laura-la-poesie-du-quotidien/</guid>
-    <pubDate>Tue, 05 Aug 2025 22:01:35 +0000</pubDate>
-    <description>Camille et Laura, le premier jeu du studio québécois BonjourBorzoi, explore le quotidien d’une mère monoparentale et de sa fille lors de la rentrée scolaire. Ce jeu poignant, centré sur des tâches banales, évoque la charge mentale et les émotions liées à la routine, offrant une expérience narrative touchante. Disponible sur Steam et Itch.io.</description>
-    <category>Critique</category>
-  </item>
-  <item>
-    <title>Where is Billy? de Dodo Tako maintenant disponible sur Nintendo Switch</title>
-    <link>https://videoludique.ca/2025/07/31/where-is-billy-de-dodo-tako-maintenant-disponible-sur-nintendo-switch/</link>
-    <guid isPermaLink="true">https://videoludique.ca/2025/07/31/where-is-billy-de-dodo-tako-maintenant-disponible-sur-nintendo-switch/</guid>
-    <pubDate>Thu, 31 Jul 2025 13:44:28 +0000</pubDate>
-    <description>Triple Boris a lancé un nouveau studio, Dodo Tako, dédié à la création de jeux originaux. Leur premier jeu, Where is Billy?, est un jeu de party multijoueur pour 2 à 8 joueurs, inspiré du cache-cache, disponible sur Nintendo Switch et Steam. Plusieurs modes de jeu sont offerts avec des variations de mécaniques.</description>
-    <category>Aperçu</category>
-  </item>
-  <item>
-    <title>Le « Great Canadian Game-Off » : MobileSyrup et l’ALD célèbrent le jeu vidéo canadien</title>
-    <link>https://videoludique.ca/2025/07/09/le-great-canadian-game-off-mobilesyrup-et-lald-celebrent-le-jeu-video-canadien/</link>
-    <guid isPermaLink="true">https://videoludique.ca/2025/07/09/le-great-canadian-game-off-mobilesyrup-et-lald-celebrent-le-jeu-video-canadien/</guid>
-    <pubDate>Wed, 09 Jul 2025 11:09:19 +0000</pubDate>
-    <description>MobileSyrup et l’ALD lancent le « Great Canadian Game-Off » pour célébrer 30 ans de jeux vidéo canadiens. Les participants peuvent voter pour leurs jeux préférés jusqu’au 25 juillet dans 9 catégories, avec des finales jusqu’au 25 août. Une mention spéciale va aux professionnels récemment touchés par des licenciements dans le secteur.</description>
-    <category>Actualité</category>
-  </item>
-  <item>
-    <title>The Book of Aaru : entre désert, danger et divinités oubliées</title>
-    <link>https://videoludique.ca/2025/07/05/the-book-of-aaru-entre-desert-danger-et-divinites-oubliees/</link>
-    <guid isPermaLink="true">https://videoludique.ca/2025/07/05/the-book-of-aaru-entre-desert-danger-et-divinites-oubliees/</guid>
-    <pubDate>Sat, 05 Jul 2025 11:13:12 +0000</pubDate>
-    <description>The Book of Aaru, développé par Amenti Studio, allie action-RPG et roguelite dans un monde captivant inspiré de l’Égypte antique. Avec un gameplay fluide et destructible, il propose une progression personnalisable et un challenge croissant. Ses mécaniques innovantes et son ambiance immersive font de ce jeu une expérience incontournable.</description>
-    <category>Critique</category><category>Non-Quebec</category>
-  </item>
-  <item>
-    <title>Wu-Tang: Rise of the Deceiver – Le retour légendaire du Clan dans un RPG coopératif électrisant</title>
-    <link>https://videoludique.ca/2025/06/20/wu-tang-rise-of-the-deceiver-le-retour-legendaire-du-clan-dans-un-rpg-cooperatif-electrisant/</link>
-    <guid isPermaLink="true">https://videoludique.ca/2025/06/20/wu-tang-rise-of-the-deceiver-le-retour-legendaire-du-clan-dans-un-rpg-cooperatif-electrisant/</guid>
-    <pubDate>Fri, 20 Jun 2025 17:39:03 +0000</pubDate>
-    <description>Le Wu-Tang Clan revient dans le monde des jeux vidéo avec Wu-Tang: Rise of the Deceiver, un RPG coopératif de Brass Lion Entertainment. Les joueurs incarnent des guerriers héritiers du Clan pour défendre Shaolin contre le Deceiver. Le jeu offre personnalisation, coopération à trois et une bande-son dynamique. Sortie prévue sur consoles et PC.</description>
-    <category>Aperçu</category>
   </item>
 </channel>
 </rss>

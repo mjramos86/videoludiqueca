@@ -43,6 +43,7 @@ DEFAULT_AUTHOR_SLUG = "mario-j-ramos"
 SITE_TITLE = "VIDÉOLUDIQUE.CA"
 SITE_TAGLINE = "Un blogue sur l’industrie du jeu vidéo québécoise par Mario J. Ramos"
 SITE_URL = "https://videoludique.ca"
+GOOGLE_TAG_ID = "GTM-KG56Z24J"  # Google tag (Google Analytics / Tag Manager)
 SITE_DESC = ("Vidéoludique.ca est un blogue indépendant qui couvre l’industrie "
              "du jeu vidéo au Québec, 5e pôle mondial.")
 AUTHOR = "Mario J. Ramos"
@@ -222,6 +223,13 @@ def page_shell(title, body, description=None, canonical=None, og_image=None,
     return f"""<!doctype html>
 <html lang="fr">
 <head>
+<!-- Google tag -->
+<script async src="https://www.googletagmanager.com/gtm.js?id={GOOGLE_TAG_ID}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{attr(decode(title_full))}</title>
