@@ -1,5 +1,5 @@
 ---
-title: "Guide cadeaux 2026 : 31 jeux vidéo québécois à glisser sous le sapin"
+title: "Guide cadeaux 2026 : 32 jeux vidéo québécois à glisser sous le sapin"
 slug: guide-cadeaux-2026-jeux-video-quebecois
 date: 2026-11-04T12:00:00
 author: videoludique-ca
@@ -13,7 +13,7 @@ tags:
   - journée j'achète un jeu vidéo québécois
   - JJJVQ
 image: /assets/uploads/guide-cadeaux-2026-une-v3.jpg
-excerpt: Voici 31 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026.
+excerpt: Voici 32 jeux vidéo québécois à offrir (ou à s'offrir) pour les Fêtes 2026.
 draft: false
 ---
 **Le Québec est l'un des grands pôles mondiaux du jeu vidéo, et 2026 l'a encore prouvé. Des grosses productions aux petits studios, nos créateurs ont lancé cette année des jeux pour tous les goûts : soirées de party entre amis, récits qui restent en tête, horreur en coop… Voici notre sélection des Fêtes pour encourager le talent d'ici en faisant plaisir à quelqu'un (ou à soi-même).**
@@ -349,6 +349,21 @@ Au 25e siècle, la station spatiale A.R.E.S. étudie VESTA, une planète qui pou
 **Où l'acheter :** [Steam](https://store.steampowered.com/app/5007930/The_Solitaire_Tower_of_Doom/) · [itch.io](https://emjayhar.itch.io/the-solitaire-tower-of-doom)
 
 Montréal, 1990 : une secte vouée au Solitaire asservit les employés de bureau, une partie à la fois. Pour lui tenir tête, on choisit un Mécène temporel inspiré d'un personnage historique (Louis XIV, Churchill, Marie Stuart, Napoléon, John Dee…), qui influence sa façon de jouer, puis on descend les étages roguelike d'une tour en remportant des parties dans cinq variantes : Klondike, Spider, Pyramide, TriPeaks et FreeCell. Entre les étages, une boutique d'objets permet d'ajuster sa stratégie, et la progression d'une partie à l'autre débloque de nouveaux mécènes et dos de cartes. Le tout baigne dans un pixel art qui rappelle les jeux PC du début des années 90. Offert en accès anticipé depuis le 2 octobre pour moins de 5 $, c'est le petit cadeau parfait à glisser dans un bas de Noël.
+
+### Goeland: Seagull Adventure
+
+![Key art de Goeland: Seagull Adventure](/assets/uploads/guide-2026-goeland-seagull-adventure.jpg)
+
+- **Studio :** Maarti Games
+- **Genre :** Aventure bac à sable en monde ouvert
+- **Mode :** Solo
+- **Plateformes :** PC (Steam)
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/2531840/Goeland_Seagull_Adventure/) (sortie le 2 décembre, démo gratuite déjà offerte)
+
+Vous êtes un goéland, et l'île n'a aucune idée de ce qui l'attend. Dans ce bac à sable signé par un développeur solo montréalais, on survole librement une île colorée où presque tout est interactif, sans aucune règle à suivre : aider les habitants, les embêter, chasser des trésors… ou simplement se percher sur un banc pour regarder le monde passer. Chaque défi se règle à sa façon, et les solutions inattendues (souvent chaotiques) font tout le plaisir. En toile de fond, une mystérieuse pollution qui envahit les côtes se dévoile à votre rythme. Le jeu sort le 2 décembre, juste à temps pour les Fêtes, et sa démo gratuite permet d'y goûter dès maintenant. Une belle idée cadeau pour ceux qui aiment semer un peu de désordre.
+
+<figure class="wp-block-embed wp-block-embed-youtube is-type-video"><div class="wp-block-embed__wrapper"><iframe src="https://www.youtube.com/embed/_aHt0Hp316s" title="Goeland: Seagull Adventure – bande-annonce" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></figure>
 
 ### Royal Vermin
 
