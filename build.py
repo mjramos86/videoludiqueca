@@ -790,6 +790,20 @@ ABOUT_NETWORK = [
          "La section jeux vidéo et technologie de Radio-Canada."),
         ("Blogue de Simon Dor", "https://www.simondor.com/",
          "Simon Dor est professeur en études du jeu vidéo à l’UQAT."),
+        ("Branchez-Vous", "https://branchez-vous.com/",
+         "Actualités techno, gadgets, mobilité et jeux vidéo."),
+        ("Écran partagé", "https://ecranpartage.ca/",
+         "Mieux comprendre les jeux vidéo : actualités, tests et analyses."),
+        ("Mon carnet", "https://moncarnet.com/",
+         "Le carnet de l’actualité numérique de Bruno Guglielminetti."),
+        ("Maximejohnson.com", "https://maximejohnson.com/",
+         "Actualités technologiques, tests et opinions de Maxime Johnson."),
+        ("Geekbécois", "https://geekbecois.com/",
+         "Tests technos, critiques de jeux vidéo et de jeux de société, culture geek."),
+        ("2Pjeuxvidéo", "https://www.2pjeuxvideo.com/",
+         "Média indépendant québécois : critiques de jeux et d’accessoires."),
+        ("G pour Geek", "https://gpourgeek.ca/",
+         "Critiques de jeux vidéo, technos, films, séries, mangas et plus."),
     ]),
     ("Organismes", [
         ("La Fondation des Gardiens virtuels", "https://gardiensvirtuels.org/",
@@ -797,6 +811,9 @@ ABOUT_NETWORK = [
         ("La Guilde du Jeu vidéo du Québec", "https://www.laguilde.quebec/fr/",
          "Coopérative à but non lucratif regroupant les développeur.euse.s, créateur.rice.s, "
          "établissements d’enseignement et entrepreneur.euse.s du jeu vidéo au Québec."),
+        ("Canadian Game Awards", "https://canadiangameawards.ca/",
+         "Les Prix du jeu canadien célèbrent les développeurs, créateurs de contenu "
+         "et l’esport d’un océan à l’autre."),
     ]),
     ("Balados", [
         ("Chez Papa Cassette", "https://baladoquebec.ca/papa-cassette-podcast",
@@ -808,6 +825,29 @@ ABOUT_NETWORK = [
          "Balado dont je suis producteur au contenu. Samuel « Son Off Odin » Gignac et "
          "Éloïse « LaCoiffeuseGeek » Pratte parlent de la relation entre le numérique "
          "et la santé mentale."),
+        ("Radio-Talbot", "https://baladoquebec.ca/radio-talbot",
+         "Depuis plus de 10 ans, l’actualité du jeu vidéo et de la techno avec "
+         "de nombreux collaborateurs."),
+        ("PlayHeure Podcast", "https://baladoquebec.ca/play-heure",
+         "On jase de films, de séries et de jeux vidéo, sans prétention."),
+        ("Les Mystérieux Étonnants", "https://www.mysterieuxetonnants.com/",
+         "Balado et WebTV sur la culture geek, les comics et la culture pop."),
+        ("Arcade Québec", "https://arcadequebec.com/",
+         "Balado et let’s play rétro, dont les Mercredis Twitch."),
+    ]),
+    ("Médias anglophones canadiens", [
+        ("AGN — A Gaming Network", "https://www.agamingnetwork.com/",
+         "Nouvelles, critiques et événements jeux vidéo."),
+        ("MobileSyrup", "https://mobilesyrup.com/",
+         "Média techno canadien, avec sa section jeux vidéo SyrupArcade."),
+        ("COGconnected", "https://cogconnected.com/",
+         "Nouvelles et critiques PlayStation, Xbox, Switch et PC."),
+        ("Console Creatures", "https://www.consolecreatures.com/",
+         "Média indépendant canadien sur les jeux vidéo et la techno."),
+        ("Electric Playground", "https://epn.tv/",
+         "Le réseau de Victor Lucas : émissions et balados jeux vidéo."),
+        ("Naomi Kyle", "https://www.naomikyle.com/",
+         "Animatrice, actrice et productrice spécialisée en jeux vidéo."),
     ]),
 ]
 
@@ -852,7 +892,7 @@ def build_page_about():
       <div class="about-heading">
         <span class="kicker">À propos</span>
         <h1 class="about-name">{AUTHOR}</h1>
-        <p class="about-role">Fondateur de Vidéoludique.ca · Scénariste et réalisateur</p>
+        <p class="about-role">Fondateur de Vidéoludique.ca</p>
         <p class="about-lede">{ABOUT_LEDE}</p>
         {about_social_html()}
         <div class="about-actions">
