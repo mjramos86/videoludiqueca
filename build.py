@@ -786,6 +786,8 @@ ABOUT_NETWORK = [
          "Groupe Facebook qui rassemble les fans de Nintendo au Québec."),
         ("L’Anneau ludique", "https://discord.gg/D6HZY695Pm",
          "Discord de discussions sur le jeu vidéo comme dixième art et comme culture."),
+        ("La Face des internets", "https://discord.com/invite/lafacedesinternets",
+         "Discord de la communauté de La Face des internets, la compétition Twitch de Loto-Québec."),
     ]),
     ("Médias québécois — nouvelles & critiques", [
         ("Le Bêta-Testeur", "https://www.lebetatesteur.ca/",
@@ -816,6 +818,8 @@ ABOUT_NETWORK = [
          "Média indépendant québécois : critiques de jeux et d’accessoires."),
         ("G pour Geek", "https://gpourgeek.ca/",
          "Critiques de jeux vidéo, technos, films, séries, mangas et plus."),
+        ("Le Lobby de Loto-Québec", "https://lelobby.lotoquebec.com/",
+         "Les initiatives de Loto-Québec en jeu vidéo, streaming et culture pop."),
     ]),
     ("Organismes", [
         ("La Fondation des Gardiens virtuels", "https://gardiensvirtuels.org/",
