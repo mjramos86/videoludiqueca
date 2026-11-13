@@ -38,7 +38,7 @@ draft: false
 
 ## Anamorphine
 
-https://www.youtube.com/watch?v=cf5TTHbQMgg
+![Capture d’écran d’Anamorphine](/assets/uploads/50-jeux/anamorphine.jpg)
 
 **Synopsis officiel :** *Découvrez ce que l’on ressent en perdant le contrôle de la réalité à mesure que l’on se rapproche du coin le plus sombre de son esprit. Le récit d’Anamorphine se déroule à travers les souvenirs oniriques de Tyler. Idéal pour l’exploration et la contemplation de l’environnement, l’histoire est racontée sans dialogue ni bouton d’action.* *Allez-vous affronter le passé et essayer de trouver un moyen d’avancer, ou allez-vous le laisser vous consumer ?*
 
@@ -58,7 +58,7 @@ https://www.youtube.com/watch?v=cf5TTHbQMgg
 
 ## Ancestors : The Humankind Odyssey
 
-https://www.youtube.com/watch?v=7O3ntCGKaHI
+![Key art d’Ancestors : The Humankind Odyssey](/assets/uploads/50-jeux/ancestors-the-humankind-odyssey.jpg)
 
 **Synopsis officiel :** *Ancestors: The Humankind Odyssey est un jeu de survie à la troisième personne en monde ouvert provenant du studio indépendant Panache Jeux Numériques et édité par Private Division. D’après l’idée originale du directeur créatif Patrice Désilets, découvrez la splendeur de l’Afrique d’il y a 10 millions d’années et bravez tous ses dangers avec votre clan d’hominidés qui devra partir en exploration, s’agrandir et évoluer pour survivre à travers 8 millions d’années. C’est à vous d’écrire votre propre histoire sur l’évolution humaine. Parviendrez-vous à survivre comme l’ont fait nos ancêtres?*
 
@@ -78,7 +78,7 @@ https://www.youtube.com/watch?v=7O3ntCGKaHI
 
 ## Army of Two
 
-https://www.youtube.com/watch?v=7jQs_OYM7zs
+![Capture d’écran d’Army of Two](/assets/uploads/50-jeux/army-of-two.jpg)
 
 **Synopsis officiel :** *Travaillez ensemble en incarnant Alpha et Bravo, deux mercenaires mortels qui entreprendront les missions les plus difficiles avec des tactiques imbattables. Améliorez votre arsenal avec des armes et des tenues personnalisables et exécutez des plans stratégiques audacieux.*
 
@@ -98,7 +98,7 @@ https://www.youtube.com/watch?v=7jQs_OYM7zs
 
 ## Assassin’s Creed 2
 
-https://www.youtube.com/watch?v=_xkCPNECud8
+![Key art d’Assassin’s Creed 2](/assets/uploads/50-jeux/assassins-creed-2.jpg)
 
 **Synopsis officiel :** *Assassin’s Creed 2 est l’épopée d’une famille, d’une vengeance et d’une conspiration dans les temps radieux et cruels de la Renaissance italienne. Ezio se lie d’amitié avec Leonardo da Vinci, affronte les plus puissantes familles de Florence et s’aventure jusque dans les canaux de Venise, où il deviendra un Maître Assassin.*
 
@@ -118,7 +118,7 @@ https://www.youtube.com/watch?v=_xkCPNECud8
 
 ## Baldur’s Gate 3
 
-https://www.youtube.com/watch?v=fcmH0c3ywxk
+![Key art de Baldur’s Gate 3](/assets/uploads/50-jeux/baldurs-gate-3.jpg)
 
 **Synopsis officiel :** *Rassemblez votre groupe et retournez dans les Forgotten Realms dans une histoire de camaraderie et de trahison, de sacrifice et de survie, et d’attrait du pouvoir absolu. De mystérieuses capacités s’éveillent en vous, tirées d’un parasite Mind Flayer implanté dans votre cerveau. Résistez et retournez les ténèbres contre elles-mêmes. Ou acceptez la corruption et devenez le mal ultime.*
 
@@ -138,7 +138,7 @@ https://www.youtube.com/watch?v=fcmH0c3ywxk
 
 ## Batman : Arkham Origins
 
-https://www.youtube.com/watch?v=9pnK8akbd2M
+![Key art de Batman : Arkham Origins](/assets/uploads/50-jeux/batman-arkham-origins.jpg)
 
 **Synopsis officiel :** *Batman : Arkham Origins présente un Gotham City étendu et introduit un scénario préquel original se déroulant plusieurs années avant Batman : Arkham Asylum et Batman : Arkham City. Se déroulant avant la montée des criminels, vilains et assassins les plus dangereux de Gotham City, les joueurs rencontreront pour la première fois de nombreux personnages importants. Le jeu met en scène un Batman jeune, brut et non raffiné alors qu’il fait face à un moment déterminant de son début de carrière de combattant du crime qui ouvre la voie pour devenir le Chevalier Noir. Au fur et à mesure que l’histoire se déroule, des identités se forment et des relations clés se forgent.*
 
@@ -158,7 +158,7 @@ https://www.youtube.com/watch?v=9pnK8akbd2M
 
 ## Bloodroots
 
-https://www.youtube.com/watch?v=umXpxrGSv5k
+![Key art de Bloodroots](/assets/uploads/50-jeux/bloodroots.jpg)
 
 **Synopsis officiel :** *Trahi et laissé pour mort, M. Wolf est déterminé à retrouver son assassin et à se venger – seul et largement en infériorité numérique. Heureusement pour M. Wolf, le monde est votre arme : un jeu d’action implacable qui se déroule à travers le vaste Weird West.*
 
@@ -178,7 +178,7 @@ https://www.youtube.com/watch?v=umXpxrGSv5k
 
 ## Boyfriend Dungeon
 
-https://www.youtube.com/watch?v=lt9EFu0Umfs
+![Key art de Boyfriend Dungeon](/assets/uploads/50-jeux/boyfriend-dungeon.jpg)
 
 **Synopsis officiel :** *Sortez vos épées ! Charmez le cœur de vos armes pour les faire gagner en puissance et parcourez les donjons de ce « shack-and-slash ».*
 
@@ -198,7 +198,7 @@ https://www.youtube.com/watch?v=lt9EFu0Umfs
 
 ## Broken Edge
 
-https://www.youtube.com/watch?v=ByJuoLWlypI
+![Key art de Broken Edge](/assets/uploads/50-jeux/broken-edge.jpg)
 
 **Synopsis officiel :** *Broken Edge est un jeu de duel fantastique multijoueur VR dans lequel vous incarnez des combattants à l’épée emblématiques. Utilisez leurs techniques et pouvoirs uniques combinés à des mécanismes d’escrime de pointe pour remporter la victoire contre des adversaires en ligne et gravir les échelons !*
 
@@ -218,7 +218,7 @@ https://www.youtube.com/watch?v=ByJuoLWlypI
 
 ## Child of Light
 
-https://www.youtube.com/watch?v=J9cadmegBwE
+![Capture d’écran de Child of Light](/assets/uploads/50-jeux/child-of-light.jpg)
 
 **Synopsis officiel :** *La Reine Noire a volé le soleil, la lune et les étoiles. Incarnez Aurora, une jeune princesse au cœur pur dont l’âme vient de rejoindre le royaume de Lemuria. Préparez-vous à vivre une quête palpitante à la recherche des trois sources de lumière volées. Triomphez de la Reine Noire et rendez au royaume sa grandeur passée.*
 
@@ -238,7 +238,7 @@ https://www.youtube.com/watch?v=J9cadmegBwE
 
 ## Contrast
 
-https://www.youtube.com/watch?v=fcbXPYygyC8
+![Key art de Contrast](/assets/uploads/50-jeux/contrast.jpg)
 
 **Synopsis officiel :** *Contrast est un jeu de plateforme/puzzle, dans lequel vous passez en un clin d’œil d’un monde fantastique en 3D, à un mystérieux univers d’ombres en 2D. Plongez dans l’ambiance onirique et surréaliste des années 20, inspirée par le vaudeville et le film noir, et bercée par une ambiance très jazzy.*
 
@@ -258,7 +258,7 @@ https://www.youtube.com/watch?v=fcbXPYygyC8
 
 ## Crash Team Racing Nitro-Fueled
 
-https://www.youtube.com/watch?v=WgwA1gYDb5Q
+![Key art de Crash Team Racing Nitro-Fueled](/assets/uploads/50-jeux/crash-team-racing-nitro-fueled.jpg)
 
 **Synopsis officiel :** *Crash est de retour aux commandes ! Préparez-vous à accélérer avec Crash Team Racing Nitro-Fueled. C’est l’expérience CTR authentique et bien plus encore, désormais entièrement remasterisée et optimisée au maximum.*
 
@@ -278,7 +278,7 @@ https://www.youtube.com/watch?v=WgwA1gYDb5Q
 
 ## Dead by Daylight
 
-https://www.youtube.com/watch?v=JGhIXLO3ul8
+![Key art de Dead by Daylight](/assets/uploads/50-jeux/dead-by-daylight.jpg)
 
 **Synopsis officiel :** *Suivez, surinez et sacrifiez votre proie en tant que tueur monstrueux, ou rejoignez une équipe de quatre survivants rusés collaborant pour s’enfuir.*
 
@@ -300,7 +300,7 @@ https://www.youtube.com/watch?v=JGhIXLO3ul8
 
 ## Dead Space Remake
 
-https://www.youtube.com/watch?v=ctQl9wa3ydE
+![Key art de Dead Space Remake](/assets/uploads/50-jeux/dead-space-remake.jpg)
 
 **Synopsis officiel :** *Lorsque Isaac Clarke et l’USG Kellion sont envoyés pour réparer le vaisseau de forage USG Ishimura, ils sont loin de se douter à quel point leur mission de routine va se transformer en véritable cauchemar. Qu’a découvert l’équipage de l’Ishimura dans les ténèbres ? Que leur est-il arrivé ? Et qu’est-ce que cela implique pour l’avenir de l’humanité ?*
 
@@ -320,7 +320,7 @@ https://www.youtube.com/watch?v=ctQl9wa3ydE
 
 ## Destination : Primus Vita
 
-https://www.youtube.com/watch?v=O-jdPG8u6LA
+![Key art de Destination : Primus Vita](/assets/uploads/50-jeux/destination-primus-vita.jpg)
 
 **Synopsis officiel :** *En 3044, un équipage de six humain se rendent sur Primus Vita pour récupérer l’eau qui nous fût volée plusieurs centaines d’années auparavant par des extra-terrestres. À bord du vaisseau le ‘’Beaufort’’, suivez l’expérience de simulation extraordinaire que vivront nos six protagonistes alors qu’ils seront soumis au cry-sommeil pendant les quatre années que dure le voyage vers Primus Vita.*
 
@@ -340,7 +340,7 @@ https://www.youtube.com/watch?v=O-jdPG8u6LA
 
 ## Deus Ex : Human Revolution
 
-https://www.youtube.com/watch?v=WAbrjtFbVQ4
+![Key art de Deus Ex : Human Revolution](/assets/uploads/50-jeux/deus-ex-human-revolution.jpg)
 
 **Synopsis officiel :** *Vous incarnez Adam Jensen, un ancien du SWAT choisi pour superviser les besoins défensifs de l’une des plus grosses sociétés de biotechnologie expérimentale des États-Unis. Votre mission consiste à protéger les secrets du groupe, mais lorsqu’une équipe d’agents espions parvient à entrer par effraction dans le bâtiment et assassine les scientifiques que vous étiez chargé de protéger, toutes vos certitudes sur votre travail volent en éclats !*
 
@@ -360,7 +360,7 @@ https://www.youtube.com/watch?v=WAbrjtFbVQ4
 
 ## Disney Dreamlight Valley
 
-https://www.youtube.com/watch?v=UY5KdtnK4dU
+![Key art de Disney Dreamlight Valley](/assets/uploads/50-jeux/disney-dreamlight-valley.jpg)
 
 **Synopsis officiel :** *Explorez un monde où abonde la magie de Disney, découvrez des histoires complexes et construisez le voisinage parfait où se côtoient les héros et les méchants de Disney et Pixar dans ce nouveau jeu d’aventure et de simulation de vie. Bienvenue dans Disney Dreamlight Valley.*
 
@@ -380,7 +380,7 @@ https://www.youtube.com/watch?v=UY5KdtnK4dU
 
 ## Far Cry 3
 
-https://www.youtube.com/watch?v=JBQ59eRXIyI
+![Key art de Far Cry 3](/assets/uploads/50-jeux/far-cry-3.jpg)
 
 **Synopsis officiel :** *Incarnez Jason Brody, un homme solitaire et perdu sur une île tropicale, à l’écart de toute civilisation. Dans ce paradis sauvage où violence et brutalité sont le quotidien, vous aurez le pouvoir de décider où, quand et comment se dérouleront les évènements. Pour vous frayer un chemin sur cette île hostile où bien et mal ne veulent plus rien dire, vous devrez vous infiltrer, assassiner ou même tout faire exploser !*
 
@@ -400,7 +400,7 @@ https://www.youtube.com/watch?v=JBQ59eRXIyI
 
 ## FEZ
 
-https://www.youtube.com/watch?v=Houl_emUdrk
+![Key art de FEZ](/assets/uploads/50-jeux/fez.jpg)
 
 **Synopsis officiel :** *Gomez est une créature 2D vivant dans un monde 2D. Enfin, c’est ce qu’il croit… Quand il découvre l’existence d’une mystérieuse troisième dimension, Gomez se lance dans une aventure qui le mènera aux confins du temps et de l’espace. Utilise ta capacité à te déplacer dans des structures 3D à partir de 4 perspectives 2D classiques. Explore un vaste monde où sérénité et beauté règnent et qui abrite secrets, énigmes et trésors cachés. Révèle les mystères du passé et découvre la vérité sur la réalité et la perception. Change ta perspective et regarde le monde sous un angle différent.*
 
@@ -420,7 +420,7 @@ https://www.youtube.com/watch?v=Houl_emUdrk
 
 ## Hitman Go
 
-https://www.youtube.com/watch?v=l9kJxrLSwHU
+![Key art de Hitman Go](/assets/uploads/50-jeux/hitman-go.jpg)
 
 **Synopsis officiel :** *Hitman GO est un jeu de réflexion au tour par tour dans lequel vous naviguerez stratégiquement dans des espaces fixes sur une grille pour éviter les ennemis, infiltrer des endroits bien gardés et éliminer votre cible sur des décors de style diorama magnifiquement rendus.*
 
@@ -440,7 +440,7 @@ https://www.youtube.com/watch?v=l9kJxrLSwHU
 
 ## Infernax
 
-https://www.youtube.com/watch?v=_SzgFDI2X4Q
+![Key art d’Infernax](/assets/uploads/50-jeux/infernax.jpg)
 
 **Synopsis officiel :** *Infernax raconte les aventures d’un grand chevalier qui revient dans sa contrée natale et la trouve sous l’emprise d’une force sinistre et mystérieuse. Perce les secrets de la malédiction et affronte les conséquences de tes actions.*
 
@@ -460,7 +460,7 @@ https://www.youtube.com/watch?v=_SzgFDI2X4Q
 
 ## Infini
 
-https://www.youtube.com/watch?v=il4lhPmNKYg
+![Key art d’Infini](/assets/uploads/50-jeux/infini.jpg)
 
 **Synopsis officiel :** *Mettez votre esprit à l’épreuve d’un voyage psychédélique rempli de puzzles et de rencontres marquantes avec le Temps, la Poésie, la Mémoire, la Technologie, la Guerre et la Fatalité. Alors que l’Espoir s’enfonce au plus profond de l’Infini, le monde réel souffre de son absence. Il ne semble pas y avoir de solution, et l’Espoir est par nature condamné à toujours essayer.*
 
@@ -480,7 +480,7 @@ https://www.youtube.com/watch?v=il4lhPmNKYg
 
 ## Jotun
 
-https://www.youtube.com/watch?v=lAN263KlreM
+![Key art de Jotun](/assets/uploads/50-jeux/jotun.jpg)
 
 **Synopsis officiel :** *Jotun est un jeu d’action et d’exploration dessiné à la main dont le décor est planté dans la mythologie nordique. Dans Jotun, vous incarnez Thora, une guerrière viking qui, privée d’une mort glorieuse, doit montrer aux dieux qu’elle est digne d’entrer au Valhalla. Impressionnez les dieux !*
 
@@ -500,7 +500,7 @@ https://www.youtube.com/watch?v=lAN263KlreM
 
 ## Kona
 
-https://www.youtube.com/watch?v=o_WR519V-2g
+![Key art de Kona](/assets/uploads/50-jeux/kona.jpg)
 
 **Synopsis officiel :** *Nord du Québec, 1970. Un étrange blizzard sévit sur le Lac Atâmipêk. Entrez dans la peau d’un détective pour explorer un village des plus mystérieux, enquêter sur des événements surnaturels et survivre à la colère des éléments. Kona est un conte interactif qui vous donnera froid dans le dos!*
 
@@ -520,7 +520,7 @@ https://www.youtube.com/watch?v=o_WR519V-2g
 
 ## La vallée qui murmure
 
-https://www.youtube.com/watch?v=dgdDGu6YTOE
+![Key art de La vallée qui murmure](/assets/uploads/50-jeux/la-vallee-qui-murmure.jpg)
 
 **Synopsis officiel :** *Province de Québec, 1896. Caché au creux d’une vallée, le village Sainte-Monique-Des-Monts renferme un secret qui pèse lourd la communauté. Le village est laissé à l’abandon. Ceux qui restent ne peuvent faire autrement qu’attendre. Mais autre chose tourmente les habitants. Une ombre rôde aux alentours du village. Quelques-uns l’ont vu, d’autres l’ont entendu. Ils l’ont entendu murmurer.*
 
@@ -540,7 +540,7 @@ https://www.youtube.com/watch?v=dgdDGu6YTOE
 
 ## Legends of Ethernal
 
-https://www.youtube.com/watch?v=pxvxI0nDm9I
+![Key art de Legends of Ethernal](/assets/uploads/50-jeux/legends-of-ethernal.jpg)
 
 **Synopsis officiel :** *Legends of Ethernal est un jeu d’action-aventure en 2D où vous devez explorer de superbes environnements dessinés à la main, résoudre des énigmes et affronter des créatures monstrueuses pour découvrir la vérite sur la disparition de vos parents.*
 
@@ -560,7 +560,7 @@ https://www.youtube.com/watch?v=pxvxI0nDm9I
 
 ## Lunark
 
-https://www.youtube.com/watch?v=nI7taX6dk3I
+![Key art de Lunark](/assets/uploads/50-jeux/lunark.jpg)
 
 **Synopsis officiel :** *Une aventure de science-fiction en pixel-art au milieu d’une révolution contre un régime totalitaire… LUNARK revisite le jeu de plateforme cinématique en 2D des années 1990. Courez, sautez, accrochez-vous, grimpez, roulez et tirez dans des lieux étranges et merveilleux !*
 
@@ -580,7 +580,7 @@ https://www.youtube.com/watch?v=nI7taX6dk3I
 
 ## Mages of Mystralia
 
-https://www.youtube.com/watch?v=tGrLRi8oTwo
+![Key art de Mages of Mystralia](/assets/uploads/50-jeux/mages-of-mystralia.jpg)
 
 **Synopsis officiel :** D*ans un monde de magie, votre esprit est votre plus grande arme. Apprenez à contrôler cette magie et créez vos propres sorts pour combattre vos ennemis, explorer des régions mystérieuses et corriger les erreurs passées du royaume de Mystralia.*
 
@@ -600,7 +600,7 @@ https://www.youtube.com/watch?v=tGrLRi8oTwo
 
 ## Marvel’s Guardians of the Galaxy
 
-https://www.youtube.com/watch?v=Q0fdMDwhVzk
+![Key art de Marvel’s Guardians of the Galaxy](/assets/uploads/50-jeux/marvels-guardians-of-the-galaxy.jpg)
 
 **Synopsis officiel :**  *Embarquez pour une virée déjantée à travers la galaxie dans cette version inédite de Marvel’s Guardians of the Galaxy. Incarnez Star-Lord et menez les Gardiens dans des situations plus explosives les unes que les autres. Ça va le faire. Normalement.*
 
@@ -620,7 +620,7 @@ https://www.youtube.com/watch?v=Q0fdMDwhVzk
 
 ## Mercenary Kings
 
-https://www.youtube.com/watch?v=dgp8kMpEq58
+![Key art de Mercenary Kings](/assets/uploads/50-jeux/mercenary-kings.jpg)
 
 **Synopsis officiel :** *Dans ce jeu d’action 2D à couper le souffle, vous faites partie des Mercenary Kings, l’équipe de mercenaires la plus qualifiée sur Terre! Lorsque vos camarades tombent au combat et que les sbires de CLAW prennent contrôle d’une île-laboratoire ultra-secrète, c’est à vous de les détruire une fois pour toutes!*
 
@@ -640,11 +640,11 @@ https://www.youtube.com/watch?v=dgp8kMpEq58
 
 ## Missing : An interactive thriller
 
-https://www.youtube.com/watch?v=wg0po20HxXo
+![Capture d’écran de Missing : An interactive thriller](/assets/uploads/50-jeux/missing-an-interactive-thriller.jpg)
 
 **Synopsis officiel :** *Vous incarnez David Newcastle, la victime. Enlevé sans raison apparente, David devra trouver le chemin de la sortie tout en cherchant l’identité de son ravisseur ; tandis que, pendant ce temps, l’inspecteur Lambert mène l’enquête sur les mystérieuses disparitions dont la ville fait l’objet.*
 
-**Mon appréciation :** Un jeu d’aventure en FMV qui rappelle la belle époque de ce genre populaire dans les années 90. Malheureusement, il n’y a eu qu’un seul épisode de Missing : An Interactive Thriller, qui n’est d’ailleurs plus disponible à la vente. Vous pouvez cependant (voir ci-haut) regarder des playthroughs complets sur Youtube pour y voir Patrick Hivon et Roy Dupuis à l’oeuvre.
+**Mon appréciation :** Un jeu d’aventure en FMV qui rappelle la belle époque de ce genre populaire dans les années 90. Malheureusement, il n’y a eu qu’un seul épisode de Missing : An Interactive Thriller, qui n’est d’ailleurs plus disponible à la vente. Vous pouvez cependant [regarder des playthroughs complets sur YouTube](https://www.youtube.com/watch?v=wg0po20HxXo) pour y voir Patrick Hivon et Roy Dupuis à l’oeuvre.
 
 **Développeur :** Zandel Media
 
@@ -660,7 +660,7 @@ https://www.youtube.com/watch?v=wg0po20HxXo
 
 ## Outlast
 
-https://www.youtube.com/watch?v=ZkSydla4sxo
+![Key art d’Outlast](/assets/uploads/50-jeux/outlast.jpg)
 
 **Synopsis officiel :** *L’enfer est une expérience à laquelle vous ne pouvez pas survivre dans Outlast, un jeu d’horreur et de survie à la première personne développé par des vétérans de certaines des plus grandes franchises de jeux de l’histoire. Dans la peau du journaliste d’investigation Miles Upshur, explorez Mount Massive Asylum et tentez de survivre assez longtemps pour découvrir son terrible secret… si vous l’osez.*
 
@@ -680,7 +680,7 @@ https://www.youtube.com/watch?v=ZkSydla4sxo
 
 ## Outward
 
-https://www.youtube.com/watch?v=cZI6duZkwfU
+![Key art d’Outward](/assets/uploads/50-jeux/outward.jpg)
 
 **Synopsis officiel :** *Dans Outward, le froid de la nuit ou l’infection guettant une blessure peuvent s’avérer aussi dangereux que le prédateur rôdant dans les ténèbres. Explorez le vaste monde d’Aurai en solo ou en coop.*
 
@@ -700,7 +700,7 @@ https://www.youtube.com/watch?v=cZI6duZkwfU
 
 ## Pewdiepie : Legend of the Brofist
 
-https://www.youtube.com/watch?v=LGaJyoMkJSw
+![Capture d’écran de Pewdiepie : Legend of the Brofist](/assets/uploads/50-jeux/pewdiepie-legend-of-the-brofist.jpg)
 
 **Synopsis officiel :** *PewDiePie: La Légende du Brofist. Accompagnez vos YouTubers préférés dans cette aventure épique!*
 
@@ -720,7 +720,7 @@ https://www.youtube.com/watch?v=LGaJyoMkJSw
 
 ## Prince of Persia : The Sands of Time
 
-https://www.youtube.com/watch?v=8S5DVt_wo3g
+![Capture d’écran de Prince of Persia : The Sands of Time](/assets/uploads/50-jeux/prince-of-persia-the-sands-of-time.jpg)
 
 **Synopsis officiel :** *Des sables de la Perse, une légende rapporte l’histoire d’un jeune prince qui permit au Mal de se répandre sur le royaume. Avec l’aide d’une princesse séduisante et du pouvoir absolu des sables du temps, ce prince va relever le défi de réclamer le palais et le royaume.*
 
@@ -740,7 +740,7 @@ https://www.youtube.com/watch?v=8S5DVt_wo3g
 
 ## Rainbow Billy : The curse of the Leviathan
 
-https://www.youtube.com/watch?v=J6g8sB7jx1Y
+![Key art de Rainbow Billy : The curse of the Leviathan](/assets/uploads/50-jeux/rainbow-billy-the-curse-of-the-leviathan.jpg)
 
 **Synopsis officiel :** *Rainbow Billy: The Curse of the Leviathan est un jeu d’aventure-puzzle-plateforme sain et non-violent en 2.5D avec des éléments de jeu de rôle, dans lequel vous devez sauver de fantasques créatures en rendant à votre monde ses couleurs d’autrefois !*
 
@@ -760,7 +760,7 @@ https://www.youtube.com/watch?v=J6g8sB7jx1Y
 
 ## Tom Clancy’s Rainbow Six : Siege
 
-https://www.youtube.com/watch?v=6wlvYh0h63k
+![Key art de Tom Clancy’s Rainbow Six : Siege](/assets/uploads/50-jeux/tom-clancys-rainbow-six-siege.jpg)
 
 **Synopsis officiel :** *Tom Clancy’s Rainbow Six® Siege est un jeu de tir tactique réaliste qui se joue en équipe, où vous devrez allier talent et stratégie. Entre phases d’attaque et de défense en 5c5, préparez-vous à des combats rapprochés intenses.*
 
@@ -780,7 +780,7 @@ https://www.youtube.com/watch?v=6wlvYh0h63k
 
 ## Sang-Froid : Tales of Werewolves
 
-https://www.youtube.com/watch?v=rWi_Xc4Cin8
+![Capture d’écran de Sang-Froid : Tales of Werewolves](/assets/uploads/50-jeux/sang-froid-tales-of-werewolves.jpg)
 
 **Synopsis officiel :** *Écrit en collaboration avec l’auteur québécois best-seller Bryan Perro (Amos Daragon, Wariwulf), Sang-Froid – Un conte de loups-garous vous transporte au 19ème siècle dans un Québec légendaire peuplé de feux-follets, de Windigos et de loups-garous.*
 
@@ -800,7 +800,7 @@ https://www.youtube.com/watch?v=rWi_Xc4Cin8
 
 ## Scott Pilgrim vs The World
 
-https://www.youtube.com/watch?v=wUU_wRjdi2I
+![Key art de Scott Pilgrim vs The World](/assets/uploads/50-jeux/scott-pilgrim-vs-the-world.jpg)
 
 **Synopsis officiel :** *Redécouvrez le beat ’em up façon jeu d’arcade 2D inspiré par la BD culte et le film Scott Pilgrim contre le Monde !*
 
@@ -820,7 +820,7 @@ https://www.youtube.com/watch?v=wUU_wRjdi2I
 
 ## Sea of Stars
 
-https://www.youtube.com/watch?v=C4ma7dmm1MI
+![Key art de Sea of Stars](/assets/uploads/50-jeux/sea-of-stars.jpg)
 
 **Synopsis officiel :** *Sea of ​​Stars est un RPG au tour par tour inspiré des classiques. Il raconte l’histoire de deux Enfants du Solstice qui combineront les pouvoirs du soleil et de la lune pour réaliser la Magie de l’Éclipse, la seule force capable de repousser les créations monstrueuses de l’alchimiste maléfique connu sous le nom de Fleshmancer.*
 
@@ -840,7 +840,7 @@ https://www.youtube.com/watch?v=C4ma7dmm1MI
 
 ## Season : A letter to the future
 
-https://www.youtube.com/watch?v=mLd7YwceSYw
+![Key art de Season : A letter to the future](/assets/uploads/50-jeux/season-a-letter-to-the-future.jpg)
 
 **Synopsis officiel :** *Quittez votre maison pour la première fois et enregistrez des souvenirs avant qu’un mystérieux cataclysme ne ravage tout sur son passage. Parcourez un monde insolite à vélo, faites des rencontres et percez les mystères de Season, un jeu d’exploration méditatif à la troisième personne.*
 
@@ -860,7 +860,7 @@ https://www.youtube.com/watch?v=mLd7YwceSYw
 
 ## Spiritfarer
 
-https://www.youtube.com/watch?v=mWcDpodmiKg
+![Key art de Spiritfarer](/assets/uploads/50-jeux/spiritfarer.jpg)
 
 **Synopsis officiel :** *Spiritfarer est un jeu de gestion cosy sur le thème de la mort, dans lequel vous incarnez une passeuse d’âmes. Construisez un bateau pour explorer le monde, prenez soin de vos esprits et guidez-les au jusqu’à l’au-delà. Inclut le jeu de base émouvant et trois mises à jour de contenu majeures.*
 
@@ -880,7 +880,7 @@ https://www.youtube.com/watch?v=mWcDpodmiKg
 
 ## Tom Clancy’s Splinter Cell
 
-https://www.youtube.com/watch?v=4_D4tfTF_nQ
+![Capture d’écran de Tom Clancy’s Splinter Cell](/assets/uploads/50-jeux/tom-clancys-splinter-cell.jpg)
 
 **Synopsis officiel :** *Infiltrez des positions terroristes, obtenez des renseignements cruciaux peu importe les moyens, exécutez avec extrême préjudice, et sortez sans laisser de trace !Vous êtes Sam Fisher, un agent secret de haut niveau d’une branche secrète de la NSA : Third Echelon.*
 
@@ -900,7 +900,7 @@ https://www.youtube.com/watch?v=4_D4tfTF_nQ
 
 ## Tape to Tape
 
-https://www.youtube.com/watch?v=4pVKfH31dlo
+![Key art de Tape to Tape](/assets/uploads/50-jeux/tape-to-tape.jpg)
 
 **Synopsis officiel :** *Avec son rythme effréné, son réalisme et sa profondeur, Tape to Tape offre une expérience de hockey sans pareil. TTT propose une formule inédite en fusionnant le gameplay ultra-addictif d’une campagne Roguelite à l’intérieur d’un jeu de hockey!*
 
@@ -920,7 +920,7 @@ https://www.youtube.com/watch?v=4pVKfH31dlo
 
 ## The Messenger
 
-https://www.youtube.com/watch?v=mojuJKFyAAo
+![Key art de The Messenger](/assets/uploads/50-jeux/the-messenger.jpg)
 
 **Synopsis officiel :** *Alors qu’un Démon menace de raser son village, un jeune ninja porteur d’un parchemin vital pour la survie des siens doit traverser un monde maudit.*
 
@@ -940,7 +940,7 @@ https://www.youtube.com/watch?v=mojuJKFyAAo
 
 ## This bed we made
 
-https://www.youtube.com/watch?v=POW45X2wsvo
+![Key art de This bed we made](/assets/uploads/50-jeux/this-bed-we-made.jpg)
 
 **Synopsis officiel :** *This Bed We Made est jeu de mystère à la troisième personne. Plongez dans la peau d’une femme de chambre d’hôtel des années 50 et fouinez dans les possessions d’inconnus afin de découvrir leurs terribles secrets. Découvrez ce qui lie les clients entre eux dans cette histoire d’amour et de meurtre!*
 
@@ -960,7 +960,7 @@ https://www.youtube.com/watch?v=POW45X2wsvo
 
 ## Teenage Mutant Ninja Turtles : Shredder’s Revenge
 
-https://www.youtube.com/watch?v=-G292LMU9U0
+![Key art de Teenage Mutant Ninja Turtles : Shredder’s Revenge](/assets/uploads/50-jeux/teenage-mutant-ninja-turtles-shredders-revenge.jpg)
 
 **Synopsis officiel :** *TMNT: Shredder’s Revenge réunit Leonardo, Michelangelo, Donatello et Raphaël dans un beat’em up qui ne fait pas dans la dentelle. Une réalisation exceptionnelle qui rend hommage à des jeux classiques estampillés TMNT.*
 
@@ -980,7 +980,7 @@ https://www.youtube.com/watch?v=-G292LMU9U0
 
 ## Tribes of Midgard
 
-https://www.youtube.com/watch?v=6V8PaDQmEDg
+![Key art de Tribes of Midgard](/assets/uploads/50-jeux/tribes-of-midgard.jpg)
 
 **Synopsis officiel :** *Fabriquez des objets légendaires, construisez une base de plus en plus imposante, embarquez pour un voyage épique à travers des mondes générés de manière procédurale, et affrontez d’immenses adversaires bien déterminés à déclencher le Ragnarök.*
 
@@ -1000,7 +1000,7 @@ https://www.youtube.com/watch?v=6V8PaDQmEDg
 
 ## Ultimate Chicken Horse
 
-https://www.youtube.com/watch?v=sFdjL4elfPU
+![Key art d’Ultimate Chicken Horse](/assets/uploads/50-jeux/ultimate-chicken-horse.jpg)
 
 **Synopsis officiel :** *Ultimate Chicken Horse est un jeu de plateformes festif qui vous permet de construire le niveau tout en jouant et en plaçant des pièges et autres dangers pour attraper vos amis tout en essayant de ne pas vous attraper vous-même.*
 
@@ -1020,7 +1020,7 @@ https://www.youtube.com/watch?v=sFdjL4elfPU
 
 ## We Happy Few
 
-https://www.youtube.com/watch?v=MqWZkCqI6NM
+![Key art de We Happy Few](/assets/uploads/50-jeux/we-happy-few.jpg)
 
 **Synopsis officiel :** *We Happy Few est un jeu d’action/aventure qui se déroule dans une Angleterre des années 60 alternative, au sein d’une ville rétrofuturiste ravagée par la drogue. Cachez-vous, battez-vous et fondez-vous dans la foule pour échapper à ce monde délirant et obsédé par la Joy.*
 

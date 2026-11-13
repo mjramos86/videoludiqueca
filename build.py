@@ -164,6 +164,8 @@ def rewrite_html(content):
     # 5. drop Jetpack/Photon bloat attributes for lean output
     s = re.sub(r'\s+data-[\w-]+="[^"]*"', "", s)
     s = re.sub(r'\s+(?:decoding|loading|fetchpriority)="[^"]*"', "", s)
+    # 5b. body images load lazily (long articles with many pictures)
+    s = re.sub(r'<img\b', '<img loading="lazy" decoding="async"', s)
     # 6. tidy repeated blank lines left by comment removal
     s = re.sub(r'\n{3,}', '\n\n', s)
     return s
