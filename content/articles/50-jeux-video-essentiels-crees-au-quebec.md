@@ -52,6 +52,8 @@ https://www.youtube.com/watch?v=cf5TTHbQMgg
 
 **Plateformes :** PC, PlayStation 4, Xbox One
 
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/545620/) · [PlayStation Store](https://store.playstation.com/fr-ca/product/UP3874-CUSA09308_00-ANAMORPHINE00001)
+
 ---
 
 ## Ancestors : The Humankind Odyssey
@@ -69,6 +71,8 @@ https://www.youtube.com/watch?v=7O3ntCGKaHI
 **Date de sortie :** 27 août 2019
 
 **Plateformes :** PC, PlayStation 4, Xbox One
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/536270/) · [Epic Games Store](https://store.epicgames.com/p/ancestors) · [PlayStation Store](https://www.playstation.com/fr-ca/games/ancestors-the-humankind-odyssey/) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/BTT48FGF6SWM) · [Nintendo eShop (Switch 2, dès le 8 décembre)](https://www.nintendo.com/fr-ca/store/products/ancestors-the-humankind-odyssey-switch-2/)
 
 ---
 
@@ -88,6 +92,8 @@ https://www.youtube.com/watch?v=7jQs_OYM7zs
 
 **Plateformes :** Xbox 360, PlayStation 3
 
+**Où l'acheter :** [Xbox (rétrocompatible)](https://www.xbox.com/fr-CA/games/store/_/C1LM235H6FZ1)
+
 ---
 
 ## Assassin’s Creed 2
@@ -105,6 +111,8 @@ https://www.youtube.com/watch?v=_xkCPNECud8
 **Date de sortie :** 17 novembre 2009
 
 **Plateformes :** PlayStation 3, Xbox 360, PC, PlayStation 4, Xbox One, Nintendo Switch
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/33230/) · [Epic Games Store](https://store.epicgames.com/p/assassins-creed-2) · [Xbox (rétrocompatible)](https://www.xbox.com/fr-CA/games/store/_/BNVMH8NVCRCT) · [PlayStation Store (The Ezio Collection)](https://www.playstation.com/fr-ca/games/assassins-creed-the-ezio-collection/) · [Nintendo eShop (The Ezio Collection)](https://www.nintendo.com/fr-ca/store/products/assassins-creed-the-ezio-collection-switch/)
 
 ---
 
@@ -124,6 +132,8 @@ https://www.youtube.com/watch?v=fcmH0c3ywxk
 
 **Plateformes :** PC, PlayStation 5, Xbox Series
 
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/1086940/) · [GOG](https://www.gog.com/fr/game/baldurs_gate_iii) · [PlayStation Store](https://www.playstation.com/fr-ca/games/baldurs-gate-3/) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/9ND58LQTG09T)
+
 ---
 
 ## Batman : Arkham Origins
@@ -141,6 +151,8 @@ https://www.youtube.com/watch?v=9pnK8akbd2M
 **Date de sortie :** 25 octobre 2013
 
 **Plateformes :** PlayStation 3, Wii U, Xbox 360, PC
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/209000/) · [GOG](https://www.gog.com/fr/game/batman_arkham_origins)
 
 ---
 
@@ -160,6 +172,8 @@ https://www.youtube.com/watch?v=umXpxrGSv5k
 
 **Plateformes :** PC, Xbox Series, PlayStation 4
 
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/820540/) · [Epic Games Store](https://store.epicgames.com/p/bloodroots) · [PlayStation Store](https://store.playstation.com/fr-ca/product/UP3949-PPSA10470_00-9656509665050290) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/9MXPZ33Z9PWH) · [Nintendo eShop](https://www.nintendo.com/fr-ca/store/products/bloodroots-switch/)
+
 ---
 
 ## Boyfriend Dungeon
@@ -177,6 +191,8 @@ https://www.youtube.com/watch?v=lt9EFu0Umfs
 **Date de sortie :** 11 août 2021
 
 **Plateformes :** PC, PlayStation 5, Xbox Series, Nintendo Switch
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/674930/) · [Epic Games Store](https://store.epicgames.com/p/boyfriend-dungeon) · [PlayStation Store](https://store.playstation.com/fr-ca/product/UP0379-PPSA10976_00-2501734834468143) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/9N5PHZ0D92LD) · [Nintendo eShop](https://www.nintendo.com/fr-ca/store/products/boyfriend-dungeon-switch/)
 
 ---
 
@@ -196,6 +212,8 @@ https://www.youtube.com/watch?v=ByJuoLWlypI
 
 **Plateformes :** Meta Quest, PC, PS VR 2
 
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/1947070/) · [Meta Quest](https://www.meta.com/experiences/broken-edge/5136958036416423/) · [PlayStation Store (PS VR2)](https://www.playstation.com/fr-ca/games/broken-edge/)
+
 ---
 
 ## Child of Light
@@ -214,6 +232,8 @@ https://www.youtube.com/watch?v=J9cadmegBwE
 
 **Plateformes :** PC, PlayStation 3, PlayStation 4, Xbox Series, Xbox One, Wii U, PlayStation Vita, Google Stadia, Amazon Luna, Nintendo Switch
 
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/256290/) · [Epic Games Store](https://store.epicgames.com/p/child-of-light) · [PlayStation Store](https://www.playstation.com/fr-ca/games/child-of-light/) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/BQ9Q620NC614) · [Nintendo eShop](https://www.nintendo.com/fr-ca/store/products/child-of-light-ultimate-edition-switch/)
+
 ---
 
 ## Contrast
@@ -230,7 +250,9 @@ https://www.youtube.com/watch?v=fcbXPYygyC8
 
 **Date de sortie :** 15 novembre 2013
 
-**Plateformes :** [Steam](https://store.steampowered.com/app/224460/Contrast/), PlayStation 3, [PlayStation 4](https://store.playstation.com/en-us/product/UP2092-CUSA00011_00-CONTRASTUS000001), Xbox 360, [Xbox Series](https://www.xbox.com/en-US/games/store/contrast/BSLTQT4L0RLV), Xbox One
+**Plateformes :** Steam, PlayStation 3, PlayStation 4, Xbox 360, Xbox Series, Xbox One
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/224460/) · [PlayStation Store](https://store.playstation.com/fr-ca/product/UP2092-CUSA00011_00-CONTRASTUS000001) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/BSLTQT4L0RLV)
 
 ---
 
@@ -248,7 +270,9 @@ https://www.youtube.com/watch?v=WgwA1gYDb5Q
 
 **Date de sortie :** 21 juin 2019
 
-**Plateformes :** [Nintendo Switch](https://www.nintendo.com/en-ca/store/products/crash-team-racing-nitro-fueled-switch/), [PlayStation 4](https://www.playstation.com/en-ca/games/crash-team-racing-nitro-fueled/), [Xbox One](https://www.xbox.com/en-CA/games/store/crash-team-racing-nitro-fueled/BQRB60PW2SDL)
+**Plateformes :** Nintendo Switch, PlayStation 4, Xbox One
+
+**Où l'acheter :** [PlayStation Store](https://www.playstation.com/fr-ca/games/crash-team-racing-nitro-fueled/) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/BQRB60PW2SDL) · [Nintendo eShop](https://www.nintendo.com/fr-ca/store/products/crash-team-racing-nitro-fueled-switch/)
 
 ---
 
@@ -270,6 +294,8 @@ https://www.youtube.com/watch?v=JGhIXLO3ul8
 
 **Plateformes :** PlayStation 4, PlayStation 5, Xbox One, Xbox Series, Nintendo Switch, iOS, Android, Google Stadia, Steam, Epic Games Store
 
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/381210/) · [Epic Games Store](https://store.epicgames.com/p/dead-by-daylight) · [PlayStation Store](https://www.playstation.com/fr-ca/games/dead-by-daylight/) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/C0N22P73QZ60) · [Nintendo eShop](https://www.nintendo.com/fr-ca/store/products/dead-by-daylight-switch/)
+
 ---
 
 ## Dead Space Remake
@@ -287,6 +313,8 @@ https://www.youtube.com/watch?v=ctQl9wa3ydE
 **Date de sortie :** 27 janvier 2023
 
 **Plateformes :** Steam, Epic Games Store, PlayStation 5, Xbox Series
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/1693980/) · [Epic Games Store](https://store.epicgames.com/p/dead-space) · [PlayStation Store](https://www.playstation.com/fr-ca/games/dead-space/) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/9NLB6V0GNC9P)
 
 ---
 
@@ -306,6 +334,8 @@ https://www.youtube.com/watch?v=O-jdPG8u6LA
 
 **Plateformes :** PC, Mac OS
 
+**Où l'acheter :** [Steam (gratuit)](https://store.steampowered.com/app/680750/)
+
 ---
 
 ## Deus Ex : Human Revolution
@@ -323,6 +353,8 @@ https://www.youtube.com/watch?v=WAbrjtFbVQ4
 **Date de sortie :** 25 octobre 2013
 
 **Plateformes :** PlayStation 3, Xbox 360, Wii U, Steam, PC, Mac
+
+**Où l'acheter :** [Steam (Director’s Cut)](https://store.steampowered.com/app/238010/) · [GOG](https://www.gog.com/fr/game/deus_ex_human_revolution_directors_cut) · [Xbox (rétrocompatible)](https://www.xbox.com/fr-CA/games/store/_/BZK0PF5LXPDV)
 
 ---
 
@@ -342,6 +374,8 @@ https://www.youtube.com/watch?v=UY5KdtnK4dU
 
 **Plateformes :** iOS, Mac OS, Nintendo Switch, PlayStation 4, PlayStation 5, PC, Xbox One, Xbox Series
 
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/1401590/) · [Epic Games Store](https://store.epicgames.com/p/disney-dreamlight-valley) · [PlayStation Store](https://www.playstation.com/fr-ca/games/disney-dreamlight-valley/) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/9NSF0BGH8D86) · [Nintendo eShop (Switch)](https://www.nintendo.com/fr-ca/store/products/disney-dreamlight-valley-switch/) · [Nintendo eShop (Switch 2)](https://www.nintendo.com/fr-ca/store/products/disney-dreamlight-valley-nintendo-switch-2-edition-switch-2/) · [App Store (Apple Arcade)](https://apps.apple.com/ca/app/disney-dreamlight-valley/id6456945575)
+
 ---
 
 ## Far Cry 3
@@ -359,6 +393,8 @@ https://www.youtube.com/watch?v=JBQ59eRXIyI
 **Date de sortie :** 29 novembre 2012
 
 **Plateformes :** PC, PlayStation 3, Xbox 360, PlayStation 4, Xbox One
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/220240/) · [PlayStation Store (Classic Edition)](https://www.playstation.com/fr-ca/games/far-cry-3-classic-edition/) · [Xbox (rétrocompatible)](https://www.xbox.com/fr-CA/games/store/_/BPX57N768756)
 
 ---
 
@@ -378,6 +414,8 @@ https://www.youtube.com/watch?v=Houl_emUdrk
 
 **Plateformes :** Xbox 360, PC, Linux, Mac OS, PlayStation 3, PlayStation 4, PlayStation Vita, iOS, Nintendo Switch
 
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/224760/) · [Epic Games Store](https://store.epicgames.com/p/fez) · [PlayStation Store](https://store.playstation.com/fr-ca/product/UP4427-CUSA00383_00-FEZTHEGAMEPOLYTR) · [Microsoft Store (PC)](https://www.xbox.com/fr-CA/games/store/_/9P75C19SZFNZ) · [Nintendo eShop](https://www.nintendo.com/fr-ca/store/products/fez-switch/) · [App Store (FEZ Pocket Edition)](https://apps.apple.com/ca/app/fez-pocket-edition/id1209489068)
+
 ---
 
 ## Hitman Go
@@ -395,6 +433,8 @@ https://www.youtube.com/watch?v=l9kJxrLSwHU
 **Date de sortie :** 17 avril 2014
 
 **Plateformes :** iOS, Android, PC, PlayStation 4, PlayStation Vita
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/427820/) · [PlayStation Store](https://store.playstation.com/fr-ca/product/UP0082-CUSA04126_00-HITMANGOPS4SQENM) · [App Store](https://apps.apple.com/ca/app/hitman-go/id731645633) · [Google Play](https://play.google.com/store/apps/details?id=com.squareenixmontreal.hitmango)
 
 ---
 
@@ -414,6 +454,8 @@ https://www.youtube.com/watch?v=_SzgFDI2X4Q
 
 **Plateformes :** PC, Nintendo Switch, PlayStation 4, Xbox One, Xbox Series
 
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/374190/) · [PlayStation Store](https://store.playstation.com/fr-ca/product/UP5358-CUSA30993_00-INFERNAXTACSIEA0) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/9NK7HNCG0R8D) · [Nintendo eShop](https://www.nintendo.com/fr-ca/store/products/infernax-switch/)
+
 ---
 
 ## Infini
@@ -431,6 +473,8 @@ https://www.youtube.com/watch?v=il4lhPmNKYg
 **Date de sortie :** 4 mars 2020
 
 **Plateformes :** PC, Nintendo Switch
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/1120420/) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/9NHR2Z6GD4G9) · [Nintendo eShop](https://www.nintendo.com/fr-ca/store/products/infini-switch/)
 
 ---
 
@@ -450,6 +494,8 @@ https://www.youtube.com/watch?v=lAN263KlreM
 
 **Plateformes :** PC, Mac OS, Linux, Nintendo Switch, Wii U, PlayStation 4, Xbox One, Stadia
 
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/323580/) · [GOG](https://www.gog.com/fr/game/jotun) · [Epic Games Store](https://store.epicgames.com/p/jotun) · [PlayStation Store](https://www.playstation.com/fr-ca/games/jotun-valhalla-edition/) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/BVWPHR3TVQ6F) · [Nintendo eShop](https://www.nintendo.com/fr-ca/store/products/jotun-valhalla-edition-switch/)
+
 ---
 
 ## Kona
@@ -467,6 +513,8 @@ https://www.youtube.com/watch?v=o_WR519V-2g
 **Date de sortie :** 17 mars 2017
 
 **Plateformes :** PC, Linux, Mac OS, PlayStation 4, PlayStation 5, Xbox One, Nintendo Switch, Shield TV, Google Stadia
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/365160/) · [GOG](https://www.gog.com/fr/game/kona_day_one) · [PlayStation Store](https://www.playstation.com/fr-ca/games/kona/) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/BXDSG249D6Q2) · [Nintendo eShop](https://www.nintendo.com/fr-ca/store/products/kona-switch/)
 
 ---
 
@@ -486,6 +534,8 @@ https://www.youtube.com/watch?v=dgdDGu6YTOE
 
 **Plateformes :** PC, Mac OS
 
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/1512390/)
+
 ---
 
 ## Legends of Ethernal
@@ -503,6 +553,8 @@ https://www.youtube.com/watch?v=pxvxI0nDm9I
 **Date de sortie :** 30 octobre 2020
 
 **Plateformes :** PC, Nintendo Switch, PlayStation 4, Xbox One
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/908480/) · [PlayStation Store](https://store.playstation.com/fr-ca/product/UP1014-CUSA24878_00-LOEUS00000000001) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/9PDWW3822QS6) · [Nintendo eShop](https://www.nintendo.com/fr-ca/store/products/legends-of-ethernal-switch/)
 
 ---
 
@@ -522,6 +574,8 @@ https://www.youtube.com/watch?v=nI7taX6dk3I
 
 **Plateformes :** PC, Mac OS, Xbox One, Xbox Series, PlayStation 4, PlayStation 5, Nintendo Switch
 
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/1050370/) · [PlayStation Store](https://store.playstation.com/fr-ca/product/UP2053-PPSA12664_00-LUNARK0PS50US000) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/9N583C661MTG) · [Nintendo eShop](https://www.nintendo.com/fr-ca/store/products/lunark-switch/)
+
 ---
 
 ## Mages of Mystralia
@@ -539,6 +593,8 @@ https://www.youtube.com/watch?v=tGrLRi8oTwo
 **Date de sortie :** 18 mai 2017
 
 **Plateformes :** PC, PlayStation 4, Xbox One, Nintendo Switch
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/529660/) · [GOG](https://www.gog.com/fr/game/mages_of_mystralia) · [Epic Games Store](https://store.epicgames.com/p/mages-of-mystralia) · [PlayStation Store](https://store.playstation.com/fr-ca/product/UP1709-CUSA08083_00-0000000000000004) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/C3S0NLB4QFG7) · [Nintendo eShop](https://www.nintendo.com/fr-ca/store/products/mages-of-mystralia-switch/)
 
 ---
 
@@ -558,6 +614,8 @@ https://www.youtube.com/watch?v=Q0fdMDwhVzk
 
 **Plateformes :** PC, PlayStation 4, PlayStation 5, Xbox One, Xbox Series, Nintendo Switch
 
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/1088850/) · [Epic Games Store](https://store.epicgames.com/p/marvels-guardians-of-the-galaxy) · [PlayStation Store](https://www.playstation.com/fr-ca/games/marvels-guardians-of-the-galaxy/) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/9PGLL77C201J) · [Nintendo eShop (Switch 2)](https://www.nintendo.com/fr-ca/store/products/marvels-guardians-of-the-galaxy-encore-edition-switch-2/)
+
 ---
 
 ## Mercenary Kings
@@ -575,6 +633,8 @@ https://www.youtube.com/watch?v=dgp8kMpEq58
 **Date de sortie :** 25 mars 2014
 
 **Plateformes :** PC, Mac OS, PlayStation 4, PlayStation Vita, Xbox One, Nintendo Switch
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/218820/) · [PlayStation Store](https://store.playstation.com/fr-ca/product/UP2114-CUSA00324_00-0000000000000001) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/C0MH97VDRS26) · [Nintendo eShop](https://www.nintendo.com/fr-ca/store/products/mercenary-kings-reloaded-edition-switch/)
 
 ---
 
@@ -594,6 +654,8 @@ https://www.youtube.com/watch?v=wg0po20HxXo
 
 **Plateformes :** PC
 
+**Où l'acheter :** le jeu n'est plus offert en version numérique (il a été retiré de Steam).
+
 ---
 
 ## Outlast
@@ -612,6 +674,8 @@ https://www.youtube.com/watch?v=ZkSydla4sxo
 
 **Plateformes :** PC, Linux, Mac OS, PlayStation 4, Xbox One, Nintendo Switch
 
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/238320/) · [GOG](https://www.gog.com/fr/game/outlast) · [Epic Games Store](https://store.epicgames.com/p/outlast) · [PlayStation Store](https://store.playstation.com/fr-ca/product/UP2113-CUSA00325_00-OUTLAST000000000) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/BP3GH4D3HP2H) · [Nintendo eShop (Bundle of Terror)](https://www.nintendo.com/fr-ca/store/products/outlast-bundle-of-terror-switch/)
+
 ---
 
 ## Outward
@@ -628,7 +692,9 @@ https://www.youtube.com/watch?v=cZI6duZkwfU
 
 **Date de sortie :** 26 mars 2019
 
-**Plateformes :** PC, PlayStation 4, PlayStation 5, Xbox One, Xbox Series, Stadia, Nintendo Switch (à venir)
+**Plateformes :** PC, PlayStation 4, PlayStation 5, Xbox One, Xbox Series, Stadia, Nintendo Switch
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/794260/) · [GOG](https://www.gog.com/fr/game/outward_definitive_edition) · [Epic Games Store](https://store.epicgames.com/p/outward) · [PlayStation Store](https://www.playstation.com/fr-ca/games/outward/) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/9N4RBWQ471VX) · [Nintendo eShop](https://www.nintendo.com/fr-ca/store/products/outward-definitive-edition-switch/)
 
 ---
 
@@ -648,6 +714,8 @@ https://www.youtube.com/watch?v=LGaJyoMkJSw
 
 **Plateformes :** iOS, Android, PC, Mac OS
 
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/390520/) · [App Store](https://apps.apple.com/ca/app/pewdiepie-legend-of-brofist/id1028623510) · [Google Play](https://play.google.com/store/apps/details?id=com.outerminds.pewdiepie)
+
 ---
 
 ## Prince of Persia : The Sands of Time
@@ -665,6 +733,8 @@ https://www.youtube.com/watch?v=8S5DVt_wo3g
 **Date de sortie :** 11 novembre 2003
 
 **Plateformes :** PlayStation 2, Xbox, Nintendo Gamecube, PC
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/13600/) · [GOG](https://www.gog.com/fr/game/prince_of_persia_the_sands_of_time)
 
 ---
 
@@ -684,6 +754,8 @@ https://www.youtube.com/watch?v=J6g8sB7jx1Y
 
 **Plateformes :** PC, Xbox One, PlayStation 4, Nintendo Switch
 
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/1106830/) · [Epic Games Store](https://store.epicgames.com/p/rainbow-billy-the-curse-of-the-leviathan) · [PlayStation Store](https://store.playstation.com/fr-ca/product/UP2908-CUSA28644_00-RAINBOWBILLYGAME) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/9PMGFL6KM0T2) · [Nintendo eShop](https://www.nintendo.com/fr-ca/store/products/rainbow-billy-the-curse-of-the-leviathan-switch/)
+
 ---
 
 ## Tom Clancy’s Rainbow Six : Siege
@@ -701,6 +773,8 @@ https://www.youtube.com/watch?v=6wlvYh0h63k
 **Date de sortie :** 1er décembre 2015
 
 **Plateformes :** PC, PlayStation 4, PlayStation 5, Xbox One, Xbox Series, Google Stadia
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/359550/) · [Epic Games Store](https://store.epicgames.com/p/rainbow-six-siege-x) · [PlayStation Store](https://www.playstation.com/fr-ca/games/tom-clancys-rainbow-six-siege/) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/C12T09DSVP8J)
 
 ---
 
@@ -720,6 +794,8 @@ https://www.youtube.com/watch?v=rWi_Xc4Cin8
 
 **Plateformes :** PC
 
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/227220/) · [GOG](https://www.gog.com/fr/game/sangfroid_tales_of_werewolves)
+
 ---
 
 ## Scott Pilgrim vs The World
@@ -737,6 +813,8 @@ https://www.youtube.com/watch?v=wUU_wRjdi2I
 **Date de sortie :** 10 août 2010
 
 **Plateformes :** PlayStation 3, PlayStation 4, Xbox 360, Xbox One, PC, Google Stadia, Amazon Luna
+
+**Où l'acheter :** [Steam (Complete Edition)](https://store.steampowered.com/app/2215260/) · [Epic Games Store](https://store.epicgames.com/p/scott-pilgrim-vs-the-world-the-game) · [PlayStation Store](https://www.playstation.com/fr-ca/games/scott-pilgrim-vs-the-world-the-game/) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/9NFJBW6B6D78) · [Nintendo eShop](https://www.nintendo.com/fr-ca/store/products/scott-pilgrim-vs-the-world-the-game-complete-edition-switch/)
 
 ---
 
@@ -756,6 +834,8 @@ https://www.youtube.com/watch?v=C4ma7dmm1MI
 
 **Plateformes :** PC, Nintendo Switch, PlayStation 4, PlayStation 5, Xbox One, Xbox Series
 
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/1244090/) · [GOG](https://www.gog.com/fr/game/sea_of_stars) · [PlayStation Store](https://www.playstation.com/fr-ca/games/sea-of-stars/) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/9NLLTTJZH40L) · [Nintendo eShop (Switch)](https://www.nintendo.com/fr-ca/store/products/sea-of-stars-switch/) · [Nintendo eShop (Switch 2)](https://www.nintendo.com/fr-ca/store/products/sea-of-stars-switch-2/)
+
 ---
 
 ## Season : A letter to the future
@@ -773,6 +853,8 @@ https://www.youtube.com/watch?v=mLd7YwceSYw
 **Date de sortie :** 31 janvier 2023
 
 **Plateformes :** PC, PlayStation 4, PlayStation 5
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/695330/) · [Epic Games Store](https://store.epicgames.com/p/season) · [PlayStation Store](https://www.playstation.com/fr-ca/games/season-a-letter-to-the-future/)
 
 ---
 
@@ -792,6 +874,8 @@ https://www.youtube.com/watch?v=mWcDpodmiKg
 
 **Plateformes :** PC, Linux, Mac OS, Nintendo Switch, PlayStation 4, Xbox One, iOS, Android
 
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/972660/) · [GOG](https://www.gog.com/fr/game/spiritfarer) · [Epic Games Store](https://store.epicgames.com/p/spiritfarer) · [PlayStation Store](https://www.playstation.com/fr-ca/games/spiritfarer/) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/9NG5L58FD3X5) · [Nintendo eShop](https://www.nintendo.com/fr-ca/store/products/spiritfarer-switch/) · [App Store (Netflix)](https://apps.apple.com/ca/app/spiritfarer-netflix-edition/id1610577424) · [Google Play (Netflix)](https://play.google.com/store/apps/details?id=com.netflix.NGP.Spiritfarer)
+
 ---
 
 ## Tom Clancy’s Splinter Cell
@@ -809,6 +893,8 @@ https://www.youtube.com/watch?v=4_D4tfTF_nQ
 **Date de sortie :** 18 février 2003
 
 **Plateformes :** PC, Xbox, PlayStation 2, Nintendo Gamecube, Mac OS, PlayStation 3
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/13560/) · [GOG](https://www.gog.com/fr/game/splinter_cell) · [Epic Games Store](https://store.epicgames.com/p/splinter-cell)
 
 ---
 
@@ -828,6 +914,8 @@ https://www.youtube.com/watch?v=4pVKfH31dlo
 
 **Plateformes :** PC
 
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/1566200/) · [PlayStation Store](https://store.playstation.com/fr-ca/concept/10012034) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/9P51DN776TFV) · [Nintendo eShop](https://www.nintendo.com/fr-ca/store/products/tape-to-tape-switch/)
+
 ---
 
 ## The Messenger
@@ -845,6 +933,8 @@ https://www.youtube.com/watch?v=mojuJKFyAAo
 **Date de sortie :** 30 août 2018
 
 **Plateformes :** PC, PlayStation 4, Xbox One, Nintendo Switch
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/764790/) · [GOG](https://www.gog.com/fr/game/the_messenger) · [Epic Games Store](https://store.epicgames.com/p/the-messenger) · [PlayStation Store](https://www.playstation.com/fr-ca/games/the-messenger/) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/9P5C81K094KW) · [Nintendo eShop](https://www.nintendo.com/fr-ca/store/products/the-messenger-switch/)
 
 ---
 
@@ -864,6 +954,8 @@ https://www.youtube.com/watch?v=POW45X2wsvo
 
 **Plateformes :** PC, PlayStation 5, Xbox Series
 
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/1243850/) · [PlayStation Store](https://store.playstation.com/fr-ca/product/UP7666-PPSA17884_00-0193558750092408) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/9MXJSVP2NW44)
+
 ---
 
 ## Teenage Mutant Ninja Turtles : Shredder’s Revenge
@@ -881,6 +973,8 @@ https://www.youtube.com/watch?v=-G292LMU9U0
 **Date de sortie :** 16 juin 2022
 
 **Plateformes :** PC, Linux, PlayStation 4, PlayStation 5, Xbox One, Xbox Series, Nintendo Switch, iOS, Android
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/1361510/) · [Epic Games Store](https://store.epicgames.com/p/teenage-mutant-ninja-turtles-shredders-revenge) · [PlayStation Store](https://www.playstation.com/fr-ca/games/teenage-mutant-ninja-turtles-shredders-revenge/) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/9NS3673HVH41) · [Nintendo eShop](https://www.nintendo.com/fr-ca/store/products/teenage-mutant-ninja-turtles-shredders-revenge-switch/) · [App Store](https://apps.apple.com/ca/app/tmnt-shredders-revenge-mobile/id1597084360) · [Google Play](https://play.google.com/store/apps/details?id=com.playdigious.tmnt)
 
 ---
 
@@ -900,6 +994,8 @@ https://www.youtube.com/watch?v=6V8PaDQmEDg
 
 **Plateformes :** PC, PlayStation 4, PlayStation 5, Xbox One, Xbox Series, Nintendo Switch
 
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/858820/) · [Epic Games Store](https://store.epicgames.com/p/tribes-of-midgard) · [PlayStation Store](https://www.playstation.com/fr-ca/games/tribes-of-midgard/) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/9NNGTS145NBM) · [Nintendo eShop](https://www.nintendo.com/fr-ca/store/products/tribes-of-midgard-switch/)
+
 ---
 
 ## Ultimate Chicken Horse
@@ -918,6 +1014,8 @@ https://www.youtube.com/watch?v=sFdjL4elfPU
 
 **Plateformes :** PC, Linux, PlayStation 4, Xbox One, Nintendo Switch
 
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/386940/) · [PlayStation Store](https://www.playstation.com/fr-ca/games/ultimate-chicken-horse/) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/BNNMLWZRNQF6) · [Nintendo eShop](https://www.nintendo.com/fr-ca/store/products/ultimate-chicken-horse-switch/)
+
 ---
 
 ## We Happy Few
@@ -935,6 +1033,8 @@ https://www.youtube.com/watch?v=MqWZkCqI6NM
 **Date de sortie :** 10 août 2018
 
 **Plateformes :** PC, Linux, PlayStation 4, Xbox One
+
+**Où l'acheter :** [Steam](https://store.steampowered.com/app/320240/) · [GOG](https://www.gog.com/fr/game/we_happy_few) · [PlayStation Store](https://store.playstation.com/fr-ca/product/UP0292-CUSA09406_00-WEHAPPYFEW000000) · [Xbox](https://www.xbox.com/fr-CA/games/store/_/BPR2TBS2KMQJ)
 
 ---
 
